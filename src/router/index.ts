@@ -7,7 +7,7 @@ const routes = [
     component: async () => {
       const top = await import('@/pages/Home.vue');
       return top;
-    }
+    },
   },
   {
     path: '/schedules',
@@ -15,13 +15,21 @@ const routes = [
     component: async () => {
       const login = await import('@/pages/Schedules.vue');
       return login;
-    }
-  }
+    },
+  },
+  {
+    path: '/schedules/:scheduleId',
+    name: 'analytics',
+    component: async () => {
+      const login = await import('@/pages/Analytics.vue');
+      return login;
+    },
+  },
 ];
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
-  routes
+  routes,
 });
 
 export default router;

@@ -17,5 +17,5 @@ const CoopStageKey = (id: number): string => {
 };
 
 export const CoopStageURL = (id: number): string => {
-  return `assets/stages/${CoopStageKey(id)}.png`;
+  return `/assets/stages/${CoopStageKey(id)}.png`;
 };
