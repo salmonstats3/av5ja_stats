@@ -10,6 +10,7 @@ import vuetify from "vite-plugin-vuetify";
 export default defineConfig({
   server: {
     port: 8000,
+    cors: true,
   },
   ssr: {
     noExternal: true,
