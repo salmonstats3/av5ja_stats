@@ -7,16 +7,17 @@ import { Status } from '@/types/status.d';
 import { plainToInstance } from 'class-transformer';
 import dayjs from 'dayjs'
 import BarChart from '@/components/BarChart.vue';
+import { baseURL } from '@/constants/common';
 
-const baseURL: string = import.meta.env.VITE_APP_BASE_API_URL
-const data: Ref<ScheduleStatusDto> = ref(undefined)
+const data: Ref<ScheduleStatusDto | undefined> = ref(undefined)
+const router = useRouter()
 
-onMounted(async () => {
-  const router = useRouter()
-  const scheduleId: string = router.currentRoute.value.params.scheduleId as string
-  const targetURL: string = `${baseURL}/v3/schedules/${scheduleId}/analytics`
-  const response: Status[] = (await (await fetch(targetURL)).json()).map((status: Status) => plainToInstance(Status, status)).sort((a: Status, b: Status) => dayjs(a.play_time).unix() - dayjs(b.play_time).unix())
-  data.value = new ScheduleStatusDto(response)
+onMounted(() => {
+  console.log(baseURL)
+  // const scheduleId: string = router.currentRoute.value.params.scheduleId as string
+  // const targetURL: string = `${baseURL}/v3/schedules/${scheduleId}/analytics`
+  // const response: Status[] = (await (await fetch(targetURL)).json()).map((status: Status) => plainToInstance(Status, status)).sort((a: Status, b: Status) => dayjs(a.play_time).unix() - dayjs(b.play_time).unix())
+  // data.value = new ScheduleStatusDto(response)
 })
 </script>
 
