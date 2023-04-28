@@ -23,7 +23,7 @@ watch(page, (newValue) => {
 <template>
   <v-pagination :length="length" v-model="page"></v-pagination>
   <v-row v-if="scenarios.length !== 0">
-    <v-col cols="12" sm="6" md="4" lg="3" xl="3" v-for="(scenario, index) in scenarios" :key="index">
+    <v-col cols="12" sm="6" md="4" lg="4" xl="4" v-for="(scenario, index) in scenarios" :key="index">
       <Scenario :scenario="scenario" />
     </v-col>
   </v-row>
