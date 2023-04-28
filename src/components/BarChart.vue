@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { ScheduleStatusDto } from '@/types/schedule';
+import { ScheduleStatusDto } from '@/types/schedule.d';
 import { PropType } from 'vue'
-import { Bar, Line } from 'vue-chartjs'
+import { Bar } from 'vue-chartjs'
 import { Chart as ChartJS, } from 'chart.js'
 
 const props = defineProps({
@@ -59,7 +59,6 @@ const options = {
 <template>
   <v-card>
     <v-card-title>Results</v-card-title>
-    <Bar :data="props.data.clear_ratio" :options="options" :plugins="[plugin]" />
     <Bar v-if="data !== undefined" :data="data.shifts_worked" :options="options" />
   </v-card>
 </template>

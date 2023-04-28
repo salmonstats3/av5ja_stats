@@ -6,6 +6,7 @@ import { ScheduleStatusDto } from '@/types/schedule.d';
 import { Status } from '@/types/status.d';
 import { plainToInstance } from 'class-transformer';
 import dayjs from 'dayjs'
+import BarChart from '@/components/BarChart.vue';
 
 const baseURL: string = import.meta.env.VITE_APP_BASE_API_URL
 const data: Ref<ScheduleStatusDto> = ref(undefined)
@@ -21,9 +22,14 @@ onMounted(async () => {
 
 <template>
   <v-row>
-    <v-col cols="12" sm="6" md="6" lg="4" xl="4" v-for="schedule in [0, 1, 2]" :key="schedule">
+    <v-col cols="12" sm="6" md="6" lg="4" xl="4">
       <v-card>
         <LineChart v-if="data !== undefined" :data="data" />
+      </v-card>
+    </v-col>
+    <v-col cols="12" sm="6" md="6" lg="4" xl="4">
+      <v-card>
+        <BarChart v-if="data !== undefined" :data="data" />
       </v-card>
     </v-col>
   </v-row>
