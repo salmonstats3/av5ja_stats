@@ -15,6 +15,13 @@ const routes = [
     name: "Chart",
     path: "/schedules/:scheduleId",
   },
+  {
+    component: async () => {
+      return import("@/pages/Scenarios.vue");
+    },
+    name: "Scenarios",
+    path: "/scenarios",
+  },
 ];
 
 const router = createRouter({
