@@ -18,7 +18,7 @@ export class ScenarioDto {
   @Transform((param) => Number(new Big(param.value).mul(100).toString()))
   dangerRate: number;
   stageId: number;
-  scenarioCode: string | null;
+  scenarioCode: string;
   nightLess: boolean;
   schedule: ScenarioScheduleDto;
   waves: ScenarioWaveDto[];

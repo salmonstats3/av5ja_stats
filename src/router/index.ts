@@ -21,6 +21,14 @@ const routes = [
     },
     name: "Scenarios",
     path: "/scenarios",
+    props: true,
+  },
+  {
+    component: async () => {
+      return import("@/pages/ScenarioDetail.vue");
+    },
+    name: "ScenarioDetail",
+    path: "/scenario/:scenarioCode",
   },
   {
     component: async () => {

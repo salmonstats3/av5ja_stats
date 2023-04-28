@@ -13,10 +13,14 @@ const props = defineProps({
     required: true
   }
 })
+
+function next(code: string): void {
+  router.push(`/scenario/${code}`)
+}
 </script>
 
 <template>
-  <v-card>
+  <v-card @click="next(props.scenario.scenarioCode)">
     <v-row no-gutters align="center">
       <v-col sm="6">
         <v-img :lazy-src="CoopStageLazyURL(props.scenario.schedule.stageId)"
@@ -42,7 +46,6 @@ const props = defineProps({
         <div class="d-flex ma-1">
           <v-img v-for="(weaponId, index) in props.scenario.schedule.weaponList" :key="index"
             :src="CoopWeaponURL(weaponId)" :width="32">
-
           </v-img>
         </div>
       </v-col>
