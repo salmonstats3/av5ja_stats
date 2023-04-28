@@ -67,9 +67,7 @@ const COOP_WEAPON_KEYS: { [key: string]: number } = {
 };
 
 const CoopWeaponKey = (id: number): string => {
-  return Object.keys(COOP_WEAPON_KEYS)[
-    Object.values(COOP_WEAPON_KEYS).indexOf(id)
-  ];
+  return Object.keys(COOP_WEAPON_KEYS)[Object.values(COOP_WEAPON_KEYS).indexOf(id)];
 };
 
 export const CoopWeaponURL = (id: number): string => {

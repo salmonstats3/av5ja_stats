@@ -23,7 +23,6 @@ import router from "./router";
 import enUS from "@/locales/en-US.yaml";
 import jaJP from "@/locales/ja-JP.yaml";
 
-
 ChartJS.register(
   CategoryScale,
   LinearScale,
@@ -35,7 +34,7 @@ ChartJS.register(
   Filler,
   Title,
   Tooltip,
-  Legend
+  Legend,
 );
 
 const i18n = createI18n({

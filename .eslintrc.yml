@@ -6,6 +6,7 @@ parser: "@typescript-eslint/parser"
 parserOptions:
   project: ./tsconfig.json
   sourceType: module
+  extraFileExtensions: [".vue"]
 extends:
   - eslint:recommended
   - plugin:@typescript-eslint/recommended

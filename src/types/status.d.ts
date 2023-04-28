@@ -32,10 +32,6 @@ export class Status {
   }
 
   failure_ratio(index: number): number {
-    return (
-      (this.shifts_worked -
-        this.failure_wave.slice(0, index + 1).reduce((a, b) => a + b, 0)) /
-      this.shifts_worked
-    );
+    return (this.shifts_worked - this.failure_wave.slice(0, index + 1).reduce((a, b) => a + b, 0)) / this.shifts_worked;
   }
 }

@@ -10,9 +10,9 @@ const routes = [
   },
   {
     component: async () => {
-      return import("@/pages/Analytics.vue");
+      return import("@/pages/Chart.vue");
     },
-    name: "analytics",
+    name: "Chart",
     path: "/schedules/:scheduleId",
   },
 ];
