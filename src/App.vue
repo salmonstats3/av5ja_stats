@@ -17,7 +17,7 @@ const items = [
     link: "/about"
   },
   {
-    title: "支援",
+    title: "支援について",
     link: "/donate"
   },
   {
