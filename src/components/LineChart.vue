@@ -1,42 +1,71 @@
 <script setup lang="ts">
-import {
-  Chart as ChartJS,
-  CategoryScale,
-  LinearScale,
-  PointElement,
-  LineElement,
-  Title,
-  Tooltip,
-  Legend
-} from 'chart.js'
+import { ScheduleStatusDto } from '@/types/schedule.d'
+import { Chart as ChartJS, } from 'chart.js'
+import { Chart } from 'node_modules/chart.js/dist'
+import { PropType } from 'vue'
 import { Line } from 'vue-chartjs'
 
-ChartJS.register(
-  CategoryScale,
-  LinearScale,
-  PointElement,
-  LineElement,
-  Title,
-  Tooltip,
-  Legend
-)
+const props = defineProps({
+  data: {
+    type: ScheduleStatusDto as PropType<ScheduleStatusDto>,
+    required: true
+  },
+})
 
-const data = {
-  labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
-  datasets: [
-    {
-      label: 'Data One',
-      backgroundColor: '#f87979',
-      data: [40, 39, 10, 40, 39, 80, 40]
+const plugin = {
+  id: 'background_color',
+  beforeDraw: (chart: ChartJS) => {
+    const ctx: CanvasRenderingContext2D | null = chart.canvas.getContext('2d');
+    if (ctx !== null) {
+      ctx.save();
+      ctx.globalCompositeOperation = 'destination-over';
+      ctx.fillStyle = "#FFA50088";
+      const width: number = chart.scales.x.width / 6;
+      const colors: string[] = [
+        "#E7F8F788",
+        "#305EA988",
+        "#C1464688",
+        "#E7F8F788",
+        "#305EA988",
+        "#C1464688",
+      ]
+      colors.forEach((color: string, index: number) => {
+        ctx.fillStyle = color;
+        ctx.fillRect(chart.scales.x.left + width * index, chart.scales.y.top, width, chart.scales.y.bottom);
+      })
+      ctx.restore();
     }
-  ]
-}
+  }
+};
+
 const options = {
   responsive: true,
-  maintainAspectRatio: true
+  maintainAspectRatio: true,
+  scales: {
+    x: {
+      display: false,
+    },
+    y: {
+      display: true,
+      ticks: {
+        format: {
+          style: 'percent' as const
+        }
+      }
+    },
+  },
+  plugins: {
+    legend: {
+      display: true,
+      position: 'bottom' as const
+    }
+  }
 }
 </script>
 
 <template>
-  <Line :data="data" :options="options" />
+  <v-card>
+    <v-card-title>Clear Ratio</v-card-title>
+    <Line :data="props.data.clear_ratio" :options="options" :plugins="[plugin]" />
+  </v-card>
 </template>

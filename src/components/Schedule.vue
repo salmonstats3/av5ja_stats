@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { CoopStageURL } from '@/constants/stage'
+import { CoopStageURL, CoopStageLazyURL } from '@/constants/stage'
 import { useRouter } from 'vue-router';
 import { ScheduleDto } from '@/types/schedule.d';
 import { PropType } from 'vue';
@@ -12,13 +12,18 @@ const props = defineProps({
   }
 })
 
-function next(): void {
-  router.push(`/schedules/${props.schedule.scheduleId}`)
+function next(scheduleId: string): void {
+  router.push(`/schedules/${scheduleId}`)
 }
 </script>
 
 <template>
-  <v-card @click="next">
-    <v-img :src="CoopStageURL(props.schedule.stageId)"></v-img>
+  <v-card @click="next(props.schedule.scheduleId)">
+    <v-img :lazy-src="CoopStageLazyURL(props.schedule.stageId)" :src="CoopStageURL(props.schedule.stageId)"
+      :aspect-ratio="24 / 9" :cover="true"></v-img>
   </v-card>
 </template>
+
+<style lang="scss" scoped>
+.v-card {}
+</style>
