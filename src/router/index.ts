@@ -1,29 +1,29 @@
-import { createRouter, createWebHistory } from 'vue-router';
+import { createRouter, createWebHistory } from "vue-router";
 
 const routes = [
   {
-    path: '/',
-    name: 'Home',
     component: async () => {
-      const top = await import('@/pages/Home.vue');
+      const top = await import("@/pages/Home.vue");
       return top;
     },
+    name: "Home",
+    path: "/",
   },
   {
-    path: '/schedules',
-    name: 'schedules',
     component: async () => {
-      const login = await import('@/pages/Schedules.vue');
+      const login = await import("@/pages/Schedules.vue");
       return login;
     },
+    name: "schedules",
+    path: "/schedules",
   },
   {
-    path: '/schedules/:scheduleId',
-    name: 'analytics',
     component: async () => {
-      const login = await import('@/pages/Analytics.vue');
+      const login = await import("@/pages/Analytics.vue");
       return login;
     },
+    name: "analytics",
+    path: "/schedules/:scheduleId",
   },
 ];
 

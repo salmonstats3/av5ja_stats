@@ -5,12 +5,7 @@
     "scheduleId": "clgyhs26ydd7h22qoy9vhw2bo",
     "stageId": 7,
     "startTime": "2022-09-10T00:00:00.000Z",
-    "weaponList": [
-      8010,
-      40,
-      210,
-      7010
-    ]
+    "weaponList": [8010, 40, 210, 7010]
   },
   {
     "bossId": null,
@@ -18,12 +13,7 @@
     "scheduleId": "clgym20ni12ug22xkupigvmw1",
     "stageId": 1,
     "startTime": "2022-09-11T16:00:00.000Z",
-    "weaponList": [
-      30,
-      3000,
-      6000,
-      4010
-    ]
+    "weaponList": [30, 3000, 6000, 4010]
   },
   {
     "bossId": null,
@@ -31,12 +21,7 @@
     "scheduleId": "clgym20nr12vd22xkhomrvpfv",
     "stageId": 2,
     "startTime": "2022-09-13T08:00:00.000Z",
-    "weaponList": [
-      5000,
-      8000,
-      220,
-      2030
-    ]
+    "weaponList": [5000, 8000, 220, 2030]
   },
   {
     "bossId": null,
@@ -44,12 +29,7 @@
     "scheduleId": "clgyhswxreky922qo14pv2m3t",
     "stageId": 7,
     "startTime": "2022-09-15T00:00:00.000Z",
-    "weaponList": [
-      300,
-      7020,
-      5040,
-      4020
-    ]
+    "weaponList": [300, 7020, 5040, 4020]
   },
   {
     "bossId": null,
@@ -57,12 +37,7 @@
     "scheduleId": "clgyhswxuekyl22qolkukafvw",
     "stageId": 1,
     "startTime": "2022-09-16T16:00:00.000Z",
-    "weaponList": [
-      1020,
-      4000,
-      230,
-      7010
-    ]
+    "weaponList": [1020, 4000, 230, 7010]
   },
   {
     "bossId": null,
@@ -70,12 +45,7 @@
     "scheduleId": "clgygzznzcri122qoxl6vydqg",
     "stageId": 2,
     "startTime": "2022-09-18T08:00:00.000Z",
-    "weaponList": [
-      50,
-      1100,
-      3020,
-      2000
-    ]
+    "weaponList": [50, 1100, 3020, 2000]
   },
   {
     "bossId": null,
@@ -83,12 +53,7 @@
     "scheduleId": "clgyh0jihdj9122qocl32bddu",
     "stageId": 7,
     "startTime": "2022-09-20T00:00:00.000Z",
-    "weaponList": [
-      60,
-      1030,
-      310,
-      250
-    ]
+    "weaponList": [60, 1030, 310, 250]
   },
   {
     "bossId": null,
@@ -96,12 +61,7 @@
     "scheduleId": "clgygzzo1cri922qo3scem3qk",
     "stageId": 1,
     "startTime": "2022-09-21T16:00:00.000Z",
-    "weaponList": [
-      400,
-      3010,
-      5030,
-      6010
-    ]
+    "weaponList": [400, 3010, 5030, 6010]
   },
   {
     "bossId": null,
@@ -109,12 +69,7 @@
     "scheduleId": "clgyh0jiidj9522qo5whgy16g",
     "stageId": 2,
     "startTime": "2022-09-23T08:00:00.000Z",
-    "weaponList": [
-      5020,
-      200,
-      8000,
-      2050
-    ]
+    "weaponList": [5020, 200, 8000, 2050]
   },
   {
     "bossId": null,
@@ -122,12 +77,7 @@
     "scheduleId": "clgyh4d4jilzh22qosuul9fzy",
     "stageId": 7,
     "startTime": "2022-09-25T00:00:00.000Z",
-    "weaponList": [
-      6020,
-      8010,
-      4040,
-      90
-    ]
+    "weaponList": [6020, 8010, 4040, 90]
   },
   {
     "bossId": null,
@@ -135,12 +85,7 @@
     "scheduleId": "clgyh4d3uilwx22qor6ow0x2x",
     "stageId": 1,
     "startTime": "2022-09-26T16:00:00.000Z",
-    "weaponList": [
-      1000,
-      4030,
-      70,
-      240
-    ]
+    "weaponList": [1000, 4030, 70, 240]
   },
   {
     "bossId": null,
@@ -148,12 +93,7 @@
     "scheduleId": "clgyh8y1hohf122qoxn9vmpz0",
     "stageId": 2,
     "startTime": "2022-09-28T08:00:00.000Z",
-    "weaponList": [
-      0,
-      7020,
-      3040,
-      2060
-    ]
+    "weaponList": [0, 7020, 3040, 2060]
   },
   {
     "bossId": null,
@@ -161,12 +101,7 @@
     "scheduleId": "clgyh4d4cilyp22qorg87nrad",
     "stageId": 7,
     "startTime": "2022-09-30T00:00:00.000Z",
-    "weaponList": [
-      20,
-      1110,
-      3030,
-      80
-    ]
+    "weaponList": [20, 1110, 3030, 80]
   },
   {
     "bossId": null,
@@ -174,12 +109,7 @@
     "scheduleId": "clgyheof4vu8p22qog5c3vu0e",
     "stageId": 2,
     "startTime": "2022-10-03T08:00:00.000Z",
-    "weaponList": [
-      200,
-      300,
-      4030,
-      250
-    ]
+    "weaponList": [200, 300, 4030, 250]
   },
   {
     "bossId": null,
@@ -187,12 +117,7 @@
     "scheduleId": "clgyhhzwb0aw122qot6rwznem",
     "stageId": 7,
     "startTime": "2022-10-05T00:00:00.000Z",
-    "weaponList": [
-      40,
-      1100,
-      1030,
-      2030
-    ]
+    "weaponList": [40, 1100, 1030, 2030]
   },
   {
     "bossId": null,
@@ -200,12 +125,7 @@
     "scheduleId": "clgyhhzvr0au522qoisvx5dic",
     "stageId": 1,
     "startTime": "2022-10-06T16:00:00.000Z",
-    "weaponList": [
-      5020,
-      3000,
-      80,
-      4020
-    ]
+    "weaponList": [5020, 3000, 80, 4020]
   },
   {
     "bossId": null,
@@ -213,12 +133,7 @@
     "scheduleId": "clgyj889z8uv522qovtbaal51",
     "stageId": 2,
     "startTime": "2022-10-08T08:00:00.000Z",
-    "weaponList": [
-      3010,
-      6000,
-      70,
-      7010
-    ]
+    "weaponList": [3010, 6000, 70, 7010]
   },
   {
     "bossId": null,
@@ -226,12 +141,7 @@
     "scheduleId": "clgyinru9ihhd22qojpdufhg9",
     "stageId": 7,
     "startTime": "2022-10-10T00:00:00.000Z",
-    "weaponList": [
-      10,
-      5030,
-      1020,
-      2010
-    ]
+    "weaponList": [10, 5030, 1020, 2010]
   },
   {
     "bossId": null,
@@ -239,12 +149,7 @@
     "scheduleId": "clgyib19a2c1p22qoejlho02v",
     "stageId": 1,
     "startTime": "2022-10-11T16:00:00.000Z",
-    "weaponList": [
-      50,
-      4030,
-      2050,
-      90
-    ]
+    "weaponList": [50, 4030, 2050, 90]
   },
   {
     "bossId": null,
@@ -252,12 +157,7 @@
     "scheduleId": "clgyib19h2c2d22qotplfjrwr",
     "stageId": 2,
     "startTime": "2022-10-13T08:00:00.000Z",
-    "weaponList": [
-      30,
-      6020,
-      1030,
-      4010
-    ]
+    "weaponList": [30, 6020, 1030, 4010]
   },
   {
     "bossId": null,
@@ -265,12 +165,7 @@
     "scheduleId": "clgygzzo6crit22qoi6k6u3in",
     "stageId": 7,
     "startTime": "2022-10-15T00:00:00.000Z",
-    "weaponList": [
-      5000,
-      3020,
-      220,
-      2000
-    ]
+    "weaponList": [5000, 3020, 220, 2000]
   },
   {
     "bossId": null,
@@ -278,12 +173,7 @@
     "scheduleId": "clgyib1992c1l22qowg1pd94v",
     "stageId": 1,
     "startTime": "2022-10-16T16:00:00.000Z",
-    "weaponList": [
-      7020,
-      40,
-      8000,
-      2030
-    ]
+    "weaponList": [7020, 40, 8000, 2030]
   },
   {
     "bossId": null,
@@ -291,12 +181,7 @@
     "scheduleId": "clgyiyocmwif122qow8ad70uf",
     "stageId": 2,
     "startTime": "2022-10-18T08:00:00.000Z",
-    "weaponList": [
-      10,
-      8010,
-      4000,
-      2010
-    ]
+    "weaponList": [10, 8010, 4000, 2010]
   },
   {
     "bossId": null,
@@ -304,12 +189,7 @@
     "scheduleId": "clgyhq90gb0rd22qon2o2by6x",
     "stageId": 7,
     "startTime": "2022-10-20T00:00:00.000Z",
-    "weaponList": [
-      30,
-      1000,
-      3040,
-      90
-    ]
+    "weaponList": [30, 1000, 3040, 90]
   },
   {
     "bossId": null,
@@ -317,12 +197,7 @@
     "scheduleId": "clgygwo4z86xd22qoldx6w8nx",
     "stageId": 1,
     "startTime": "2022-10-21T16:00:00.000Z",
-    "weaponList": [
-      3010,
-      1010,
-      3030,
-      7010
-    ]
+    "weaponList": [3010, 1010, 3030, 7010]
   },
   {
     "bossId": null,
@@ -330,12 +205,7 @@
     "scheduleId": "clgyhq90rb0sl22qok4q1nj2y",
     "stageId": 2,
     "startTime": "2022-10-23T08:00:00.000Z",
-    "weaponList": [
-      5040,
-      400,
-      4040,
-      240
-    ]
+    "weaponList": [5040, 400, 4040, 240]
   },
   {
     "bossId": null,
@@ -343,12 +213,7 @@
     "scheduleId": "clgygzzo5crip22qoyc25hpfo",
     "stageId": 7,
     "startTime": "2022-10-25T00:00:00.000Z",
-    "weaponList": [
-      5010,
-      210,
-      4030,
-      2060
-    ]
+    "weaponList": [5010, 210, 4030, 2060]
   },
   {
     "bossId": null,
@@ -356,12 +221,7 @@
     "scheduleId": "clgyj88pb8wdx22qo0quhsnto",
     "stageId": 1,
     "startTime": "2022-10-26T16:00:00.000Z",
-    "weaponList": [
-      20,
-      8010,
-      70,
-      250
-    ]
+    "weaponList": [20, 8010, 70, 250]
   },
   {
     "bossId": null,
@@ -369,12 +229,7 @@
     "scheduleId": "clgygzznxcrht22qocp0hrhp4",
     "stageId": 2,
     "startTime": "2022-10-28T08:00:00.000Z",
-    "weaponList": [
-      -1,
-      -1,
-      -1,
-      -1
-    ]
+    "weaponList": [-1, -1, -1, -1]
   },
   {
     "bossId": null,
@@ -382,12 +237,7 @@
     "scheduleId": "clgyhaz70qxz522qotc3zobz5",
     "stageId": 7,
     "startTime": "2022-10-30T00:00:00.000Z",
-    "weaponList": [
-      50,
-      40,
-      2050,
-      6010
-    ]
+    "weaponList": [50, 40, 2050, 6010]
   },
   {
     "bossId": null,
@@ -395,12 +245,7 @@
     "scheduleId": "clgyhaz6mqxxt22qoqgs6ozyl",
     "stageId": 1,
     "startTime": "2022-10-31T16:00:00.000Z",
-    "weaponList": [
-      60,
-      1100,
-      310,
-      4020
-    ]
+    "weaponList": [60, 1100, 310, 4020]
   },
   {
     "bossId": null,
@@ -408,12 +253,7 @@
     "scheduleId": "clgyhaz6jqxxl22qo14tf4nrg",
     "stageId": 2,
     "startTime": "2022-11-02T08:00:00.000Z",
-    "weaponList": [
-      5000,
-      1110,
-      1020,
-      2000
-    ]
+    "weaponList": [5000, 1110, 1020, 2000]
   },
   {
     "bossId": null,
@@ -421,12 +261,7 @@
     "scheduleId": "clgyj69a76f1122qo91s2tio9",
     "stageId": 7,
     "startTime": "2022-11-04T00:00:00.000Z",
-    "weaponList": [
-      5020,
-      230,
-      4000,
-      2030
-    ]
+    "weaponList": [5020, 230, 4000, 2030]
   },
   {
     "bossId": null,
@@ -434,12 +269,7 @@
     "scheduleId": "clgyh6d7pl71122qop6ig7805",
     "stageId": 1,
     "startTime": "2022-11-05T16:00:00.000Z",
-    "weaponList": [
-      0,
-      200,
-      6020,
-      2010
-    ]
+    "weaponList": [0, 200, 6020, 2010]
   },
   {
     "bossId": null,
@@ -447,12 +277,7 @@
     "scheduleId": "clgyh6d7zl72122qoubwcll7u",
     "stageId": 2,
     "startTime": "2022-11-07T08:00:00.000Z",
-    "weaponList": [
-      1010,
-      5030,
-      4040,
-      4010
-    ]
+    "weaponList": [1010, 5030, 4040, 4010]
   },
   {
     "bossId": null,
@@ -460,12 +285,7 @@
     "scheduleId": "clgyh6d8cl73d22qonzjrne52",
     "stageId": 7,
     "startTime": "2022-11-09T00:00:00.000Z",
-    "weaponList": [
-      3010,
-      300,
-      6000,
-      80
-    ]
+    "weaponList": [3010, 300, 6000, 80]
   },
   {
     "bossId": null,
@@ -473,12 +293,7 @@
     "scheduleId": "clgyhaz6uqxyl22qo7n4migi4",
     "stageId": 1,
     "startTime": "2022-11-10T16:00:00.000Z",
-    "weaponList": [
-      10,
-      3020,
-      220,
-      2060
-    ]
+    "weaponList": [10, 3020, 220, 2060]
   },
   {
     "bossId": null,
@@ -486,12 +301,7 @@
     "scheduleId": "clgygwo5086xh22qofgd82a95",
     "stageId": 2,
     "startTime": "2022-11-12T08:00:00.000Z",
-    "weaponList": [
-      5010,
-      1000,
-      70,
-      2010
-    ]
+    "weaponList": [5010, 1000, 70, 2010]
   },
   {
     "bossId": null,
@@ -499,12 +309,7 @@
     "scheduleId": "clgyinrucihhp22qoey8dadrn",
     "stageId": 7,
     "startTime": "2022-11-14T00:00:00.000Z",
-    "weaponList": [
-      200,
-      1030,
-      8000,
-      90
-    ]
+    "weaponList": [200, 1030, 8000, 90]
   },
   {
     "bossId": null,
@@ -512,12 +317,7 @@
     "scheduleId": "clgyh8y1gohex22qopu4vxsvd",
     "stageId": 1,
     "startTime": "2022-11-15T16:00:00.000Z",
-    "weaponList": [
-      5000,
-      4030,
-      1020,
-      2050
-    ]
+    "weaponList": [5000, 4030, 1020, 2050]
   },
   {
     "bossId": null,
@@ -525,12 +325,7 @@
     "scheduleId": "clgyhq90mb0s122qof0e51a7l",
     "stageId": 2,
     "startTime": "2022-11-17T08:00:00.000Z",
-    "weaponList": [
-      40,
-      8010,
-      210,
-      6010
-    ]
+    "weaponList": [40, 8010, 210, 6010]
   },
   {
     "bossId": null,
@@ -538,12 +333,7 @@
     "scheduleId": "clgyj6a5t6hjd22qo060jw4se",
     "stageId": 1,
     "startTime": "2022-11-20T16:00:00.000Z",
-    "weaponList": [
-      50,
-      5040,
-      3040,
-      90
-    ]
+    "weaponList": [50, 5040, 3040, 90]
   },
   {
     "bossId": null,
@@ -551,12 +341,7 @@
     "scheduleId": "clgyhhzw40av922qora7ucu7x",
     "stageId": 2,
     "startTime": "2022-11-22T08:00:00.000Z",
-    "weaponList": [
-      7020,
-      3000,
-      230,
-      80
-    ]
+    "weaponList": [7020, 3000, 230, 80]
   },
   {
     "bossId": null,
@@ -564,12 +349,7 @@
     "scheduleId": "clgygu3344sd122qorf143v4y",
     "stageId": 7,
     "startTime": "2022-11-24T00:00:00.000Z",
-    "weaponList": [
-      20,
-      400,
-      1010,
-      7010
-    ]
+    "weaponList": [20, 400, 1010, 7010]
   },
   {
     "bossId": null,
@@ -577,12 +357,7 @@
     "scheduleId": "clgyj69vu6gi122qosewkitb5",
     "stageId": 1,
     "startTime": "2022-11-25T16:00:00.000Z",
-    "weaponList": [
-      5020,
-      1100,
-      2000,
-      4010
-    ]
+    "weaponList": [5020, 1100, 2000, 4010]
   },
   {
     "bossId": null,
@@ -590,12 +365,7 @@
     "scheduleId": "clgygu32r4sbp22qousedtq2g",
     "stageId": 2,
     "startTime": "2022-11-27T08:00:00.000Z",
-    "weaponList": [
-      60,
-      3020,
-      310,
-      4020
-    ]
+    "weaponList": [60, 3020, 310, 4020]
   },
   {
     "bossId": null,
@@ -603,12 +373,7 @@
     "scheduleId": "clgyj0cafypsp22qooyfwss91",
     "stageId": 7,
     "startTime": "2022-11-29T00:00:00.000Z",
-    "weaponList": [
-      30,
-      70,
-      3030,
-      250
-    ]
+    "weaponList": [30, 70, 3030, 250]
   },
   {
     "bossId": null,
@@ -616,12 +381,7 @@
     "scheduleId": "clgyh72ugm25l22qo600jexni",
     "stageId": 1,
     "startTime": "2022-11-30T16:00:00.000Z",
-    "weaponList": [
-      40,
-      1110,
-      240,
-      2030
-    ]
+    "weaponList": [40, 1110, 240, 2030]
   },
   {
     "bossId": null,
@@ -629,12 +389,7 @@
     "scheduleId": "clgygu3354sd522qo6rh1faid",
     "stageId": 6,
     "startTime": "2022-12-02T08:00:00.000Z",
-    "weaponList": [
-      -1,
-      -1,
-      -1,
-      -1
-    ]
+    "weaponList": [-1, -1, -1, -1]
   },
   {
     "bossId": null,
@@ -642,12 +397,7 @@
     "scheduleId": "clgyh72ulm26522qoa3dm3u7h",
     "stageId": 2,
     "startTime": "2022-12-04T00:00:00.000Z",
-    "weaponList": [
-      100,
-      210,
-      6000,
-      90
-    ]
+    "weaponList": [100, 210, 6000, 90]
   },
   {
     "bossId": null,
@@ -655,12 +405,7 @@
     "scheduleId": "clgyh9qtzpg4t22qos2198ey7",
     "stageId": 6,
     "startTime": "2022-12-05T16:00:00.000Z",
-    "weaponList": [
-      0,
-      1040,
-      4030,
-      2060
-    ]
+    "weaponList": [0, 1040, 4030, 2060]
   },
   {
     "bossId": null,
@@ -668,12 +413,7 @@
     "scheduleId": "clgygu32x4scd22qozl04ts5v",
     "stageId": 7,
     "startTime": "2022-12-07T08:00:00.000Z",
-    "weaponList": [
-      5010,
-      4000,
-      310,
-      2070
-    ]
+    "weaponList": [5010, 4000, 310, 2070]
   },
   {
     "bossId": null,
@@ -681,12 +421,7 @@
     "scheduleId": "clgyj6a6k6hm922qolmo9c66a",
     "stageId": 1,
     "startTime": "2022-12-09T00:00:00.000Z",
-    "weaponList": [
-      20,
-      5020,
-      2050,
-      6010
-    ]
+    "weaponList": [20, 5020, 2050, 6010]
   },
   {
     "bossId": null,
@@ -694,12 +429,7 @@
     "scheduleId": "clgyh7arfmda922qox2r8znsh",
     "stageId": 6,
     "startTime": "2022-12-12T00:00:00.000Z",
-    "weaponList": [
-      10,
-      3000,
-      1030,
-      2000
-    ]
+    "weaponList": [10, 3000, 1030, 2000]
   },
   {
     "bossId": null,
@@ -707,12 +437,7 @@
     "scheduleId": "clgyh5yttkqh922qojasiilu2",
     "stageId": 2,
     "startTime": "2022-12-13T16:00:00.000Z",
-    "weaponList": [
-      1000,
-      200,
-      400,
-      7010
-    ]
+    "weaponList": [1000, 200, 400, 7010]
   },
   {
     "bossId": null,
@@ -720,12 +445,7 @@
     "scheduleId": "clgyh5yt9kqfd22qofdt02ljr",
     "stageId": 7,
     "startTime": "2022-12-15T08:00:00.000Z",
-    "weaponList": [
-      50,
-      210,
-      90,
-      4010
-    ]
+    "weaponList": [50, 210, 90, 4010]
   },
   {
     "bossId": null,
@@ -733,12 +453,7 @@
     "scheduleId": "clgygy6s3aegd22qoli3ugw66",
     "stageId": 1,
     "startTime": "2022-12-17T00:00:00.000Z",
-    "weaponList": [
-      3010,
-      40,
-      220,
-      80
-    ]
+    "weaponList": [3010, 40, 220, 80]
   },
   {
     "bossId": null,
@@ -746,12 +461,7 @@
     "scheduleId": "clgyh9qtopg3l22qoy8lo33sg",
     "stageId": 6,
     "startTime": "2022-12-18T16:00:00.000Z",
-    "weaponList": [
-      20,
-      8010,
-      70,
-      2010
-    ]
+    "weaponList": [20, 8010, 70, 2010]
   },
   {
     "bossId": null,
@@ -759,12 +469,7 @@
     "scheduleId": "clgyh9qtxpg4l22qob22cvrkd",
     "stageId": 2,
     "startTime": "2022-12-20T08:00:00.000Z",
-    "weaponList": [
-      30,
-      6000,
-      310,
-      3040
-    ]
+    "weaponList": [30, 6000, 310, 3040]
   },
   {
     "bossId": null,
@@ -772,12 +477,7 @@
     "scheduleId": "clgyh7rhmmzbx22qopggv1lkm",
     "stageId": 1,
     "startTime": "2022-12-22T00:00:00.000Z",
-    "weaponList": [
-      7020,
-      8000,
-      3030,
-      2060
-    ]
+    "weaponList": [7020, 8000, 3030, 2060]
   },
   {
     "bossId": null,
@@ -785,12 +485,7 @@
     "scheduleId": "clgygvwds77qh22qoc9h6az5c",
     "stageId": 7,
     "startTime": "2022-12-23T16:00:00.000Z",
-    "weaponList": [
-      -1,
-      -1,
-      -1,
-      -1
-    ]
+    "weaponList": [-1, -1, -1, -1]
   },
   {
     "bossId": null,
@@ -798,12 +493,7 @@
     "scheduleId": "clgygvhru6ott22qo0bnp69i7",
     "stageId": 6,
     "startTime": "2022-12-25T08:00:00.000Z",
-    "weaponList": [
-      5000,
-      230,
-      4040,
-      90
-    ]
+    "weaponList": [5000, 230, 4040, 90]
   },
   {
     "bossId": null,
@@ -811,12 +501,7 @@
     "scheduleId": "clgygvhrz6oud22qo99kft5yj",
     "stageId": 2,
     "startTime": "2022-12-27T00:00:00.000Z",
-    "weaponList": [
-      6020,
-      5030,
-      1040,
-      2050
-    ]
+    "weaponList": [6020, 5030, 1040, 2050]
   },
   {
     "bossId": null,
@@ -824,12 +509,7 @@
     "scheduleId": "clgygvwdn77q122qo3rfooawi",
     "stageId": 7,
     "startTime": "2022-12-28T16:00:00.000Z",
-    "weaponList": [
-      0,
-      1000,
-      240,
-      4020
-    ]
+    "weaponList": [0, 1000, 240, 4020]
   },
   {
     "bossId": null,
@@ -837,12 +517,7 @@
     "scheduleId": "clgyh06lucy0x22qogr4m0be7",
     "stageId": 6,
     "startTime": "2022-12-30T08:00:00.000Z",
-    "weaponList": [
-      200,
-      40,
-      1020,
-      2010
-    ]
+    "weaponList": [200, 40, 1020, 2010]
   },
   {
     "bossId": null,
@@ -850,12 +525,7 @@
     "scheduleId": "clgyh06m1cy1l22qodsk96uln",
     "stageId": 1,
     "startTime": "2023-01-01T00:00:00.000Z",
-    "weaponList": [
-      300,
-      4030,
-      70,
-      6010
-    ]
+    "weaponList": [300, 4030, 70, 6010]
   },
   {
     "bossId": null,
@@ -863,12 +533,7 @@
     "scheduleId": "clgyh7rhkmzbp22qobq7jwl5c",
     "stageId": 2,
     "startTime": "2023-01-02T16:00:00.000Z",
-    "weaponList": [
-      60,
-      1110,
-      220,
-      2070
-    ]
+    "weaponList": [60, 1110, 220, 2070]
   },
   {
     "bossId": null,
@@ -876,12 +541,7 @@
     "scheduleId": "clgyh3hymhezl22qo2llk03v6",
     "stageId": 7,
     "startTime": "2023-01-04T08:00:00.000Z",
-    "weaponList": [
-      1100,
-      6000,
-      3040,
-      7010
-    ]
+    "weaponList": [1100, 6000, 3040, 7010]
   },
   {
     "bossId": null,
@@ -889,12 +549,7 @@
     "scheduleId": "clgyh63j7kwup22qonvo3akuz",
     "stageId": 6,
     "startTime": "2023-01-06T00:00:00.000Z",
-    "weaponList": [
-      3010,
-      100,
-      4000,
-      250
-    ]
+    "weaponList": [3010, 100, 4000, 250]
   },
   {
     "bossId": null,
@@ -902,12 +557,7 @@
     "scheduleId": "clgygvhs46oux22qo8k4ad4ua",
     "stageId": 2,
     "startTime": "2023-01-07T16:00:00.000Z",
-    "weaponList": [
-      30,
-      1010,
-      310,
-      80
-    ]
+    "weaponList": [30, 1010, 310, 80]
   },
   {
     "bossId": null,
@@ -915,12 +565,7 @@
     "scheduleId": "clgyh06ltcy0t22qonfs0h31u",
     "stageId": 1,
     "startTime": "2023-01-09T08:00:00.000Z",
-    "weaponList": [
-      10,
-      6020,
-      3020,
-      2000
-    ]
+    "weaponList": [10, 6020, 3020, 2000]
   },
   {
     "bossId": null,
@@ -928,12 +573,7 @@
     "scheduleId": "clgyh3hynhezp22qo8ru8u5ms",
     "stageId": 7,
     "startTime": "2023-01-11T00:00:00.000Z",
-    "weaponList": [
-      5000,
-      5040,
-      240,
-      2030
-    ]
+    "weaponList": [5000, 5040, 240, 2030]
   },
   {
     "bossId": null,
@@ -941,12 +581,7 @@
     "scheduleId": "clgyh3hy1hexh22qoly0x2cw2",
     "stageId": 6,
     "startTime": "2023-01-12T16:00:00.000Z",
-    "weaponList": [
-      5010,
-      300,
-      400,
-      2010
-    ]
+    "weaponList": [5010, 300, 400, 2010]
   },
   {
     "bossId": null,
@@ -954,12 +589,7 @@
     "scheduleId": "clgygy6t5aekd22qoindbkvqy",
     "stageId": 1,
     "startTime": "2023-01-14T08:00:00.000Z",
-    "weaponList": [
-      -1,
-      -1,
-      -1,
-      -1
-    ]
+    "weaponList": [-1, -1, -1, -1]
   },
   {
     "bossId": null,
@@ -967,12 +597,7 @@
     "scheduleId": "clgygx4y28wc122qobqthrp0c",
     "stageId": 2,
     "startTime": "2023-01-16T00:00:00.000Z",
-    "weaponList": [
-      50,
-      1040,
-      5030,
-      2060
-    ]
+    "weaponList": [50, 1040, 5030, 2060]
   },
   {
     "bossId": null,
@@ -980,12 +605,7 @@
     "scheduleId": "clgygu32u4sc122qomei6sj8q",
     "stageId": 7,
     "startTime": "2023-01-17T16:00:00.000Z",
-    "weaponList": [
-      40,
-      230,
-      70,
-      2070
-    ]
+    "weaponList": [40, 230, 70, 2070]
   },
   {
     "bossId": null,
@@ -993,12 +613,7 @@
     "scheduleId": "clgygz53jbj0922qo9aaa762z",
     "stageId": 1,
     "startTime": "2023-01-19T08:00:00.000Z",
-    "weaponList": [
-      1100,
-      60,
-      8010,
-      90
-    ]
+    "weaponList": [1100, 60, 8010, 90]
   },
   {
     "bossId": null,
@@ -1006,12 +621,7 @@
     "scheduleId": "clgygu3364sd922qorhv7qcn1",
     "stageId": 6,
     "startTime": "2023-01-21T00:00:00.000Z",
-    "weaponList": [
-      20,
-      3030,
-      3040,
-      80
-    ]
+    "weaponList": [20, 3030, 3040, 80]
   },
   {
     "bossId": null,
@@ -1019,12 +629,7 @@
     "scheduleId": "clgygwo4t86wt22qoh1fju339",
     "stageId": 2,
     "startTime": "2023-01-22T16:00:00.000Z",
-    "weaponList": [
-      0,
-      5020,
-      1030,
-      2050
-    ]
+    "weaponList": [0, 5020, 1030, 2050]
   },
   {
     "bossId": null,
@@ -1032,12 +637,7 @@
     "scheduleId": "clgygsyd239ap22qop12rl5yg",
     "stageId": 7,
     "startTime": "2023-01-24T08:00:00.000Z",
-    "weaponList": [
-      3000,
-      8000,
-      210,
-      2030
-    ]
+    "weaponList": [3000, 8000, 210, 2030]
   },
   {
     "bossId": null,
@@ -1045,12 +645,7 @@
     "scheduleId": "clgygsye939ex22qo5o7dlh0y",
     "stageId": 6,
     "startTime": "2023-01-26T00:00:00.000Z",
-    "weaponList": [
-      40,
-      1110,
-      3020,
-      4010
-    ]
+    "weaponList": [40, 1110, 3020, 4010]
   },
   {
     "bossId": null,
@@ -1058,12 +653,7 @@
     "scheduleId": "clgygsyd939bd22qolxgle6yn",
     "stageId": 1,
     "startTime": "2023-01-27T16:00:00.000Z",
-    "weaponList": [
-      5000,
-      1000,
-      70,
-      4020
-    ]
+    "weaponList": [5000, 1000, 70, 4020]
   },
   {
     "bossId": null,
@@ -1071,12 +661,7 @@
     "scheduleId": "clgygsyd139al22qoczrdnose",
     "stageId": 2,
     "startTime": "2023-01-29T08:00:00.000Z",
-    "weaponList": [
-      3010,
-      40,
-      1020,
-      7010
-    ]
+    "weaponList": [3010, 40, 1020, 7010]
   },
   {
     "bossId": null,
@@ -1084,12 +669,7 @@
     "scheduleId": "clgygsydj39cd22qogmwa8824",
     "stageId": 7,
     "startTime": "2023-01-31T00:00:00.000Z",
-    "weaponList": [
-      30,
-      5040,
-      220,
-      2000
-    ]
+    "weaponList": [30, 5040, 220, 2000]
   },
   {
     "bossId": null,
@@ -1097,12 +677,7 @@
     "scheduleId": "clgyhn1qx730922qouze53axs",
     "stageId": 1,
     "startTime": "2023-02-01T16:00:00.000Z",
-    "weaponList": [
-      200,
-      300,
-      400,
-      2010
-    ]
+    "weaponList": [200, 300, 400, 2010]
   },
   {
     "bossId": null,
@@ -1110,12 +685,7 @@
     "scheduleId": "clgygsydf39c122qox3rz6p5s",
     "stageId": 2,
     "startTime": "2023-02-03T08:00:00.000Z",
-    "weaponList": [
-      5010,
-      100,
-      4040,
-      240
-    ]
+    "weaponList": [5010, 100, 4040, 240]
   },
   {
     "bossId": null,
@@ -1123,12 +693,7 @@
     "scheduleId": "clgygy6s2aeg922qo4konsr0k",
     "stageId": 6,
     "startTime": "2023-02-05T00:00:00.000Z",
-    "weaponList": [
-      10,
-      210,
-      1040,
-      80
-    ]
+    "weaponList": [10, 210, 1040, 80]
   },
   {
     "bossId": null,
@@ -1136,12 +701,7 @@
     "scheduleId": "clgyharp8qmnt22qozviol456",
     "stageId": 7,
     "startTime": "2023-02-06T16:00:00.000Z",
-    "weaponList": [
-      50,
-      8000,
-      1010,
-      2060
-    ]
+    "weaponList": [50, 8000, 1010, 2060]
   },
   {
     "bossId": null,
@@ -1149,12 +709,7 @@
     "scheduleId": "clgyh6aq9l59d22qo774pw0pp",
     "stageId": 1,
     "startTime": "2023-02-08T08:00:00.000Z",
-    "weaponList": [
-      3010,
-      60,
-      5020,
-      2070
-    ]
+    "weaponList": [3010, 60, 5020, 2070]
   },
   {
     "bossId": null,
@@ -1162,12 +717,7 @@
     "scheduleId": "clgygvhs16oul22qot967taij",
     "stageId": 2,
     "startTime": "2023-02-10T00:00:00.000Z",
-    "weaponList": [
-      20,
-      6000,
-      70,
-      6010
-    ]
+    "weaponList": [20, 6000, 70, 6010]
   },
   {
     "bossId": null,
@@ -1175,12 +725,7 @@
     "scheduleId": "clgygsyq13amt22qo33upc9p8",
     "stageId": 7,
     "startTime": "2023-02-11T16:00:00.000Z",
-    "weaponList": [
-      7020,
-      30,
-      1030,
-      4010
-    ]
+    "weaponList": [7020, 30, 1030, 4010]
   },
   {
     "bossId": null,
@@ -1188,12 +733,7 @@
     "scheduleId": "clgygvhrx6ou522qohnmd9r33",
     "stageId": 6,
     "startTime": "2023-02-13T08:00:00.000Z",
-    "weaponList": [
-      230,
-      5030,
-      4030,
-      2000
-    ]
+    "weaponList": [230, 5030, 4030, 2000]
   },
   {
     "bossId": null,
@@ -1201,12 +741,7 @@
     "scheduleId": "clgyh4pr3iypl22qo7m4fzuxy",
     "stageId": 1,
     "startTime": "2023-02-15T00:00:00.000Z",
-    "weaponList": [
-      10,
-      4000,
-      1110,
-      250
-    ]
+    "weaponList": [10, 4000, 1110, 250]
   },
   {
     "bossId": null,
@@ -1214,12 +749,7 @@
     "scheduleId": "clgygtu4b4dqd22qo4feg4k5k",
     "stageId": 2,
     "startTime": "2023-02-16T16:00:00.000Z",
-    "weaponList": [
-      0,
-      1100,
-      3020,
-      2030
-    ]
+    "weaponList": [0, 1100, 3020, 2030]
   },
   {
     "bossId": null,
@@ -1227,12 +757,7 @@
     "scheduleId": "clgygrd1211md22qol93hq85w",
     "stageId": 6,
     "startTime": "2023-02-18T08:00:00.000Z",
-    "weaponList": [
-      -2,
-      -2,
-      -2,
-      -2
-    ]
+    "weaponList": [-2, -2, -2, -2]
   },
   {
     "bossId": null,
@@ -1240,12 +765,7 @@
     "scheduleId": "clgygw3s67h1922qo9280iltd",
     "stageId": 7,
     "startTime": "2023-02-20T00:00:00.000Z",
-    "weaponList": [
-      1000,
-      40,
-      3040,
-      2050
-    ]
+    "weaponList": [1000, 40, 3040, 2050]
   },
   {
     "bossId": null,
@@ -1253,12 +773,7 @@
     "scheduleId": "clgyh1pkyf1ed22qoa1qnezko",
     "stageId": 1,
     "startTime": "2023-02-21T16:00:00.000Z",
-    "weaponList": [
-      6020,
-      100,
-      3030,
-      80
-    ]
+    "weaponList": [6020, 100, 3030, 80]
   },
   {
     "bossId": null,
@@ -1266,12 +781,7 @@
     "scheduleId": "clgygss072z0h22qownt2hi99",
     "stageId": 6,
     "startTime": "2023-02-23T08:00:00.000Z",
-    "weaponList": [
-      5000,
-      8010,
-      310,
-      4020
-    ]
+    "weaponList": [5000, 8010, 310, 4020]
   },
   {
     "bossId": null,
@@ -1279,12 +789,7 @@
     "scheduleId": "clgygss0g2z1d22qoplmrt8u2",
     "stageId": 2,
     "startTime": "2023-02-25T00:00:00.000Z",
-    "weaponList": [
-      3000,
-      5040,
-      4040,
-      90
-    ]
+    "weaponList": [3000, 5040, 4040, 90]
   },
   {
     "bossId": null,
@@ -1292,12 +797,7 @@
     "scheduleId": "clgygss062z0d22qof04yhbfm",
     "stageId": 7,
     "startTime": "2023-02-26T16:00:00.000Z",
-    "weaponList": [
-      200,
-      40,
-      1030,
-      2010
-    ]
+    "weaponList": [200, 40, 1030, 2010]
   },
   {
     "bossId": null,
@@ -1305,12 +805,7 @@
     "scheduleId": "clgygss0u2z2t22qobz413hrv",
     "stageId": 1,
     "startTime": "2023-02-28T08:00:00.000Z",
-    "weaponList": [
-      8000,
-      6000,
-      210,
-      2060
-    ]
+    "weaponList": [8000, 6000, 210, 2060]
   },
   {
     "bossId": null,
@@ -1318,12 +813,7 @@
     "scheduleId": "clgygtk2b439l22qo89bco0f5",
     "stageId": 2,
     "startTime": "2023-03-02T00:00:00.000Z",
-    "weaponList": [
-      0,
-      400,
-      3030,
-      7010
-    ]
+    "weaponList": [0, 400, 3030, 7010]
   },
   {
     "bossId": null,
@@ -1331,12 +821,7 @@
     "scheduleId": "clgygnuhw0r1p227efmymyrpo",
     "stageId": 7,
     "startTime": "2023-03-06T00:00:00.000Z",
-    "weaponList": [
-      6020,
-      60,
-      1010,
-      2000
-    ]
+    "weaponList": [6020, 60, 1010, 2000]
   },
   {
     "bossId": null,
@@ -1344,12 +829,7 @@
     "scheduleId": "clgygnr4f0mhp227e31m21sy2",
     "stageId": 6,
     "startTime": "2023-03-07T16:00:00.000Z",
-    "weaponList": [
-      1100,
-      50,
-      3040,
-      2010
-    ]
+    "weaponList": [1100, 50, 3040, 2010]
   },
   {
     "bossId": null,
@@ -1357,12 +837,7 @@
     "scheduleId": "clgygnr4e0mhd227eu1kashgv",
     "stageId": 1,
     "startTime": "2023-03-09T08:00:00.000Z",
-    "weaponList": [
-      7020,
-      5010,
-      3020,
-      240
-    ]
+    "weaponList": [7020, 5010, 3020, 240]
   },
   {
     "bossId": null,
@@ -1370,12 +845,7 @@
     "scheduleId": "clgygmqhv07sd227ezs93f1qn",
     "stageId": 7,
     "startTime": "2023-03-11T00:00:00.000Z",
-    "weaponList": [
-      3010,
-      100,
-      1020,
-      80
-    ]
+    "weaponList": [3010, 100, 1020, 80]
   },
   {
     "bossId": null,
@@ -1383,12 +853,7 @@
     "scheduleId": "clgygmqhy07sp227en9znv02y",
     "stageId": 6,
     "startTime": "2023-03-12T16:00:00.000Z",
-    "weaponList": [
-      5020,
-      300,
-      8000,
-      2070
-    ]
+    "weaponList": [5020, 300, 8000, 2070]
   },
   {
     "bossId": null,
@@ -1396,12 +861,7 @@
     "scheduleId": "clgygmqi007st227erk96jx87",
     "stageId": 1,
     "startTime": "2023-03-14T08:00:00.000Z",
-    "weaponList": [
-      8010,
-      210,
-      1030,
-      6010
-    ]
+    "weaponList": [8010, 210, 1030, 6010]
   },
   {
     "bossId": null,
@@ -1409,12 +869,7 @@
     "scheduleId": "clgygmqia07tp227e2adfzdh6",
     "stageId": 7,
     "startTime": "2023-03-16T00:00:00.000Z",
-    "weaponList": [
-      10,
-      70,
-      220,
-      2030
-    ]
+    "weaponList": [10, 70, 220, 2030]
   },
   {
     "bossId": null,
@@ -1422,12 +877,7 @@
     "scheduleId": "clgygnqj50gf9227esl3dpfiv",
     "stageId": 2,
     "startTime": "2023-03-17T16:00:00.000Z",
-    "weaponList": [
-      30,
-      4000,
-      1040,
-      2060
-    ]
+    "weaponList": [30, 4000, 1040, 2060]
   },
   {
     "bossId": null,
@@ -1435,12 +885,7 @@
     "scheduleId": "clgygmqhs07s5227e7ve40nm1",
     "stageId": 1,
     "startTime": "2023-03-19T08:00:00.000Z",
-    "weaponList": [
-      20,
-      230,
-      4030,
-      90
-    ]
+    "weaponList": [20, 230, 4030, 90]
   },
   {
     "bossId": null,
@@ -1448,12 +893,7 @@
     "scheduleId": "clgygmqi207t1227e5nyky73l",
     "stageId": 6,
     "startTime": "2023-03-21T00:00:00.000Z",
-    "weaponList": [
-      0,
-      40,
-      3000,
-      2050
-    ]
+    "weaponList": [0, 40, 3000, 2050]
   },
   {
     "bossId": null,
@@ -1461,12 +901,7 @@
     "scheduleId": "clgygnqfm0fgj227es6mb66b8",
     "stageId": 2,
     "startTime": "2023-03-22T16:00:00.000Z",
-    "weaponList": [
-      1000,
-      5030,
-      250,
-      2010
-    ]
+    "weaponList": [1000, 5030, 250, 2010]
   },
   {
     "bossId": null,
@@ -1474,12 +909,7 @@
     "scheduleId": "clgygnqkd0grd227eliugaoa9",
     "stageId": 1,
     "startTime": "2023-03-24T08:00:00.000Z",
-    "weaponList": [
-      50,
-      1110,
-      310,
-      80
-    ]
+    "weaponList": [50, 1110, 310, 80]
   },
   {
     "bossId": null,
@@ -1487,12 +917,7 @@
     "scheduleId": "clgygmqab074l227ewa2aaj3f",
     "stageId": 7,
     "startTime": "2023-03-26T00:00:00.000Z",
-    "weaponList": [
-      210,
-      3020,
-      3030,
-      4010
-    ]
+    "weaponList": [210, 3020, 3030, 4010]
   },
   {
     "bossId": null,
@@ -1500,12 +925,7 @@
     "scheduleId": "clgygmpzv064h227eu82z42qt",
     "stageId": 6,
     "startTime": "2023-03-27T16:00:00.000Z",
-    "weaponList": [
-      200,
-      10,
-      6000,
-      2000
-    ]
+    "weaponList": [200, 10, 6000, 2000]
   },
   {
     "bossId": null,
@@ -1513,12 +933,7 @@
     "scheduleId": "clgygmpyz05yq227efk7wj9ru",
     "stageId": 1,
     "startTime": "2023-03-29T08:00:00.000Z",
-    "weaponList": [
-      5000,
-      300,
-      1020,
-      7010
-    ]
+    "weaponList": [5000, 300, 1020, 7010]
   },
   {
     "bossId": null,
@@ -1526,12 +941,7 @@
     "scheduleId": "clgygntzo0p95227eeljpdcig",
     "stageId": 2,
     "startTime": "2023-03-31T00:00:00.000Z",
-    "weaponList": [
-      5010,
-      8000,
-      70,
-      4020
-    ]
+    "weaponList": [5010, 8000, 70, 4020]
   },
   {
     "bossId": null,
@@ -1539,12 +949,7 @@
     "scheduleId": "clgyh2xp6glap22qo4eph9dr0",
     "stageId": 6,
     "startTime": "2023-04-01T16:00:00.000Z",
-    "weaponList": [
-      20,
-      5040,
-      8010,
-      2030
-    ]
+    "weaponList": [20, 5040, 8010, 2030]
   },
   {
     "bossId": null,
@@ -1552,12 +957,7 @@
     "scheduleId": "clgyh9xvgpmt922qoejtlizm3",
     "stageId": 7,
     "startTime": "2023-04-03T08:00:00.000Z",
-    "weaponList": [
-      5020,
-      400,
-      4040,
-      90
-    ]
+    "weaponList": [5020, 400, 4040, 90]
   },
   {
     "bossId": null,
@@ -1565,12 +965,7 @@
     "scheduleId": "clgyhhkumzsyd22qoa5fdn2c7",
     "stageId": 2,
     "startTime": "2023-04-05T00:00:00.000Z",
-    "weaponList": [
-      3010,
-      100,
-      3040,
-      240
-    ]
+    "weaponList": [3010, 100, 3040, 240]
   },
   {
     "bossId": null,
@@ -1578,12 +973,7 @@
     "scheduleId": "clgyhptf8agfy22qogfk0eggz",
     "stageId": 1,
     "startTime": "2023-04-06T16:00:00.000Z",
-    "weaponList": [
-      230,
-      50,
-      1030,
-      4010
-    ]
+    "weaponList": [230, 50, 1030, 4010]
   },
   {
     "bossId": null,
@@ -1591,12 +981,7 @@
     "scheduleId": "clgyig7io8u9p22qorarat31n",
     "stageId": 6,
     "startTime": "2023-04-10T00:00:00.000Z",
-    "weaponList": [
-      10,
-      60,
-      4000,
-      2000
-    ]
+    "weaponList": [10, 60, 4000, 2000]
   },
   {
     "bossId": null,
@@ -1604,12 +989,7 @@
     "scheduleId": "clgyim380gatp22qoysmj5mtt",
     "stageId": 2,
     "startTime": "2023-04-11T16:00:00.000Z",
-    "weaponList": [
-      20,
-      5040,
-      4030,
-      250
-    ]
+    "weaponList": [20, 5040, 4030, 250]
   },
   {
     "bossId": null,
@@ -1617,12 +997,7 @@
     "scheduleId": "clgyisxasp87p22qo92v6tdsg",
     "stageId": 7,
     "startTime": "2023-04-13T08:00:00.000Z",
-    "weaponList": [
-      0,
-      200,
-      8000,
-      2070
-    ]
+    "weaponList": [0, 200, 8000, 2070]
   },
   {
     "bossId": null,
@@ -1630,12 +1005,7 @@
     "scheduleId": "clgyj43883gm122qonx5meqp5",
     "stageId": 1,
     "startTime": "2023-04-15T00:00:00.000Z",
-    "weaponList": [
-      3020,
-      1040,
-      6000,
-      2010
-    ]
+    "weaponList": [3020, 1040, 6000, 2010]
   },
   {
     "bossId": null,
@@ -1643,12 +1013,7 @@
     "scheduleId": "clgyj6tol74uh22qotnv0axhs",
     "stageId": 2,
     "startTime": "2023-04-16T16:00:00.000Z",
-    "weaponList": [
-      1000,
-      5010,
-      310,
-      90
-    ]
+    "weaponList": [1000, 5010, 310, 90]
   },
   {
     "bossId": null,
@@ -1656,12 +1021,7 @@
     "scheduleId": "clgyjfjt9iko922qonhs2b7mj",
     "stageId": 6,
     "startTime": "2023-04-18T08:00:00.000Z",
-    "weaponList": [
-      6020,
-      1030,
-      3030,
-      240
-    ]
+    "weaponList": [6020, 1030, 3030, 240]
   },
   {
     "bossId": null,
@@ -1669,12 +1029,7 @@
     "scheduleId": "clgyjnq9vt62h22qoiq9cg2md",
     "stageId": 1,
     "startTime": "2023-04-20T00:00:00.000Z",
-    "weaponList": [
-      1100,
-      5000,
-      10,
-      80
-    ]
+    "weaponList": [1100, 5000, 10, 80]
   },
   {
     "bossId": null,
@@ -1682,12 +1037,7 @@
     "scheduleId": "clgyjwymu532522qovk92l0uz",
     "stageId": 7,
     "startTime": "2023-04-21T16:00:00.000Z",
-    "weaponList": [
-      40,
-      5020,
-      2000,
-      -1
-    ]
+    "weaponList": [40, 5020, 2000, -1]
   },
   {
     "bossId": null,
@@ -1695,12 +1045,7 @@
     "scheduleId": "clgykc2cxob6922qozh4rj4hl",
     "stageId": 6,
     "startTime": "2023-04-23T08:00:00.000Z",
-    "weaponList": [
-      20,
-      200,
-      2060,
-      7010
-    ]
+    "weaponList": [20, 200, 2060, 7010]
   },
   {
     "bossId": null,
@@ -1708,12 +1053,7 @@
     "scheduleId": "clgyydxwm0eza22pqukqwt7oa",
     "stageId": 2,
     "startTime": "2023-04-25T00:00:00.000Z",
-    "weaponList": [
-      0,
-      300,
-      4030,
-      90
-    ]
+    "weaponList": [0, 300, 4030, 90]
   },
   {
     "bossId": null,
@@ -1721,11 +1061,6 @@
     "scheduleId": "clgyye70l1g1322pql41kfhzk",
     "stageId": 7,
     "startTime": "2023-04-26T16:00:00.000Z",
-    "weaponList": [
-      60,
-      8010,
-      220,
-      2030
-    ]
+    "weaponList": [60, 8010, 220, 2030]
   }
 ]

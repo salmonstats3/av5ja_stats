@@ -15,9 +15,7 @@ onMounted(async () => {
   const scheduleId: string = router.currentRoute.value.params.scheduleId as string
   const targetURL: string = `${baseURL}/v3/schedules/${scheduleId}/analytics`
   const response: Status[] = (await (await fetch(targetURL)).json()).map((status: Status) => plainToInstance(Status, status)).sort((a: Status, b: Status) => dayjs(a.play_time).unix() - dayjs(b.play_time).unix())
-  console.log(response)
   data.value = new ScheduleStatusDto(response)
-  // console.log(data.value)
 })
 </script>
 

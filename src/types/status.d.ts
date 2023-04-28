@@ -1,30 +1,30 @@
-import { Expose, Transform } from 'class-transformer';
-import dayjs from 'dayjs';
+import { Expose, Transform } from "class-transformer";
+import dayjs from "dayjs";
 
 export class Status {
-  @Expose({ name: 'time' })
+  @Expose({ name: "time" })
   @Transform((param) => dayjs(param.value).toDate())
   readonly play_time: Date;
 
-  @Expose({ name: 'grade_point' })
+  @Expose({ name: "grade_point" })
   readonly grade_point: number;
 
-  @Expose({ name: 'count' })
+  @Expose({ name: "count" })
   readonly shifts_worked: number;
 
-  @Expose({ name: 'failure_wave' })
+  @Expose({ name: "failure_wave" })
   readonly failure_wave: number[];
 
-  @Expose({ name: 'is_clear' })
+  @Expose({ name: "is_clear" })
   readonly is_clear: number;
 
-  @Expose({ name: 'is_failure' })
+  @Expose({ name: "is_failure" })
   readonly is_failure: number;
 
-  @Expose({ name: 'avg_golden_ikura_num' })
+  @Expose({ name: "avg_golden_ikura_num" })
   readonly avg_golden_ikura_num: number;
 
-  @Expose({ name: 'max_golden_ikura_num' })
+  @Expose({ name: "max_golden_ikura_num" })
   readonly max_golden_ikura_num: number;
 
   get clear_ratio() {
