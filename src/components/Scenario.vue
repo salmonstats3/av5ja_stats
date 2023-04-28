@@ -20,12 +20,30 @@ const props = defineProps({
     <v-row no-gutters align="center">
       <v-col sm="6">
         <v-img :lazy-src="CoopStageLazyURL(props.scenario.schedule.stageId)"
-          :src="CoopStageURL(props.scenario.schedule.stageId)" :aspect-ratio="20 / 9" :cover="true"></v-img>
+          :src="CoopStageURL(props.scenario.schedule.stageId)" :aspect-ratio="20 / 9" :cover="true">
+          <v-row class="scenario">
+            <v-col cols="6">
+              <v-label class="scenario danger-rate">{{ scenario.dangerRate }}%</v-label>
+            </v-col>
+            <v-col cols="6">
+              <v-row>
+                <!-- <v-col>
+                  <v-label class="scenario ikura-num">{{ scenario.ikuraNum }}</v-label>
+                </v-col> -->
+                <v-col>
+                  <v-label class="scenario golden-ikura-num">{{ scenario.goldenIkuraNum }}</v-label>
+                </v-col>
+              </v-row>
+            </v-col>
+          </v-row>
+        </v-img>
       </v-col>
       <v-col sm="6" align="center">
         <div class="d-flex ma-1">
           <v-img v-for="(weaponId, index) in props.scenario.schedule.weaponList" :key="index"
-            :src="CoopWeaponURL(weaponId)" :width="32"></v-img>
+            :src="CoopWeaponURL(weaponId)" :width="32">
+
+          </v-img>
         </div>
       </v-col>
     </v-row>
@@ -33,5 +51,43 @@ const props = defineProps({
 </template>
 
 <style lang="scss" scoped>
-.v-card {}
+.scenario {
+  :last-child {
+    text-align: right;
+
+  }
+
+  &.danger-rate {
+    padding: 0 4%;
+    font-weight: 600;
+    background: black;
+    opacity: 1.0;
+  }
+
+  .golden-ikura-num {
+    text-align: left;
+    padding: 0 4%;
+    font-weight: 600;
+    background: black;
+    opacity: 1.0;
+    color: yellow;
+
+    &::before {
+      content: "x";
+    }
+  }
+
+  .ikura-num {
+    padding: 0 4%;
+    font-weight: 600;
+    background: black;
+    opacity: 1.0;
+
+    color: red;
+
+    &::before {
+      content: "x";
+    }
+  }
+}
 </style>

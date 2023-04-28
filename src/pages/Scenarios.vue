@@ -3,14 +3,30 @@ import json from '@/resources/scenarios.json'
 import { plainToInstance } from 'class-transformer';
 import { ScenarioDto } from '@/types/scenario.d';
 import Scenario from '@/components/Scenario.vue';
+import { useRouter } from 'vue-router';
+import { Ref, ref, watch, onMounted } from "vue"
+const router = useRouter()
+// const page: number = router.currentRoute.value.query.page === null ? 0 : parseInt(router.currentRoute.value.query.page as string, 10)
+// console.log(page)
+const page: Ref<number> = ref(1)
+const data: ScenarioDto[] = json.map((scenario: any) => plainToInstance(ScenarioDto, scenario)).sort((a: ScenarioDto, b: ScenarioDto) => b.goldenIkuraNum - a.goldenIkuraNum)
+const scenarios: Ref<ScenarioDto[]> = ref([])
+const length: number = Math.ceil(data.length / 50)
 
-const scenarios: ScenarioDto[] = json.map((scenario: any) => plainToInstance(ScenarioDto, scenario)).sort((a: ScenarioDto, b: ScenarioDto) => b.goldenIkuraNum - a.goldenIkuraNum)
-console.log(scenarios)
+console.log(data.length, scenarios.value.length, length)
+onMounted(() => {
+  scenarios.value = data.slice(0, 50)
+})
+
+watch(page, (newValue, oldValue) => {
+  scenarios.value = data.slice((newValue - 1) * 50, newValue * 50)
+})
 </script>
 
 <template>
-  <v-row>
-    <v-col cols="12" sm="6" md="4" lg="3" xl="3" v-for="scenario in scenarios" :key="scenario.goldenIkuraNum">
+  <v-pagination :length="length" v-model="page"></v-pagination>
+  <v-row v-if="scenarios.length !== 0">
+    <v-col cols="12" sm="6" md="4" lg="3" xl="3" v-for="(scenario, index) in scenarios" :key="index">
       <Scenario :scenario="scenario" />
     </v-col>
   </v-row>

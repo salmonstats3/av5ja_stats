@@ -1,3 +1,4 @@
+import { Big } from "big.js";
 import { Transform } from "class-transformer";
 
 class ScenarioScheduleDto {
@@ -14,7 +15,7 @@ class ScenarioWaveDto {
 export class ScenarioDto {
   ikuraNum: number;
   goldenIkuraNum: number;
-  @Transform((param) => parseFloat(param.value))
+  @Transform((param) => Number(new Big(param.value).mul(100).toString()))
   dangerRate: number;
   stageId: number;
   scenarioCode: string | null;
