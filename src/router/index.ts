@@ -22,6 +22,27 @@ const routes = [
     name: "Scenarios",
     path: "/scenarios",
   },
+  {
+    component: async () => {
+      return import("@/pages/Donate.vue");
+    },
+    name: "Donate",
+    path: "/donate",
+  },
+  {
+    component: async () => {
+      return import("@/pages/About.vue");
+    },
+    name: "About",
+    path: "/about",
+  },
+  {
+    component: async () => {
+      return import("@/pages/Me.vue");
+    },
+    name: "Me",
+    path: "/me",
+  },
 ];
 
 const router = createRouter({

@@ -6,20 +6,17 @@ import Scenario from '@/components/Scenario.vue';
 import { useRouter } from 'vue-router';
 import { Ref, ref, watch, onMounted } from "vue"
 const router = useRouter()
-// const page: number = router.currentRoute.value.query.page === null ? 0 : parseInt(router.currentRoute.value.query.page as string, 10)
-// console.log(page)
 const page: Ref<number> = ref(1)
 const data: ScenarioDto[] = json.map((scenario: any) => plainToInstance(ScenarioDto, scenario)).sort((a: ScenarioDto, b: ScenarioDto) => b.goldenIkuraNum - a.goldenIkuraNum)
 const scenarios: Ref<ScenarioDto[]> = ref([])
-const length: number = Math.ceil(data.length / 50)
+const length: number = Math.ceil(data.length / 24)
 
-console.log(data.length, scenarios.value.length, length)
 onMounted(() => {
-  scenarios.value = data.slice(0, 50)
+  scenarios.value = data.slice(0, 24)
 })
 
-watch(page, (newValue, oldValue) => {
-  scenarios.value = data.slice((newValue - 1) * 50, newValue * 50)
+watch(page, (newValue) => {
+  scenarios.value = data.slice((newValue - 1) * 24, newValue * 24)
 })
 </script>
 
