@@ -1,15 +1,17 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Schedules from "@/components/Schedule.vue";
-import Analytics from "@/pages/Analytics.vue";
 
 const routes = [
   {
-    component: Schedules,
+    component: async () => {
+      return import("@/pages/Schedules.vue");
+    },
     name: "Home",
     path: "/",
   },
   {
-    component: Analytics,
+    component: async () => {
+      return import("@/pages/Analytics.vue");
+    },
     name: "analytics",
     path: "/schedules/:scheduleId",
   },
