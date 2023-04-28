@@ -40,8 +40,8 @@ function next(link: string): void {
       </v-app-bar>
       <v-navigation-drawer v-model="isPresented" location="left">
         <v-list>
-          <v-list-item class="navigation-link" v-for="item in items" :key="item.title">
-            <v-label @click="next(item.link)">{{ item.title }}</v-label>
+          <v-list-item class="navigation-link" v-for="item in items" :key="item.title" @click="next(item.link)">
+            <v-label>{{ item.title }}</v-label>
           </v-list-item>
         </v-list>
       </v-navigation-drawer>
