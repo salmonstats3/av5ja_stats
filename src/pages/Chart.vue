@@ -15,7 +15,6 @@ const scheduleId: string = router.currentRoute.value.params.scheduleId as string
 const data: Ref<ScheduleStatusDto | undefined> = ref()
 onMounted(async () => {
   const status: Status[] = (await import(`@/resources/schedules/${scheduleId}.json`)).default.map((status: any) => plainToInstance(Status, status));
-  console.log(status)
   data.value = new ScheduleStatusDto(status)
 })
 </script>
