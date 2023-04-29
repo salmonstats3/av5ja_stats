@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import { ScheduleStatusDto } from '@/types/schedule.d';
-import { PropType } from 'vue'
-import { Bar } from 'vue-chartjs'
+import { ScheduleStatusDto } from '@/types/schedule.d'
 import { Chart as ChartJS, } from 'chart.js'
+import { PropType } from 'vue'
+import { Line } from 'vue-chartjs'
 
 const props = defineProps({
   data: {
@@ -41,7 +41,7 @@ const options = {
   responsive: true,
   maintainAspectRatio: true,
   interaction: {
-    mode: 'index',
+    mode: 'index' as const,
     intersect: false,
   },
   scales: {
@@ -49,12 +49,13 @@ const options = {
       display: false,
     },
     y: {
-      beginAtZero: false,
-    }
+      display: true,
+    },
   },
   plugins: {
     legend: {
-      display: false
+      display: false,
+      position: 'bottom' as const
     }
   }
 }
@@ -62,7 +63,7 @@ const options = {
 
 <template>
   <v-card>
-    <v-card-title>Results</v-card-title>
-    <Bar :data="data.shifts_worked" :options="options" />
+    <v-card-title>Grade Point</v-card-title>
+    <Line :data="props.data.grade_point" :options="options" />
   </v-card>
 </template>

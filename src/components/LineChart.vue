@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { ScheduleStatusDto } from '@/types/schedule.d'
 import { Chart as ChartJS, } from 'chart.js'
-import { Chart } from 'node_modules/chart.js/dist'
 import { PropType } from 'vue'
 import { Line } from 'vue-chartjs'
 
@@ -41,6 +40,10 @@ const plugin = {
 const options = {
   responsive: true,
   maintainAspectRatio: true,
+  interaction: {
+    mode: 'index' as const,
+    intersect: false,
+  },
   scales: {
     x: {
       display: false,
@@ -66,6 +69,6 @@ const options = {
 <template>
   <v-card>
     <v-card-title>Clear Ratio</v-card-title>
-    <Line :data="props.data.clear_ratio" :options="options" :plugins="[plugin]" />
+    <Line :data="props.data.clear_ratio" :options="options" />
   </v-card>
 </template>

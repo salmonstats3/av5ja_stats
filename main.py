@@ -11,6 +11,7 @@ if __name__=="__main__":
         if response.status_code != 200:
           print(response.status_code)
         else:
+          print(f"Success: {schedule_id['scheduleId']}")
           with open(f"src/resources/schedules/{schedule_id['scheduleId']}.json", mode="w") as f:
             json.dump(response.json(), f)
       except Exception as e:

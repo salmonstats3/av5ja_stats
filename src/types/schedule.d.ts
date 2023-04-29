@@ -1,5 +1,7 @@
 import dayjs from "dayjs";
 
+import { Status } from "@/types/status.d";
+
 export class ScheduleDto {
   bossId: number | null;
   endTime: string;
@@ -11,7 +13,7 @@ export class ScheduleDto {
 
 export class ScheduleStatusDto {
   constructor(status: Status[]) {
-    this.status = status.slice(0, 80);
+    this.status = status.sort((a: Status, b: Status) => dayjs(a.play_time).unix() - dayjs(b.play_time).unix()).slice(0, 80);
   }
 
   readonly status: Status[];
@@ -35,22 +37,38 @@ export class ScheduleStatusDto {
     return {
       datasets: [
         {
-          backgroundColor: "#FFB6C1",
-          borderColor: "#FFB6C188",
-          data: this.status.map((status) => status.failure_ratio(0)),
-          label: "Wave 1",
+          backgroundColor: "#9B4F96",
+          borderColor: "#9B4F9688",
+          data: this.status.map((status) => status.clear_ratio(1)),
+          label: "0+",
         },
         {
-          backgroundColor: "#ADD8E6",
-          borderColor: "#ADD8E688",
-          data: this.status.map((status) => status.failure_ratio(1)),
-          label: "Wave 2",
+          backgroundColor: "#FE5F55",
+          borderColor: "#FE5F5588",
+          data: this.status.map((status) => status.clear_ratio(2)),
+          hidden: true,
+          label: "200+",
         },
         {
-          backgroundColor: "#FFD700",
-          borderColor: "#FFD70088",
-          data: this.status.map((status) => status.failure_ratio(2)),
-          label: "Wave 3",
+          backgroundColor: "#34AADC",
+          borderColor: "#34AADC88",
+          data: this.status.map((status) => status.clear_ratio(3)),
+          hidden: true,
+          label: "400+",
+        },
+        {
+          backgroundColor: "#F4D03F",
+          borderColor: "#F4D03F88",
+          data: this.status.map((status) => status.clear_ratio(4)),
+          hidden: true,
+          label: "600+",
+        },
+        {
+          backgroundColor: "#C0392B",
+          borderColor: "#C0392B88",
+          data: this.status.map((status) => status.clear_ratio(5)),
+          hidden: true,
+          label: "800+",
         },
       ],
       labels: this.status.map((status) => dayjs(status.play_time).toString()),
