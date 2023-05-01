@@ -19,3 +19,8 @@ EVENT_TYPE:
   6: ドスコイ大量発生
   7: 巨大タツマキ
   8: ドロシャケ噴出
+DESCRIPTION:
+  EVENT_TYPE: イベント
+  WATER_LEVEL: 潮位
+  CLEAR_RATIO: クリア率
+  OCCURRENCE: 回数

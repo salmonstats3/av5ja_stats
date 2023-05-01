@@ -23,6 +23,8 @@ import router from "./router";
 import enUS from "@/locales/en-US.yaml";
 import jaJP from "@/locales/ja-JP.yaml";
 
+if (typeof window !== "undefined") import("./pwa");
+
 ChartJS.register(
   CategoryScale,
   LinearScale,

@@ -17,7 +17,19 @@ export default defineConfig({
     noExternal: true,
     target: "webworker",
   },
-  plugins: [vue(), vuetify({ autoImport: true }), ViteYaml(), VitePWA({ registerType: "autoUpdate", injectRegister: "inline" })],
+  plugins: [
+    vue(),
+    vuetify({ autoImport: true }),
+    ViteYaml(),
+    VitePWA({
+      registerType: "autoUpdate",
+      injectRegister: "inline",
+      workbox: {
+        cleanupOutdatedCaches: true,
+        sourcemap: true,
+      },
+    }),
+  ],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
