@@ -1,58 +1,45 @@
 <script setup lang="ts">
-import { ScheduleStatusDto } from '@/types/schedule.d';
-import { PropType } from 'vue'
+// @ts-nocheck
 import { Bar } from 'vue-chartjs'
-import { Chart as ChartJS, } from 'chart.js'
+import { Chart as ChartJS, ChartData } from 'chart.js'
+import Big from 'big.js'
 
 const props = defineProps({
-  data: {
-    type: ScheduleStatusDto as PropType<ScheduleStatusDto>,
+  title: {
+    type: String,
+    required: true
+  },
+  chartdata: {
+    type: Object,
     required: true
   },
 })
-
-const plugin = {
-  id: 'background_color',
-  beforeDraw: (chart: ChartJS) => {
-    const ctx: CanvasRenderingContext2D | null = chart.canvas.getContext('2d');
-    if (ctx !== null) {
-      ctx.save();
-      ctx.globalCompositeOperation = 'destination-over';
-      ctx.fillStyle = "#FFA50088";
-      const width: number = chart.scales.x.width / 6;
-      const colors: string[] = [
-        "#E7F8F788",
-        "#305EA988",
-        "#C1464688",
-        "#E7F8F788",
-        "#305EA988",
-        "#C1464688",
-      ]
-      colors.forEach((color: string, index: number) => {
-        ctx.fillStyle = color;
-        ctx.fillRect(chart.scales.x.left + width * index, chart.scales.y.top, width, chart.scales.y.bottom);
-      })
-      ctx.restore();
-    }
-  }
-};
 
 const options = {
   responsive: true,
   maintainAspectRatio: true,
   interaction: {
-    mode: 'index',
+    mode: 'index' as const,
     intersect: false,
   },
   scales: {
     x: {
-      display: false,
+      display: true,
     },
     y: {
+      display: false,
       beginAtZero: false,
     }
   },
   plugins: {
+    tooltip: {
+      enabled: true,
+      callbacks: {
+        label: (item: any) => {
+          return Number(Big(item.raw).mul(100).round(3).toString()) + "%"
+        }
+      }
+    },
     legend: {
       display: false
     }
@@ -62,7 +49,7 @@ const options = {
 
 <template>
   <v-card>
-    <v-card-title>Results</v-card-title>
-    <Bar :data="data.shifts_worked" :options="options" />
+    <v-card-title>{{ title }}</v-card-title>
+    <Bar :data="chartdata" :options="options" />
   </v-card>
 </template>
