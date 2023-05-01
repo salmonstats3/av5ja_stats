@@ -3,12 +3,9 @@ import { useRouter } from 'vue-router';
 import LineChart from '@/components/LineChart.vue';
 import { Ref, onMounted, ref } from 'vue';
 import { ScheduleStatusDto } from '@/types/schedule.d';
-import { Status } from '@/types/status.d';
-import { plainToInstance } from 'class-transformer';
-import BarChart from '@/components/BarChart.vue';
-import GradePoint from '@/components/GradePoint.vue';
 import PieChart from '@/components/PieChart.vue';
 import { useI18n } from 'vue-i18n';
+import BarChart from '@/components/BarChart.vue';
 
 const { t } = useI18n()
 const router = useRouter()
@@ -23,7 +20,7 @@ onMounted(async () => {
   <v-row>
     <v-col cols="12" sm="12" md="6" lg="6" xl="6">
       <v-card>
-        <BarChart v-if="data.golden_ikura_num.length !== 0" :chartdata="data.golden_ikura_data" title="納品数分布" />
+        <BarChart v-if="data.golden_ikura_num.length !== 0" :data="data.golden_ikura_data" title="納品数分布" />
       </v-card>
     </v-col>
     <v-col cols="12" sm="12" md="6" lg="6" xl="6">
@@ -33,17 +30,12 @@ onMounted(async () => {
     </v-col>
     <v-col cols="12" sm="12" md="6" lg="6" xl="6">
       <v-card>
-        <!-- <GradePoint v-if="data.status.length !== 0" :data="data" /> -->
+        <LineChart v-if="data.status.length !== 0" :data="data.clear_ratio" title="平均クリア率" />
       </v-card>
     </v-col>
     <v-col cols="12" sm="12" md="6" lg="6" xl="6">
       <v-card>
-        <!-- <LineChart v-if="data.status.length !== 0" :data="data" /> -->
-      </v-card>
-    </v-col>
-    <v-col cols="12" sm="12" md="6" lg="6" xl="6">
-      <v-card>
-        <!-- <BarChart v-if="data.status.length !== 0" :chartdata="data.shifts_worked" title="Results" /> -->
+        <BarChart v-if="data.status.length !== 0" :data="data.shifts_worked" title="リザルト数" :x="false" />
       </v-card>
     </v-col>
     <v-col cols="12">

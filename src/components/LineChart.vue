@@ -4,38 +4,16 @@ import { Chart as ChartJS, } from 'chart.js'
 import { PropType } from 'vue'
 import { Line } from 'vue-chartjs'
 
-const props = defineProps({
+defineProps({
   data: {
-    type: ScheduleStatusDto as PropType<ScheduleStatusDto>,
+    type: Object,
     required: true
   },
-})
-
-const plugin = {
-  id: 'background_color',
-  beforeDraw: (chart: ChartJS) => {
-    const ctx: CanvasRenderingContext2D | null = chart.canvas.getContext('2d');
-    if (ctx !== null) {
-      ctx.save();
-      ctx.globalCompositeOperation = 'destination-over';
-      ctx.fillStyle = "#FFA50088";
-      const width: number = chart.scales.x.width / 6;
-      const colors: string[] = [
-        "#E7F8F788",
-        "#305EA988",
-        "#C1464688",
-        "#E7F8F788",
-        "#305EA988",
-        "#C1464688",
-      ]
-      colors.forEach((color: string, index: number) => {
-        ctx.fillStyle = color;
-        ctx.fillRect(chart.scales.x.left + width * index, chart.scales.y.top, width, chart.scales.y.bottom);
-      })
-      ctx.restore();
-    }
+  title: {
+    type: String,
+    required: true
   }
-};
+})
 
 const options = {
   responsive: true,
@@ -68,7 +46,7 @@ const options = {
 
 <template>
   <v-card>
-    <v-card-title>Clear Ratio</v-card-title>
-    <Line :data="props.data.clear_ratio" :options="options" />
+    <v-card-title>{{ title }}</v-card-title>
+    <Line :data="data" :options="options" />
   </v-card>
 </template>

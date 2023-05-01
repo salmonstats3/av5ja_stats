@@ -9,10 +9,18 @@ const props = defineProps({
     type: String,
     required: true
   },
-  chartdata: {
+  data: {
     type: Object,
     required: true
   },
+  x: {
+    type: Boolean,
+    default: true
+  },
+  y: {
+    type: Boolean,
+    default: true
+  }
 })
 
 const options = {
@@ -24,10 +32,10 @@ const options = {
   },
   scales: {
     x: {
-      display: true,
+      display: props.x,
     },
     y: {
-      display: false,
+      display: props.y,
       beginAtZero: false,
     }
   },
@@ -50,6 +58,6 @@ const options = {
 <template>
   <v-card>
     <v-card-title>{{ title }}</v-card-title>
-    <Bar :data="chartdata" :options="options" />
+    <Bar :data="data" :options="options" />
   </v-card>
 </template>

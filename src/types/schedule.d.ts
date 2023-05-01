@@ -1,6 +1,8 @@
 import { Expose, Type, plainToInstance } from "class-transformer";
 
 import "reflect-metadata";
+import dayjs from "dayjs";
+
 import { Status } from "@/types/status.d";
 
 import Big from "big.js";
@@ -109,37 +111,38 @@ export class ScheduleStatusDto {
   }
 
   get clear_ratio(): object {
+    const dataset: Status[] = this.status.sort((a, b) => dayjs(a.play_time).unix() - dayjs(b.play_time).unix());
     return {
       datasets: [
         {
           backgroundColor: "#9B4F96",
           borderColor: "#9B4F9688",
-          data: this.status.map((status) => status.clear_ratio(0)),
+          data: dataset.map((status) => status.clear_ratio(0)),
           label: "0+",
         },
         {
           backgroundColor: "#FE5F55",
           borderColor: "#FE5F5588",
-          data: this.status.map((status) => status.clear_ratio(1)),
+          data: dataset.map((status) => status.clear_ratio(1)),
           hidden: true,
           label: "200+",
         },
         {
           backgroundColor: "#34AADC",
           borderColor: "#34AADC88",
-          data: this.status.map((status) => status.clear_ratio(2)),
+          data: dataset.map((status) => status.clear_ratio(2)),
           hidden: true,
           label: "400+",
         },
         {
           backgroundColor: "#F4D03F",
           borderColor: "#F4D03F88",
-          data: this.status.map((status) => status.clear_ratio(3)),
+          data: dataset.map((status) => status.clear_ratio(3)),
           hidden: true,
           label: "600+",
         },
       ],
-      labels: this.status.map((status) => dayjs(status.play_time).toString()),
+      labels: dataset.map((status) => dayjs(status.play_time).toString()),
     };
   }
 
