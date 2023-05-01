@@ -12,11 +12,19 @@ const scenarios: Ref<ScenarioDto[]> = ref([])
 const length: number = Math.ceil(data.length / 24)
 
 onMounted(() => {
-  scenarios.value = data.slice(0, 24)
+  const p: number = parseInt(router.currentRoute.value.query.p as string, 10)
+  if (!isNaN(p)) {
+    scenarios.value = data.slice((p - 1) * 24, p * 24)
+    page.value = p
+  } else {
+    scenarios.value = data.slice(0, 24)
+    page.value = 1
+  }
 })
 
 watch(page, (newValue) => {
   scenarios.value = data.slice((newValue - 1) * 24, newValue * 24)
+  router.push({ query: { p: newValue } })
 })
 </script>
 

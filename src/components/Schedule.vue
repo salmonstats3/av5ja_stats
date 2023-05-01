@@ -23,12 +23,12 @@ function next(scheduleId: string): void {
   <v-card @click="next(props.schedule.scheduleId)">
     <v-row no-gutters align="center">
       <v-col sm="6">
-        <v-img :lazy-src="CoopStageLazyURL(props.schedule.stageId)" :src="CoopStageURL(props.schedule.stageId)"
-          :aspect-ratio="20 / 9" :cover="true"></v-img>
+        <v-img :v-once="true" :lazy-src="CoopStageLazyURL(props.schedule.stageId)"
+          :src="CoopStageURL(props.schedule.stageId)" :aspect-ratio="20 / 9" :cover="true"></v-img>
       </v-col>
       <v-col sm="6" align="center">
         <div class="d-flex ma-1">
-          <v-img v-for="(weaponId, index) in props.schedule.weaponList" :key="index" :src="CoopWeaponURL(weaponId)"
+          <v-img v-once v-for="(weaponId, index) in props.schedule.weaponList" :key="index" :src="CoopWeaponURL(weaponId)"
             :width="32"></v-img>
         </div>
       </v-col>
