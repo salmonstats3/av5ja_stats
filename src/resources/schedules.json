@@ -1753,5 +1753,31 @@
       220,
       2030
     ]
+  },
+  {
+    "bossId": null,
+    "endTime": "2023-04-30T00:00:00.000Z",
+    "scheduleId": "clh4iyffb6nmw227nff4edc88",
+    "stageId": 6,
+    "startTime": "2023-04-28T08:00:00.000Z",
+    "weaponList": [
+      3010,
+      1030,
+      100,
+      4020
+    ]
+  },
+  {
+    "bossId": null,
+    "endTime": "2023-05-01T16:00:00.000Z",
+    "scheduleId": "clh4j0seyf43l227na11pluz2",
+    "stageId": 1,
+    "startTime": "2023-04-30T00:00:00.000Z",
+    "weaponList": [
+      40,
+      210,
+      3040,
+      4010
+    ]
   }
 ]
