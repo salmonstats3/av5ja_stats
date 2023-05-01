@@ -10,9 +10,7 @@ if __name__=="__main__":
   base_url: str = os.environ.get("VITE_APP_BASE_API_URL")
   # 二週間前からカウントする
   start_time: datetime = datetime.now(timezone.utc) - timedelta(days=14)
-  print(start_time)
   schedules = requests.get(f"{base_url}/v3/schedules").json()
-  print(len(schedules))
   schedules = list(filter(lambda x: datetime.fromisoformat(x["startTime"]) >= start_time, schedules))
   for (index, schedule) in enumerate(schedules):
     try:
@@ -21,7 +19,7 @@ if __name__=="__main__":
       if response.status_code != 200:
         print(response.status_code)
       else:
-        print(f"\r{index+1}/{len(schedules)}", end='')
+        print(f"{schedule['scheduleId']} is success.")
         with open(f"src/resources/schedules/{schedule['scheduleId']}.json", mode="w") as f:
           json.dump(response.json(), f)
     except Exception as e:
