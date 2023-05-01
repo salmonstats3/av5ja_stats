@@ -1,18 +1,28 @@
 import requests
+import os
 import json
+from dotenv import load_dotenv
+from datetime import datetime,timedelta,timezone
+
+load_dotenv(verbose=True)
 
 if __name__=="__main__":
-  with open("src/resources/schedules.json", mode="r") as f:
-    schedules = json.load(f)
-    for (index, schedule) in enumerate(schedules):
-      try:
-        url: str = f"http://localhost:8080/v3/schedules/{schedule['scheduleId']}"
-        response = requests.get(url)
-        if response.status_code != 200:
-          print(response.status_code)
-        else:
-          print(f"\r{index+1}/{len(schedules)}", end='')
-          with open(f"src/resources/schedules/{schedule['scheduleId']}.json", mode="w") as f:
-            json.dump(response.json(), f)
-      except Exception as e:
-        break
+  base_url: str = os.environ.get("VITE_APP_BASE_API_URL")
+  # 二週間前からカウントする
+  start_time: datetime = datetime.now(timezone.utc) - timedelta(days=14)
+  print(start_time)
+  schedules = requests.get(f"{base_url}/v3/schedules").json()
+  print(len(schedules))
+  schedules = list(filter(lambda x: datetime.fromisoformat(x["startTime"]) >= start_time, schedules))
+  for (index, schedule) in enumerate(schedules):
+    try:
+      url: str = f"{base_url}/v3/schedules/{schedule['scheduleId']}"
+      response = requests.get(url)
+      if response.status_code != 200:
+        print(response.status_code)
+      else:
+        print(f"\r{index+1}/{len(schedules)}", end='')
+        with open(f"src/resources/schedules/{schedule['scheduleId']}.json", mode="w") as f:
+          json.dump(response.json(), f)
+    except Exception as e:
+      break

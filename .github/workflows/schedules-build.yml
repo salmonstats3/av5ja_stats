@@ -17,14 +17,14 @@ jobs:
       - name: Setup Python # Pythonのセットアップ
         uses: actions/setup-python@v3
         with:
-          python-version: "3.9" # Pythonのバージョン指定
+          python-version: "3.11.3" # Pythonのバージョン指定
 
       - name: Install dependencies # 依存パッケージのインストール
         run: |
           python -m pip install --upgrade pip
-          pip install requests
+          pip install -r requirements.txt
 
-      - name: Run right.py # PythonでSalmon Statsからデータ取得
+      - name: Run main.py # PythonでSalmon Statsからデータ取得
         run: |
           python main.py
 
