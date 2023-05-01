@@ -54,10 +54,8 @@ class CoopWave {
 }
 
 export class ScheduleStatusDto {
-  static async fromJSON(scheduleId: string): ScheduleStatusDto {
-    const data = (await import(`@/resources/schedules/${scheduleId}.json`)).default;
-    console.log(data);
-    return plainToInstance(ScheduleStatusDto, data, {
+  static async fromJSON(scheduleId: string): Promise<ScheduleStatusDto> {
+    return plainToInstance(ScheduleStatusDto, import(`@/resources/schedules/${scheduleId}.json`), {
       excludeExtraneousValues: true,
     });
   }
