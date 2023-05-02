@@ -11,6 +11,8 @@ if __name__=="__main__":
   # 二週間前からカウントする
   start_time: datetime = datetime.now(timezone.utc) - timedelta(days=14)
   schedules = requests.get(f"{base_url}/v3/schedules").json()
+  with open("src/resources/schedules.json", mode="w") as f:
+    json.dump(schedules, f)
   schedules = list(filter(lambda x: datetime.fromisoformat(x["startTime"]) >= start_time, schedules))
   for (index, schedule) in enumerate(schedules):
     try:
