@@ -19,10 +19,12 @@ export default defineConfig({
     ViteYaml(),
     VitePWA({
       registerType: "autoUpdate",
-      injectRegister: "script",
+      injectRegister: "auto",
+      strategies: "generateSW",
       workbox: {
         cleanupOutdatedCaches: true,
         sourcemap: true,
+        globPatterns: ['**/*.{js,css,html,ico,png,svg}']
       },
       manifest: {
         lang: "ja",

@@ -24,6 +24,8 @@ import router from "./router";
 import enUS from "@/locales/en-US.yaml";
 import jaJP from "@/locales/ja-JP.yaml";
 
+const interval: number = 60 * 30 * 1000
+
 ChartJS.register(
   CategoryScale,
   LinearScale,
@@ -52,6 +54,27 @@ const i18n = createI18n({
 });
 
 loadFonts();
-registerSW();
+registerSW({
+  onRegisteredSW(swUrl, r) {
+    r && setInterval(async () => {
+      if (!(!r.installing && navigator))
+        return
+
+      if (('connection' in navigator) && !navigator.onLine)
+        return
+
+      const resp = await fetch(swUrl, {
+        cache: 'no-store',
+        headers: {
+          'cache': 'no-store',
+          'cache-control': 'no-cache',
+        },
+      })
+
+      if (resp?.status === 200)
+        await r.update()
+    }, interval)
+  }
+})
 
 createApp(App).use(router).use(vuetify).use(i18n).mount("#app");
