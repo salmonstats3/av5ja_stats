@@ -1,50 +1,62 @@
 import { clientsClaim } from 'workbox-core'
 import { cleanupOutdatedCaches, precacheAndRoute } from 'workbox-precaching'
-const CACHE_NAME = 'version-1';
-const urlsToCache = ['index.html', 'offline.html'];
-
 declare let self: ServiceWorkerGlobalScope
+const CACHE_NAME = 'VITE_APP_SALMON_STATS' 
+
 cleanupOutdatedCaches()
 precacheAndRoute(self.__WB_MANIFEST)
 
 self.skipWaiting()
 clientsClaim()
 
-// Skip SW
-self.addEventListener('message', (event) => {
-  if (event.data && event.data.type === 'SKIP_WAITING')
-    self.skipWaiting()
-})
+importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js');
 
-// Install SW
-self.addEventListener('install', (event) => {
+// TODO: replace the following with the correct offline fallback page i.e.: const offlineFallbackPage = "offline.html";
+const offlineFallbackPage = "ToDo-replace-this-name.html";
+
+self.addEventListener("message", (event) => {
+  if (event.data && event.data.type === "SKIP_WAITING") {
+    self.skipWaiting();
+  }
+});
+
+self.addEventListener('install', async (event) => {
   event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => {
-      console.log('Opened cache');
-      return cache.addAll(urlsToCache);
-    })
+    caches.open(CACHE_NAME)
+      .then((cache) => cache.add(offlineFallbackPage))
   );
 });
 
-// Listen for requests
-// self.addEventListener('fetch', (event) => {
-// });
 
-// Activate the SW
-self.addEventListener('activate', (event) => {
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const casheWhitelist: any[] = [];
-  casheWhitelist.push(CACHE_NAME);
-
+addEventListener("activate", (event) => {
   event.waitUntil(
-    caches.keys().then((casheNames) =>
-      Promise.all(
-        casheNames.map((casheName) => {
-          if (!casheWhitelist.includes(casheName)) {
-            return caches.delete(casheName);
-          }
-        })
-      )
-    )
+    (async () => {
+      if (self.registration.navigationPreload) {
+        // Enable navigation preloads!
+        await self.registration.navigationPreload.enable();
+      }
+    })()
   );
+});
+
+self.addEventListener('fetch', (event) => {
+  if (event.request.mode === 'navigate') {
+    event.respondWith((async () => {
+      try {
+        const preloadResp = await event.preloadResponse;
+
+        if (preloadResp) {
+          return preloadResp;
+        }
+
+        const networkResp = await fetch(event.request);
+        return networkResp;
+      } catch (error) {
+
+        const cache = await caches.open(CACHE_NAME);
+        const cachedResp = await cache.match(offlineFallbackPage);
+        return cachedResp;
+      }
+    })());
+  }
 });

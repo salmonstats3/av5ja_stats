@@ -24,8 +24,6 @@ import router from "./router";
 import enUS from "@/locales/en-US.yaml";
 import jaJP from "@/locales/ja-JP.yaml";
 
-const interval: number = 60 * 30 * 1000
-
 ChartJS.register(
   CategoryScale,
   LinearScale,
@@ -73,7 +71,7 @@ registerSW({
 
       if (resp?.status === 200)
         await r.update()
-    }, interval)
+    }, 60 * 30 * 1000)
   }
 })
 

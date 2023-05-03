@@ -22,16 +22,14 @@ export default defineConfig({
     ViteYaml(),
     VitePWA({
       registerType: 'autoUpdate',
-      strategies: "injectManifest",
-      srcDir: "src",
-      filename: "sw.ts",
-      injectManifest: {
-        rollupFormat:'iife'
-      },
+      strategies: "generateSW",
       workbox: {
         cleanupOutdatedCaches: true,
         sourcemap: true,
         globPatterns: ['**/*.{js,css,html,ico,png,svg}']
+      },
+      devOptions: {
+        enabled: true,
       },
       manifest: {
         lang: "ja",
