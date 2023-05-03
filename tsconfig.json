@@ -26,7 +26,7 @@
       "vite-plugin-pwa/client"
     ]
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "src/sw.js", "src/sw.js"],
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "src/sw.ts", "src/sw.ts"],
   "references": [
     {
       "path": "./tsconfig.node.json"
