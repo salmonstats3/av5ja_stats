@@ -89,7 +89,7 @@ export class ScheduleStatusDto {
         },
       ],
       labels: dataset.map((status) => {
-        return `${dayjs(status.play_time).format("MM/DD HH:mm")} ~ ${dayjs(status.play_time).add(30, 'minutes').format("MM/DD HH:mm")}`
+        return `${dayjs(status.play_time).format("MM/DD HH:mm")} ~ ${dayjs(status.play_time).add(30, "minutes").format("MM/DD HH:mm")}`;
       }),
     };
   }
@@ -144,7 +144,7 @@ export class ScheduleStatusDto {
         },
       ],
       labels: dataset.map((status) => {
-        return `${dayjs(status.play_time).format("MM/DD HH:mm")} ~ ${dayjs(status.play_time).add(30, 'minutes').format("MM/DD HH:mm")}`
+        return `${dayjs(status.play_time).format("MM/DD HH:mm")} ~ ${dayjs(status.play_time).add(30, "minutes").format("MM/DD HH:mm")}`;
       }),
     };
   }

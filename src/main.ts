@@ -12,7 +12,7 @@ import {
   Filler,
   LineElement,
 } from "chart.js";
-import { registerSW } from 'virtual:pwa-register';
+import { registerSW } from "virtual:pwa-register";
 import { createApp } from "vue";
 import { createI18n } from "vue-i18n";
 
@@ -52,6 +52,6 @@ const i18n = createI18n({
 });
 
 loadFonts();
-registerSW()
+registerSW();
 
 createApp(App).use(router).use(vuetify).use(i18n).mount("#app");

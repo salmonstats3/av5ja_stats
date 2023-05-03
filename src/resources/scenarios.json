@@ -7,12 +7,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        30,
-        6000,
-        310,
-        3040
-      ]
+      "weaponList": [30, 6000, 310, 3040]
     },
     "waves": [
       {
@@ -40,12 +35,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -73,12 +63,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -106,12 +91,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        3010,
-        100,
-        3040,
-        240
-      ]
+      "weaponList": [3010, 100, 3040, 240]
     },
     "waves": [
       {
@@ -139,12 +119,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        3010,
-        100,
-        3040,
-        240
-      ]
+      "weaponList": [3010, 100, 3040, 240]
     },
     "waves": [
       {
@@ -172,12 +147,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        30,
-        6000,
-        310,
-        3040
-      ]
+      "weaponList": [30, 6000, 310, 3040]
     },
     "waves": [
       {
@@ -205,12 +175,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        1000,
-        40,
-        3040,
-        2050
-      ]
+      "weaponList": [1000, 40, 3040, 2050]
     },
     "waves": [
       {
@@ -238,12 +203,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -271,12 +231,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -304,12 +259,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        210,
-        3020,
-        3030,
-        4010
-      ]
+      "weaponList": [210, 3020, 3030, 4010]
     },
     "waves": [
       {
@@ -337,12 +287,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        50,
-        210,
-        90,
-        4010
-      ]
+      "weaponList": [50, 210, 90, 4010]
     },
     "waves": [
       {
@@ -370,12 +315,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -408,12 +348,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -446,12 +381,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -479,12 +409,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -517,12 +442,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -550,12 +470,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -588,12 +503,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -621,12 +531,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -654,12 +559,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        0,
-        200,
-        8000,
-        2070
-      ]
+      "weaponList": [0, 200, 8000, 2070]
     },
     "waves": [
       {
@@ -687,12 +587,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        3010,
-        100,
-        3040,
-        240
-      ]
+      "weaponList": [3010, 100, 3040, 240]
     },
     "waves": [
       {
@@ -720,12 +615,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -753,12 +643,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -791,12 +676,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -829,12 +709,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        30,
-        6000,
-        310,
-        3040
-      ]
+      "weaponList": [30, 6000, 310, 3040]
     },
     "waves": [
       {
@@ -862,12 +737,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        3010,
-        100,
-        3040,
-        240
-      ]
+      "weaponList": [3010, 100, 3040, 240]
     },
     "waves": [
       {
@@ -895,12 +765,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        5010,
-        8000,
-        70,
-        4020
-      ]
+      "weaponList": [5010, 8000, 70, 4020]
     },
     "waves": [
       {
@@ -928,12 +793,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -966,12 +826,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        3010,
-        100,
-        3040,
-        240
-      ]
+      "weaponList": [3010, 100, 3040, 240]
     },
     "waves": [
       {
@@ -999,12 +854,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        3010,
-        100,
-        3040,
-        240
-      ]
+      "weaponList": [3010, 100, 3040, 240]
     },
     "waves": [
       {
@@ -1032,12 +882,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -1070,12 +915,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        40,
-        5020,
-        2000,
-        -1
-      ]
+      "weaponList": [40, 5020, 2000, -1]
     },
     "waves": [
       {
@@ -1103,12 +943,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -1136,12 +971,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        3010,
-        100,
-        1020,
-        80
-      ]
+      "weaponList": [3010, 100, 1020, 80]
     },
     "waves": [
       {
@@ -1169,12 +999,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        3010,
-        100,
-        1020,
-        80
-      ]
+      "weaponList": [3010, 100, 1020, 80]
     },
     "waves": [
       {
@@ -1202,12 +1027,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -1235,12 +1055,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        3010,
-        100,
-        3040,
-        240
-      ]
+      "weaponList": [3010, 100, 3040, 240]
     },
     "waves": [
       {
@@ -1268,12 +1083,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        3010,
-        100,
-        3040,
-        240
-      ]
+      "weaponList": [3010, 100, 3040, 240]
     },
     "waves": [
       {
@@ -1301,12 +1111,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        30,
-        6000,
-        310,
-        3040
-      ]
+      "weaponList": [30, 6000, 310, 3040]
     },
     "waves": [
       {
@@ -1334,12 +1139,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        5010,
-        8000,
-        70,
-        4020
-      ]
+      "weaponList": [5010, 8000, 70, 4020]
     },
     "waves": [
       {
@@ -1367,12 +1167,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        3010,
-        100,
-        3040,
-        240
-      ]
+      "weaponList": [3010, 100, 3040, 240]
     },
     "waves": [
       {
@@ -1400,12 +1195,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        5010,
-        8000,
-        70,
-        4020
-      ]
+      "weaponList": [5010, 8000, 70, 4020]
     },
     "waves": [
       {
@@ -1433,12 +1223,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -1466,12 +1251,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        40,
-        5020,
-        2000,
-        -1
-      ]
+      "weaponList": [40, 5020, 2000, -1]
     },
     "waves": [
       {
@@ -1499,12 +1279,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        0,
-        300,
-        4030,
-        90
-      ]
+      "weaponList": [0, 300, 4030, 90]
     },
     "waves": [
       {
@@ -1532,12 +1307,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        40,
-        5020,
-        2000,
-        -1
-      ]
+      "weaponList": [40, 5020, 2000, -1]
     },
     "waves": [
       {
@@ -1565,12 +1335,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        0,
-        300,
-        4030,
-        90
-      ]
+      "weaponList": [0, 300, 4030, 90]
     },
     "waves": [
       {
@@ -1598,12 +1363,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -1636,12 +1396,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -1674,12 +1429,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        3010,
-        100,
-        1020,
-        80
-      ]
+      "weaponList": [3010, 100, 1020, 80]
     },
     "waves": [
       {
@@ -1707,12 +1457,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        20,
-        3030,
-        3040,
-        80
-      ]
+      "weaponList": [20, 3030, 3040, 80]
     },
     "waves": [
       {
@@ -1740,12 +1485,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -1773,12 +1513,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        0,
-        1040,
-        4030,
-        2060
-      ]
+      "weaponList": [0, 1040, 4030, 2060]
     },
     "waves": [
       {
@@ -1806,12 +1541,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        5010,
-        8000,
-        70,
-        4020
-      ]
+      "weaponList": [5010, 8000, 70, 4020]
     },
     "waves": [
       {
@@ -1844,12 +1574,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -1882,12 +1607,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        3010,
-        100,
-        3040,
-        240
-      ]
+      "weaponList": [3010, 100, 3040, 240]
     },
     "waves": [
       {
@@ -1915,12 +1635,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        5010,
-        8000,
-        70,
-        4020
-      ]
+      "weaponList": [5010, 8000, 70, 4020]
     },
     "waves": [
       {
@@ -1948,12 +1663,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -1981,12 +1691,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        50,
-        210,
-        90,
-        4010
-      ]
+      "weaponList": [50, 210, 90, 4010]
     },
     "waves": [
       {
@@ -2014,12 +1719,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        1000,
-        40,
-        3040,
-        2050
-      ]
+      "weaponList": [1000, 40, 3040, 2050]
     },
     "waves": [
       {
@@ -2047,12 +1747,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -2080,12 +1775,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        40,
-        5020,
-        2000,
-        -1
-      ]
+      "weaponList": [40, 5020, 2000, -1]
     },
     "waves": [
       {
@@ -2113,12 +1803,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        210,
-        3020,
-        3030,
-        4010
-      ]
+      "weaponList": [210, 3020, 3030, 4010]
     },
     "waves": [
       {
@@ -2146,12 +1831,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        50,
-        210,
-        90,
-        4010
-      ]
+      "weaponList": [50, 210, 90, 4010]
     },
     "waves": [
       {
@@ -2179,12 +1859,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -2212,12 +1887,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        50,
-        210,
-        90,
-        4010
-      ]
+      "weaponList": [50, 210, 90, 4010]
     },
     "waves": [
       {
@@ -2245,12 +1915,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        40,
-        5020,
-        2000,
-        -1
-      ]
+      "weaponList": [40, 5020, 2000, -1]
     },
     "waves": [
       {
@@ -2278,12 +1943,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        40,
-        -1,
-        2000,
-        5020
-      ]
+      "weaponList": [40, -1, 2000, 5020]
     },
     "waves": [
       {
@@ -2311,12 +1971,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -2344,12 +1999,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -2377,12 +2027,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -2410,12 +2055,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -2443,12 +2083,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        3010,
-        100,
-        3040,
-        240
-      ]
+      "weaponList": [3010, 100, 3040, 240]
     },
     "waves": [
       {
@@ -2476,12 +2111,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        40,
-        5020,
-        2000,
-        -1
-      ]
+      "weaponList": [40, 5020, 2000, -1]
     },
     "waves": [
       {
@@ -2509,12 +2139,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -2542,12 +2167,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        3010,
-        100,
-        1020,
-        80
-      ]
+      "weaponList": [3010, 100, 1020, 80]
     },
     "waves": [
       {
@@ -2575,12 +2195,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        10,
-        6020,
-        3020,
-        2000
-      ]
+      "weaponList": [10, 6020, 3020, 2000]
     },
     "waves": [
       {
@@ -2608,12 +2223,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        10,
-        6020,
-        3020,
-        2000
-      ]
+      "weaponList": [10, 6020, 3020, 2000]
     },
     "waves": [
       {
@@ -2646,12 +2256,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        3010,
-        100,
-        1020,
-        80
-      ]
+      "weaponList": [3010, 100, 1020, 80]
     },
     "waves": [
       {
@@ -2679,12 +2284,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        5020,
-        40,
-        -1,
-        2000
-      ]
+      "weaponList": [5020, 40, -1, 2000]
     },
     "waves": [
       {
@@ -2712,12 +2312,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        3010,
-        100,
-        3040,
-        240
-      ]
+      "weaponList": [3010, 100, 3040, 240]
     },
     "waves": [
       {
@@ -2745,12 +2340,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        3000,
-        5040,
-        4040,
-        90
-      ]
+      "weaponList": [3000, 5040, 4040, 90]
     },
     "waves": [
       {
@@ -2778,12 +2368,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -2811,12 +2396,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        1100,
-        50,
-        3040,
-        2010
-      ]
+      "weaponList": [1100, 50, 3040, 2010]
     },
     "waves": [
       {
@@ -2844,12 +2424,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        5020,
-        400,
-        4040,
-        90
-      ]
+      "weaponList": [5020, 400, 4040, 90]
     },
     "waves": [
       {
@@ -2877,12 +2452,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        3010,
-        100,
-        1020,
-        80
-      ]
+      "weaponList": [3010, 100, 1020, 80]
     },
     "waves": [
       {
@@ -2910,12 +2480,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        0,
-        200,
-        8000,
-        2070
-      ]
+      "weaponList": [0, 200, 8000, 2070]
     },
     "waves": [
       {
@@ -2943,12 +2508,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -2981,12 +2541,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        20,
-        230,
-        4030,
-        90
-      ]
+      "weaponList": [20, 230, 4030, 90]
     },
     "waves": [
       {
@@ -3019,12 +2574,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        0,
-        300,
-        4030,
-        90
-      ]
+      "weaponList": [0, 300, 4030, 90]
     },
     "waves": [
       {
@@ -3052,12 +2602,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        5020,
-        400,
-        4040,
-        90
-      ]
+      "weaponList": [5020, 400, 4040, 90]
     },
     "waves": [
       {
@@ -3085,12 +2630,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -3118,12 +2658,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        10,
-        6020,
-        3020,
-        2000
-      ]
+      "weaponList": [10, 6020, 3020, 2000]
     },
     "waves": [
       {
@@ -3151,12 +2686,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        3010,
-        40,
-        220,
-        80
-      ]
+      "weaponList": [3010, 40, 220, 80]
     },
     "waves": [
       {
@@ -3184,12 +2714,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        0,
-        200,
-        8000,
-        2070
-      ]
+      "weaponList": [0, 200, 8000, 2070]
     },
     "waves": [
       {
@@ -3217,12 +2742,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        5020,
-        400,
-        4040,
-        90
-      ]
+      "weaponList": [5020, 400, 4040, 90]
     },
     "waves": [
       {
@@ -3250,12 +2770,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        40,
-        5020,
-        2000,
-        -1
-      ]
+      "weaponList": [40, 5020, 2000, -1]
     },
     "waves": [
       {
@@ -3283,12 +2798,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -3316,12 +2826,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        1000,
-        200,
-        400,
-        7010
-      ]
+      "weaponList": [1000, 200, 400, 7010]
     },
     "waves": [
       {
@@ -3349,12 +2854,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -3382,12 +2882,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        50,
-        210,
-        90,
-        4010
-      ]
+      "weaponList": [50, 210, 90, 4010]
     },
     "waves": [
       {
@@ -3415,12 +2910,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -3453,12 +2943,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        40,
-        2010,
-        210,
-        1010
-      ]
+      "weaponList": [40, 2010, 210, 1010]
     },
     "waves": [
       {
@@ -3486,12 +2971,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        5020,
-        400,
-        4040,
-        90
-      ]
+      "weaponList": [5020, 400, 4040, 90]
     },
     "waves": [
       {
@@ -3519,12 +2999,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        30,
-        5040,
-        220,
-        2000
-      ]
+      "weaponList": [30, 5040, 220, 2000]
     },
     "waves": [
       {
@@ -3552,12 +3027,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        0,
-        1000,
-        240,
-        4020
-      ]
+      "weaponList": [0, 1000, 240, 4020]
     },
     "waves": [
       {
@@ -3585,12 +3055,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        40,
-        5020,
-        2000,
-        -1
-      ]
+      "weaponList": [40, 5020, 2000, -1]
     },
     "waves": [
       {
@@ -3618,12 +3083,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        5020,
-        400,
-        4040,
-        90
-      ]
+      "weaponList": [5020, 400, 4040, 90]
     },
     "waves": [
       {
@@ -3651,12 +3111,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -3684,12 +3139,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        3010,
-        40,
-        220,
-        80
-      ]
+      "weaponList": [3010, 40, 220, 80]
     },
     "waves": [
       {
@@ -3717,12 +3167,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        5010,
-        100,
-        4040,
-        240
-      ]
+      "weaponList": [5010, 100, 4040, 240]
     },
     "waves": [
       {
@@ -3755,12 +3200,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        20,
-        5040,
-        4030,
-        250
-      ]
+      "weaponList": [20, 5040, 4030, 250]
     },
     "waves": [
       {
@@ -3793,12 +3233,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        80,
-        3030,
-        8000,
-        0
-      ]
+      "weaponList": [80, 3030, 8000, 0]
     },
     "waves": [
       {
@@ -3826,12 +3261,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        50,
-        8000,
-        1010,
-        2060
-      ]
+      "weaponList": [50, 8000, 1010, 2060]
     },
     "waves": [
       {
@@ -3864,12 +3294,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -3897,12 +3322,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        5010,
-        100,
-        4040,
-        240
-      ]
+      "weaponList": [5010, 100, 4040, 240]
     },
     "waves": [
       {
@@ -3935,12 +3355,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        1100,
-        5000,
-        10,
-        80
-      ]
+      "weaponList": [1100, 5000, 10, 80]
     },
     "waves": [
       {
@@ -3968,12 +3383,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        210,
-        1010,
-        2010,
-        40
-      ]
+      "weaponList": [210, 1010, 2010, 40]
     },
     "waves": [
       {
@@ -4001,12 +3411,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -4039,12 +3444,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        5020,
-        400,
-        4040,
-        90
-      ]
+      "weaponList": [5020, 400, 4040, 90]
     },
     "waves": [
       {
@@ -4077,12 +3477,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -4110,12 +3505,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        100,
-        210,
-        6000,
-        90
-      ]
+      "weaponList": [100, 210, 6000, 90]
     },
     "waves": [
       {
@@ -4148,12 +3538,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        8000,
-        4030,
-        40,
-        2000
-      ]
+      "weaponList": [8000, 4030, 40, 2000]
     },
     "waves": [
       {
@@ -4181,12 +3566,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        5020,
-        400,
-        4040,
-        90
-      ]
+      "weaponList": [5020, 400, 4040, 90]
     },
     "waves": [
       {
@@ -4214,12 +3594,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        0,
-        200,
-        8000,
-        2070
-      ]
+      "weaponList": [0, 200, 8000, 2070]
     },
     "waves": [
       {
@@ -4247,12 +3622,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        5010,
-        8000,
-        70,
-        4020
-      ]
+      "weaponList": [5010, 8000, 70, 4020]
     },
     "waves": [
       {
@@ -4285,12 +3655,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        0,
-        200,
-        8000,
-        2070
-      ]
+      "weaponList": [0, 200, 8000, 2070]
     },
     "waves": [
       {
@@ -4323,12 +3688,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        210,
-        40,
-        1010,
-        2010
-      ]
+      "weaponList": [210, 40, 1010, 2010]
     },
     "waves": [
       {
@@ -4356,12 +3716,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        30,
-        70,
-        3030,
-        250
-      ]
+      "weaponList": [30, 70, 3030, 250]
     },
     "waves": [
       {
@@ -4394,12 +3749,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -4427,12 +3777,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -4460,12 +3805,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        5020,
-        400,
-        4040,
-        90
-      ]
+      "weaponList": [5020, 400, 4040, 90]
     },
     "waves": [
       {
@@ -4493,12 +3833,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        40,
-        5020,
-        2000,
-        -1
-      ]
+      "weaponList": [40, 5020, 2000, -1]
     },
     "waves": [
       {
@@ -4531,12 +3866,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        0,
-        1000,
-        240,
-        4020
-      ]
+      "weaponList": [0, 1000, 240, 4020]
     },
     "waves": [
       {
@@ -4569,12 +3899,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -4602,12 +3927,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -4635,12 +3955,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        5020,
-        400,
-        4040,
-        90
-      ]
+      "weaponList": [5020, 400, 4040, 90]
     },
     "waves": [
       {
@@ -4668,12 +3983,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -4701,12 +4011,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        5010,
-        4000,
-        310,
-        2070
-      ]
+      "weaponList": [5010, 4000, 310, 2070]
     },
     "waves": [
       {
@@ -4734,12 +4039,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        3010,
-        100,
-        1020,
-        80
-      ]
+      "weaponList": [3010, 100, 1020, 80]
     },
     "waves": [
       {
@@ -4767,12 +4067,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -4800,12 +4095,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        3010,
-        100,
-        3040,
-        240
-      ]
+      "weaponList": [3010, 100, 3040, 240]
     },
     "waves": [
       {
@@ -4833,12 +4123,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -4866,12 +4151,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        0,
-        400,
-        3030,
-        7010
-      ]
+      "weaponList": [0, 400, 3030, 7010]
     },
     "waves": [
       {
@@ -4899,12 +4179,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -4932,12 +4207,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        6020,
-        5030,
-        1040,
-        2050
-      ]
+      "weaponList": [6020, 5030, 1040, 2050]
     },
     "waves": [
       {
@@ -4965,12 +4235,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        3010,
-        100,
-        3040,
-        240
-      ]
+      "weaponList": [3010, 100, 3040, 240]
     },
     "waves": [
       {
@@ -4998,12 +4263,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -5031,12 +4291,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        7020,
-        8000,
-        3030,
-        2060
-      ]
+      "weaponList": [7020, 8000, 3030, 2060]
     },
     "waves": [
       {
@@ -5064,12 +4319,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        40,
-        1010,
-        210,
-        2010
-      ]
+      "weaponList": [40, 1010, 210, 2010]
     },
     "waves": [
       {
@@ -5097,12 +4347,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -5130,12 +4375,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -5163,12 +4403,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        30,
-        1010,
-        310,
-        80
-      ]
+      "weaponList": [30, 1010, 310, 80]
     },
     "waves": [
       {
@@ -5196,12 +4431,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -5229,12 +4459,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        0,
-        1000,
-        240,
-        4020
-      ]
+      "weaponList": [0, 1000, 240, 4020]
     },
     "waves": [
       {
@@ -5262,12 +4487,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        20,
-        5040,
-        4030,
-        250
-      ]
+      "weaponList": [20, 5040, 4030, 250]
     },
     "waves": [
       {
@@ -5295,12 +4515,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -5333,12 +4548,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        0,
-        1000,
-        240,
-        4020
-      ]
+      "weaponList": [0, 1000, 240, 4020]
     },
     "waves": [
       {
@@ -5366,12 +4576,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -5399,12 +4604,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        5000,
-        8010,
-        310,
-        4020
-      ]
+      "weaponList": [5000, 8010, 310, 4020]
     },
     "waves": [
       {
@@ -5432,12 +4632,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        210,
-        3020,
-        3030,
-        4010
-      ]
+      "weaponList": [210, 3020, 3030, 4010]
     },
     "waves": [
       {
@@ -5470,12 +4665,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        1010,
-        210,
-        40,
-        2010
-      ]
+      "weaponList": [1010, 210, 40, 2010]
     },
     "waves": [
       {
@@ -5503,12 +4693,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        20,
-        5040,
-        4030,
-        250
-      ]
+      "weaponList": [20, 5040, 4030, 250]
     },
     "waves": [
       {
@@ -5536,12 +4721,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        10,
-        60,
-        4000,
-        2000
-      ]
+      "weaponList": [10, 60, 4000, 2000]
     },
     "waves": [
       {
@@ -5574,12 +4754,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -5612,12 +4787,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -5650,12 +4820,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -5683,12 +4848,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -5716,12 +4876,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -5749,12 +4904,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -5787,12 +4937,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": -1,
-      "weaponList": [
-        300,
-        22900,
-        10,
-        250
-      ]
+      "weaponList": [300, 22900, 10, 250]
     },
     "waves": [
       {
@@ -5820,12 +4965,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        40,
-        2010,
-        1010,
-        210
-      ]
+      "weaponList": [40, 2010, 1010, 210]
     },
     "waves": [
       {
@@ -5853,12 +4993,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        3010,
-        40,
-        220,
-        80
-      ]
+      "weaponList": [3010, 40, 220, 80]
     },
     "waves": [
       {
@@ -5886,12 +5021,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        3010,
-        100,
-        3040,
-        240
-      ]
+      "weaponList": [3010, 100, 3040, 240]
     },
     "waves": [
       {
@@ -5924,12 +5054,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        1010,
-        210,
-        40,
-        2010
-      ]
+      "weaponList": [1010, 210, 40, 2010]
     },
     "waves": [
       {
@@ -5957,12 +5082,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        1010,
-        2010,
-        40,
-        210
-      ]
+      "weaponList": [1010, 2010, 40, 210]
     },
     "waves": [
       {
@@ -5990,12 +5110,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        200,
-        40,
-        1030,
-        2010
-      ]
+      "weaponList": [200, 40, 1030, 2010]
     },
     "waves": [
       {
@@ -6028,12 +5143,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        210,
-        3020,
-        3030,
-        4010
-      ]
+      "weaponList": [210, 3020, 3030, 4010]
     },
     "waves": [
       {
@@ -6061,12 +5171,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        3010,
-        100,
-        3040,
-        240
-      ]
+      "weaponList": [3010, 100, 3040, 240]
     },
     "waves": [
       {
@@ -6099,12 +5204,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -6132,12 +5232,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        10,
-        70,
-        220,
-        2030
-      ]
+      "weaponList": [10, 70, 220, 2030]
     },
     "waves": [
       {
@@ -6165,12 +5260,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        1010,
-        40,
-        2010,
-        210
-      ]
+      "weaponList": [1010, 40, 2010, 210]
     },
     "waves": [
       {
@@ -6198,12 +5288,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -6231,12 +5316,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        3010,
-        100,
-        1020,
-        80
-      ]
+      "weaponList": [3010, 100, 1020, 80]
     },
     "waves": [
       {
@@ -6264,12 +5344,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        5020,
-        400,
-        4040,
-        90
-      ]
+      "weaponList": [5020, 400, 4040, 90]
     },
     "waves": [
       {
@@ -6297,12 +5372,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        5000,
-        300,
-        1020,
-        7010
-      ]
+      "weaponList": [5000, 300, 1020, 7010]
     },
     "waves": [
       {
@@ -6330,12 +5400,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        3010,
-        100,
-        1020,
-        80
-      ]
+      "weaponList": [3010, 100, 1020, 80]
     },
     "waves": [
       {
@@ -6368,12 +5433,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        20,
-        5040,
-        4030,
-        250
-      ]
+      "weaponList": [20, 5040, 4030, 250]
     },
     "waves": [
       {
@@ -6401,12 +5461,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        2010,
-        1010,
-        40,
-        210
-      ]
+      "weaponList": [2010, 1010, 40, 210]
     },
     "waves": [
       {
@@ -6434,12 +5489,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        6020,
-        1030,
-        3030,
-        240
-      ]
+      "weaponList": [6020, 1030, 3030, 240]
     },
     "waves": [
       {
@@ -6467,12 +5517,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -6500,12 +5545,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        0,
-        300,
-        4030,
-        90
-      ]
+      "weaponList": [0, 300, 4030, 90]
     },
     "waves": [
       {
@@ -6533,12 +5573,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        1010,
-        210,
-        40,
-        2010
-      ]
+      "weaponList": [1010, 210, 40, 2010]
     },
     "waves": [
       {
@@ -6566,12 +5601,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        40,
-        5020,
-        2000,
-        -1
-      ]
+      "weaponList": [40, 5020, 2000, -1]
     },
     "waves": [
       {
@@ -6604,12 +5634,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        7020,
-        30,
-        1030,
-        4010
-      ]
+      "weaponList": [7020, 30, 1030, 4010]
     },
     "waves": [
       {
@@ -6642,12 +5667,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        5020,
-        400,
-        4040,
-        90
-      ]
+      "weaponList": [5020, 400, 4040, 90]
     },
     "waves": [
       {
@@ -6675,12 +5695,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -6713,12 +5728,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        1010,
-        40,
-        210,
-        2010
-      ]
+      "weaponList": [1010, 40, 210, 2010]
     },
     "waves": [
       {
@@ -6746,12 +5756,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        210,
-        2010,
-        1010,
-        40
-      ]
+      "weaponList": [210, 2010, 1010, 40]
     },
     "waves": [
       {
@@ -6779,12 +5784,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -6812,12 +5812,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        1010,
-        2010,
-        210,
-        40
-      ]
+      "weaponList": [1010, 2010, 210, 40]
     },
     "waves": [
       {
@@ -6845,12 +5840,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        20,
-        5040,
-        4030,
-        250
-      ]
+      "weaponList": [20, 5040, 4030, 250]
     },
     "waves": [
       {
@@ -6878,12 +5868,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        5010,
-        8000,
-        70,
-        4020
-      ]
+      "weaponList": [5010, 8000, 70, 4020]
     },
     "waves": [
       {
@@ -6911,12 +5896,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -6944,12 +5924,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -6977,12 +5952,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        50,
-        1040,
-        5030,
-        2060
-      ]
+      "weaponList": [50, 1040, 5030, 2060]
     },
     "waves": [
       {
@@ -7015,12 +5985,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        210,
-        40,
-        1010,
-        2010
-      ]
+      "weaponList": [210, 40, 1010, 2010]
     },
     "waves": [
       {
@@ -7048,12 +6013,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        40,
-        5020,
-        2000,
-        -1
-      ]
+      "weaponList": [40, 5020, 2000, -1]
     },
     "waves": [
       {
@@ -7086,12 +6046,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -7119,12 +6074,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        5000,
-        5040,
-        240,
-        2030
-      ]
+      "weaponList": [5000, 5040, 240, 2030]
     },
     "waves": [
       {
@@ -7152,12 +6102,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -7190,12 +6135,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -7228,12 +6168,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -7261,12 +6196,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -7294,12 +6224,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        0,
-        200,
-        8000,
-        2070
-      ]
+      "weaponList": [0, 200, 8000, 2070]
     },
     "waves": [
       {
@@ -7332,12 +6257,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        2010,
-        1010,
-        40,
-        210
-      ]
+      "weaponList": [2010, 1010, 40, 210]
     },
     "waves": [
       {
@@ -7365,12 +6285,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        0,
-        300,
-        4030,
-        90
-      ]
+      "weaponList": [0, 300, 4030, 90]
     },
     "waves": [
       {
@@ -7398,12 +6313,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        5010,
-        8000,
-        70,
-        4020
-      ]
+      "weaponList": [5010, 8000, 70, 4020]
     },
     "waves": [
       {
@@ -7431,12 +6341,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        210,
-        2010,
-        1010,
-        40
-      ]
+      "weaponList": [210, 2010, 1010, 40]
     },
     "waves": [
       {
@@ -7464,12 +6369,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -7502,12 +6402,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -7540,12 +6435,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        100,
-        210,
-        6000,
-        90
-      ]
+      "weaponList": [100, 210, 6000, 90]
     },
     "waves": [
       {
@@ -7573,12 +6463,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        0,
-        200,
-        8000,
-        2070
-      ]
+      "weaponList": [0, 200, 8000, 2070]
     },
     "waves": [
       {
@@ -7606,12 +6491,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -7639,12 +6519,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        0,
-        200,
-        8000,
-        2070
-      ]
+      "weaponList": [0, 200, 8000, 2070]
     },
     "waves": [
       {
@@ -7677,12 +6552,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        40,
-        5020,
-        2000,
-        -1
-      ]
+      "weaponList": [40, 5020, 2000, -1]
     },
     "waves": [
       {
@@ -7710,12 +6580,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        0,
-        200,
-        8000,
-        2070
-      ]
+      "weaponList": [0, 200, 8000, 2070]
     },
     "waves": [
       {
@@ -7743,12 +6608,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        5000,
-        300,
-        1020,
-        7010
-      ]
+      "weaponList": [5000, 300, 1020, 7010]
     },
     "waves": [
       {
@@ -7776,12 +6636,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -7809,12 +6664,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -7842,12 +6692,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        0,
-        200,
-        8000,
-        2070
-      ]
+      "weaponList": [0, 200, 8000, 2070]
     },
     "waves": [
       {
@@ -7880,12 +6725,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        2010,
-        40,
-        210,
-        1010
-      ]
+      "weaponList": [2010, 40, 210, 1010]
     },
     "waves": [
       {
@@ -7913,12 +6753,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -7951,12 +6786,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        30,
-        5040,
-        220,
-        2000
-      ]
+      "weaponList": [30, 5040, 220, 2000]
     },
     "waves": [
       {
@@ -7984,12 +6814,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        5000,
-        300,
-        1020,
-        7010
-      ]
+      "weaponList": [5000, 300, 1020, 7010]
     },
     "waves": [
       {
@@ -8017,12 +6842,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -8055,12 +6875,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        100,
-        210,
-        6000,
-        90
-      ]
+      "weaponList": [100, 210, 6000, 90]
     },
     "waves": [
       {
@@ -8088,12 +6903,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        30,
-        6000,
-        310,
-        3040
-      ]
+      "weaponList": [30, 6000, 310, 3040]
     },
     "waves": [
       {
@@ -8126,12 +6936,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        20,
-        5040,
-        4030,
-        250
-      ]
+      "weaponList": [20, 5040, 4030, 250]
     },
     "waves": [
       {
@@ -8164,12 +6969,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        2010,
-        40,
-        210,
-        1010
-      ]
+      "weaponList": [2010, 40, 210, 1010]
     },
     "waves": [
       {
@@ -8197,12 +6997,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -8235,12 +7030,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        40,
-        5020,
-        2000,
-        -1
-      ]
+      "weaponList": [40, 5020, 2000, -1]
     },
     "waves": [
       {
@@ -8268,12 +7058,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        5010,
-        8000,
-        70,
-        4020
-      ]
+      "weaponList": [5010, 8000, 70, 4020]
     },
     "waves": [
       {
@@ -8301,12 +7086,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        30,
-        1010,
-        310,
-        80
-      ]
+      "weaponList": [30, 1010, 310, 80]
     },
     "waves": [
       {
@@ -8339,12 +7119,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        200,
-        10,
-        6000,
-        2000
-      ]
+      "weaponList": [200, 10, 6000, 2000]
     },
     "waves": [
       {
@@ -8372,12 +7147,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        1010,
-        210,
-        2010,
-        40
-      ]
+      "weaponList": [1010, 210, 2010, 40]
     },
     "waves": [
       {
@@ -8405,12 +7175,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        7020,
-        8000,
-        3030,
-        2060
-      ]
+      "weaponList": [7020, 8000, 3030, 2060]
     },
     "waves": [
       {
@@ -8438,12 +7203,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -8476,12 +7236,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        230,
-        50,
-        1030,
-        4010
-      ]
+      "weaponList": [230, 50, 1030, 4010]
     },
     "waves": [
       {
@@ -8514,12 +7269,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        210,
-        2010,
-        40,
-        1010
-      ]
+      "weaponList": [210, 2010, 40, 1010]
     },
     "waves": [
       {
@@ -8547,12 +7297,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -8580,12 +7325,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        300,
-        4030,
-        70,
-        6010
-      ]
+      "weaponList": [300, 4030, 70, 6010]
     },
     "waves": [
       {
@@ -8613,12 +7353,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        40,
-        5020,
-        -1,
-        2000
-      ]
+      "weaponList": [40, 5020, -1, 2000]
     },
     "waves": [
       {
@@ -8646,12 +7381,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        30,
-        70,
-        3030,
-        250
-      ]
+      "weaponList": [30, 70, 3030, 250]
     },
     "waves": [
       {
@@ -8684,12 +7414,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        50,
-        210,
-        90,
-        4010
-      ]
+      "weaponList": [50, 210, 90, 4010]
     },
     "waves": [
       {
@@ -8717,12 +7442,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        3000,
-        5040,
-        4040,
-        90
-      ]
+      "weaponList": [3000, 5040, 4040, 90]
     },
     "waves": [
       {
@@ -8750,12 +7470,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        3010,
-        100,
-        3040,
-        240
-      ]
+      "weaponList": [3010, 100, 3040, 240]
     },
     "waves": [
       {
@@ -8783,12 +7498,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -8821,12 +7531,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -8854,12 +7559,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        20,
-        3030,
-        3040,
-        80
-      ]
+      "weaponList": [20, 3030, 3040, 80]
     },
     "waves": [
       {
@@ -8892,12 +7592,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -8925,12 +7620,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -8958,12 +7648,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        1000,
-        200,
-        400,
-        7010
-      ]
+      "weaponList": [1000, 200, 400, 7010]
     },
     "waves": [
       {
@@ -8996,12 +7681,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        40,
-        210,
-        2010,
-        1010
-      ]
+      "weaponList": [40, 210, 2010, 1010]
     },
     "waves": [
       {
@@ -9029,12 +7709,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -9062,12 +7737,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        3020,
-        1040,
-        6000,
-        2010
-      ]
+      "weaponList": [3020, 1040, 6000, 2010]
     },
     "waves": [
       {
@@ -9095,12 +7765,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -9133,12 +7798,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        40,
-        5020,
-        2000,
-        -1
-      ]
+      "weaponList": [40, 5020, 2000, -1]
     },
     "waves": [
       {
@@ -9171,12 +7831,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        3010,
-        40,
-        1020,
-        7010
-      ]
+      "weaponList": [3010, 40, 1020, 7010]
     },
     "waves": [
       {
@@ -9204,12 +7859,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        1100,
-        6000,
-        3040,
-        7010
-      ]
+      "weaponList": [1100, 6000, 3040, 7010]
     },
     "waves": [
       {
@@ -9237,12 +7887,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        1010,
-        210,
-        40,
-        2010
-      ]
+      "weaponList": [1010, 210, 40, 2010]
     },
     "waves": [
       {
@@ -9270,12 +7915,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -9308,12 +7948,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        3010,
-        100,
-        3040,
-        240
-      ]
+      "weaponList": [3010, 100, 3040, 240]
     },
     "waves": [
       {
@@ -9341,12 +7976,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -9374,12 +8004,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        60,
-        1110,
-        220,
-        2070
-      ]
+      "weaponList": [60, 1110, 220, 2070]
     },
     "waves": [
       {
@@ -9407,12 +8032,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -9440,12 +8060,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        3010,
-        100,
-        1020,
-        80
-      ]
+      "weaponList": [3010, 100, 1020, 80]
     },
     "waves": [
       {
@@ -9473,12 +8088,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -9511,12 +8121,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -9549,12 +8154,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        1010,
-        210,
-        40,
-        2010
-      ]
+      "weaponList": [1010, 210, 40, 2010]
     },
     "waves": [
       {
@@ -9582,12 +8182,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -9620,12 +8215,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        1100,
-        5000,
-        10,
-        80
-      ]
+      "weaponList": [1100, 5000, 10, 80]
     },
     "waves": [
       {
@@ -9653,12 +8243,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -9691,12 +8276,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        2010,
-        210,
-        1010,
-        40
-      ]
+      "weaponList": [2010, 210, 1010, 40]
     },
     "waves": [
       {
@@ -9724,12 +8304,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -9757,12 +8332,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        1010,
-        2010,
-        40,
-        210
-      ]
+      "weaponList": [1010, 2010, 40, 210]
     },
     "waves": [
       {
@@ -9790,12 +8360,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        5010,
-        100,
-        4040,
-        240
-      ]
+      "weaponList": [5010, 100, 4040, 240]
     },
     "waves": [
       {
@@ -9828,12 +8393,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        0,
-        200,
-        8000,
-        2070
-      ]
+      "weaponList": [0, 200, 8000, 2070]
     },
     "waves": [
       {
@@ -9861,12 +8421,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        1100,
-        5000,
-        10,
-        80
-      ]
+      "weaponList": [1100, 5000, 10, 80]
     },
     "waves": [
       {
@@ -9894,12 +8449,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        5010,
-        8000,
-        70,
-        4020
-      ]
+      "weaponList": [5010, 8000, 70, 4020]
     },
     "waves": [
       {
@@ -9932,12 +8482,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        50,
-        1110,
-        310,
-        80
-      ]
+      "weaponList": [50, 1110, 310, 80]
     },
     "waves": [
       {
@@ -9965,12 +8510,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -9998,12 +8538,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -10036,12 +8571,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -10074,12 +8604,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        0,
-        300,
-        4030,
-        90
-      ]
+      "weaponList": [0, 300, 4030, 90]
     },
     "waves": [
       {
@@ -10107,12 +8632,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        20,
-        230,
-        4030,
-        90
-      ]
+      "weaponList": [20, 230, 4030, 90]
     },
     "waves": [
       {
@@ -10140,12 +8660,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        1000,
-        5010,
-        310,
-        90
-      ]
+      "weaponList": [1000, 5010, 310, 90]
     },
     "waves": [
       {
@@ -10173,12 +8688,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        40,
-        5020,
-        2000,
-        -1
-      ]
+      "weaponList": [40, 5020, 2000, -1]
     },
     "waves": [
       {
@@ -10206,12 +8716,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        50,
-        210,
-        90,
-        4010
-      ]
+      "weaponList": [50, 210, 90, 4010]
     },
     "waves": [
       {
@@ -10239,12 +8744,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        5010,
-        8000,
-        70,
-        4020
-      ]
+      "weaponList": [5010, 8000, 70, 4020]
     },
     "waves": [
       {
@@ -10272,12 +8772,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        10,
-        4000,
-        1110,
-        250
-      ]
+      "weaponList": [10, 4000, 1110, 250]
     },
     "waves": [
       {
@@ -10305,12 +8800,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -10338,12 +8828,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        1000,
-        200,
-        400,
-        7010
-      ]
+      "weaponList": [1000, 200, 400, 7010]
     },
     "waves": [
       {
@@ -10376,12 +8861,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -10414,12 +8894,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        0,
-        300,
-        4030,
-        90
-      ]
+      "weaponList": [0, 300, 4030, 90]
     },
     "waves": [
       {
@@ -10447,12 +8922,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -10480,12 +8950,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        0,
-        200,
-        8000,
-        2070
-      ]
+      "weaponList": [0, 200, 8000, 2070]
     },
     "waves": [
       {
@@ -10513,12 +8978,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        210,
-        1010,
-        2010,
-        40
-      ]
+      "weaponList": [210, 1010, 2010, 40]
     },
     "waves": [
       {
@@ -10546,12 +9006,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        1010,
-        2010,
-        210,
-        40
-      ]
+      "weaponList": [1010, 2010, 210, 40]
     },
     "waves": [
       {
@@ -10579,12 +9034,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        50,
-        1110,
-        310,
-        80
-      ]
+      "weaponList": [50, 1110, 310, 80]
     },
     "waves": [
       {
@@ -10612,12 +9062,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -10645,12 +9090,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        1010,
-        220,
-        40,
-        2010
-      ]
+      "weaponList": [1010, 220, 40, 2010]
     },
     "waves": [
       {
@@ -10678,12 +9118,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        40,
-        210,
-        1010,
-        2010
-      ]
+      "weaponList": [40, 210, 1010, 2010]
     },
     "waves": [
       {
@@ -10711,12 +9146,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -10744,12 +9174,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        5010,
-        100,
-        4040,
-        240
-      ]
+      "weaponList": [5010, 100, 4040, 240]
     },
     "waves": [
       {
@@ -10782,12 +9207,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        210,
-        3020,
-        3030,
-        4010
-      ]
+      "weaponList": [210, 3020, 3030, 4010]
     },
     "waves": [
       {
@@ -10815,12 +9235,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -10848,12 +9263,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        0,
-        400,
-        3030,
-        7010
-      ]
+      "weaponList": [0, 400, 3030, 7010]
     },
     "waves": [
       {
@@ -10886,12 +9296,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -10924,12 +9329,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -10957,12 +9357,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        1000,
-        8010,
-        2030,
-        20
-      ]
+      "weaponList": [1000, 8010, 2030, 20]
     },
     "waves": [
       {
@@ -10990,12 +9385,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        40,
-        2010,
-        1010,
-        210
-      ]
+      "weaponList": [40, 2010, 1010, 210]
     },
     "waves": [
       {
@@ -11023,12 +9413,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        0,
-        200,
-        8000,
-        2070
-      ]
+      "weaponList": [0, 200, 8000, 2070]
     },
     "waves": [
       {
@@ -11056,12 +9441,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -11094,12 +9474,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        3010,
-        40,
-        220,
-        80
-      ]
+      "weaponList": [3010, 40, 220, 80]
     },
     "waves": [
       {
@@ -11132,12 +9507,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        200,
-        40,
-        1030,
-        2010
-      ]
+      "weaponList": [200, 40, 1030, 2010]
     },
     "waves": [
       {
@@ -11170,12 +9540,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        200,
-        40,
-        1030,
-        2010
-      ]
+      "weaponList": [200, 40, 1030, 2010]
     },
     "waves": [
       {
@@ -11208,12 +9573,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        5010,
-        300,
-        400,
-        2010
-      ]
+      "weaponList": [5010, 300, 400, 2010]
     },
     "waves": [
       {
@@ -11241,12 +9601,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        3010,
-        100,
-        1020,
-        80
-      ]
+      "weaponList": [3010, 100, 1020, 80]
     },
     "waves": [
       {
@@ -11279,12 +9634,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": -1,
-      "weaponList": [
-        90,
-        2060,
-        7020,
-        4020
-      ]
+      "weaponList": [90, 2060, 7020, 4020]
     },
     "waves": [
       {
@@ -11317,12 +9667,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -11350,12 +9695,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        0,
-        40,
-        3000,
-        2050
-      ]
+      "weaponList": [0, 40, 3000, 2050]
     },
     "waves": [
       {
@@ -11383,12 +9723,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        20,
-        230,
-        4030,
-        90
-      ]
+      "weaponList": [20, 230, 4030, 90]
     },
     "waves": [
       {
@@ -11421,12 +9756,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        0,
-        400,
-        3030,
-        7010
-      ]
+      "weaponList": [0, 400, 3030, 7010]
     },
     "waves": [
       {
@@ -11459,12 +9789,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -11497,12 +9822,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        1100,
-        5000,
-        10,
-        80
-      ]
+      "weaponList": [1100, 5000, 10, 80]
     },
     "waves": [
       {
@@ -11530,12 +9850,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -11563,12 +9878,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -11596,12 +9906,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        40,
-        210,
-        1010,
-        2010
-      ]
+      "weaponList": [40, 210, 1010, 2010]
     },
     "waves": [
       {
@@ -11629,12 +9934,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        1000,
-        5010,
-        310,
-        90
-      ]
+      "weaponList": [1000, 5010, 310, 90]
     },
     "waves": [
       {
@@ -11662,12 +9962,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -11700,12 +9995,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -11733,12 +10023,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -11766,12 +10051,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        3010,
-        40,
-        220,
-        80
-      ]
+      "weaponList": [3010, 40, 220, 80]
     },
     "waves": [
       {
@@ -11799,12 +10079,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        5010,
-        8000,
-        70,
-        4020
-      ]
+      "weaponList": [5010, 8000, 70, 4020]
     },
     "waves": [
       {
@@ -11837,12 +10112,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        1000,
-        5010,
-        310,
-        90
-      ]
+      "weaponList": [1000, 5010, 310, 90]
     },
     "waves": [
       {
@@ -11870,12 +10140,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        1100,
-        6000,
-        3040,
-        7010
-      ]
+      "weaponList": [1100, 6000, 3040, 7010]
     },
     "waves": [
       {
@@ -11903,12 +10168,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        40,
-        5020,
-        2000,
-        -1
-      ]
+      "weaponList": [40, 5020, 2000, -1]
     },
     "waves": [
       {
@@ -11936,12 +10196,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        3010,
-        100,
-        1020,
-        80
-      ]
+      "weaponList": [3010, 100, 1020, 80]
     },
     "waves": [
       {
@@ -11969,12 +10224,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -12002,12 +10252,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        40,
-        1010,
-        210,
-        2010
-      ]
+      "weaponList": [40, 1010, 210, 2010]
     },
     "waves": [
       {
@@ -12035,12 +10280,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -12073,12 +10313,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        5020,
-        400,
-        4040,
-        90
-      ]
+      "weaponList": [5020, 400, 4040, 90]
     },
     "waves": [
       {
@@ -12106,12 +10341,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        40,
-        1010,
-        2010,
-        210
-      ]
+      "weaponList": [40, 1010, 2010, 210]
     },
     "waves": [
       {
@@ -12139,12 +10369,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        1000,
-        5030,
-        250,
-        2010
-      ]
+      "weaponList": [1000, 5030, 250, 2010]
     },
     "waves": [
       {
@@ -12177,12 +10402,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -12210,12 +10430,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        40,
-        5020,
-        2000,
-        -1
-      ]
+      "weaponList": [40, 5020, 2000, -1]
     },
     "waves": [
       {
@@ -12243,12 +10458,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        0,
-        200,
-        8000,
-        2070
-      ]
+      "weaponList": [0, 200, 8000, 2070]
     },
     "waves": [
       {
@@ -12276,12 +10486,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -12314,12 +10519,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        5000,
-        230,
-        4040,
-        90
-      ]
+      "weaponList": [5000, 230, 4040, 90]
     },
     "waves": [
       {
@@ -12352,12 +10552,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        0,
-        3030,
-        -1
-      ]
+      "weaponList": [-1, 0, 3030, -1]
     },
     "waves": [
       {
@@ -12385,12 +10580,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        210,
-        3020,
-        3030,
-        4010
-      ]
+      "weaponList": [210, 3020, 3030, 4010]
     },
     "waves": [
       {
@@ -12423,12 +10613,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        200,
-        10,
-        6000,
-        2000
-      ]
+      "weaponList": [200, 10, 6000, 2000]
     },
     "waves": [
       {
@@ -12456,12 +10641,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        1000,
-        5010,
-        310,
-        90
-      ]
+      "weaponList": [1000, 5010, 310, 90]
     },
     "waves": [
       {
@@ -12494,12 +10674,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -12532,12 +10707,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        3010,
-        100,
-        3040,
-        240
-      ]
+      "weaponList": [3010, 100, 3040, 240]
     },
     "waves": [
       {
@@ -12565,12 +10735,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        1010,
-        2010,
-        210,
-        40
-      ]
+      "weaponList": [1010, 2010, 210, 40]
     },
     "waves": [
       {
@@ -12598,12 +10763,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -12636,12 +10796,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        0,
-        300,
-        4030,
-        90
-      ]
+      "weaponList": [0, 300, 4030, 90]
     },
     "waves": [
       {
@@ -12674,12 +10829,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        3010,
-        100,
-        1020,
-        80
-      ]
+      "weaponList": [3010, 100, 1020, 80]
     },
     "waves": [
       {
@@ -12707,12 +10857,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -12745,12 +10890,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        1100,
-        6000,
-        3040,
-        7010
-      ]
+      "weaponList": [1100, 6000, 3040, 7010]
     },
     "waves": [
       {
@@ -12778,12 +10918,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        3010,
-        40,
-        220,
-        80
-      ]
+      "weaponList": [3010, 40, 220, 80]
     },
     "waves": [
       {
@@ -12811,12 +10946,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -12844,12 +10974,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -12882,12 +11007,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        210,
-        3020,
-        3030,
-        4010
-      ]
+      "weaponList": [210, 3020, 3030, 4010]
     },
     "waves": [
       {
@@ -12920,12 +11040,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        0,
-        300,
-        4030,
-        90
-      ]
+      "weaponList": [0, 300, 4030, 90]
     },
     "waves": [
       {
@@ -12958,12 +11073,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -12996,12 +11106,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        10,
-        60,
-        4000,
-        2000
-      ]
+      "weaponList": [10, 60, 4000, 2000]
     },
     "waves": [
       {
@@ -13029,12 +11134,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        5010,
-        100,
-        4040,
-        240
-      ]
+      "weaponList": [5010, 100, 4040, 240]
     },
     "waves": [
       {
@@ -13062,12 +11162,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        5010,
-        8000,
-        70,
-        4020
-      ]
+      "weaponList": [5010, 8000, 70, 4020]
     },
     "waves": [
       {
@@ -13100,12 +11195,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        210,
-        2010,
-        40,
-        1010
-      ]
+      "weaponList": [210, 2010, 40, 1010]
     },
     "waves": [
       {
@@ -13133,12 +11223,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        1010,
-        2010,
-        210,
-        40
-      ]
+      "weaponList": [1010, 2010, 210, 40]
     },
     "waves": [
       {
@@ -13166,12 +11251,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        30,
-        1010,
-        310,
-        80
-      ]
+      "weaponList": [30, 1010, 310, 80]
     },
     "waves": [
       {
@@ -13199,12 +11279,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        1000,
-        5010,
-        310,
-        90
-      ]
+      "weaponList": [1000, 5010, 310, 90]
     },
     "waves": [
       {
@@ -13232,12 +11307,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -13270,12 +11340,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -13303,12 +11368,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        210,
-        3020,
-        3030,
-        4010
-      ]
+      "weaponList": [210, 3020, 3030, 4010]
     },
     "waves": [
       {
@@ -13336,12 +11396,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        0,
-        400,
-        3030,
-        7010
-      ]
+      "weaponList": [0, 400, 3030, 7010]
     },
     "waves": [
       {
@@ -13369,12 +11424,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        1000,
-        40,
-        3040,
-        2050
-      ]
+      "weaponList": [1000, 40, 3040, 2050]
     },
     "waves": [
       {
@@ -13402,12 +11452,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -13440,12 +11485,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        1000,
-        5010,
-        310,
-        90
-      ]
+      "weaponList": [1000, 5010, 310, 90]
     },
     "waves": [
       {
@@ -13478,12 +11518,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -13516,12 +11551,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        5000,
-        230,
-        4040,
-        90
-      ]
+      "weaponList": [5000, 230, 4040, 90]
     },
     "waves": [
       {
@@ -13549,12 +11579,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        5000,
-        5040,
-        240,
-        2030
-      ]
+      "weaponList": [5000, 5040, 240, 2030]
     },
     "waves": [
       {
@@ -13587,12 +11612,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -13620,12 +11640,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        40,
-        1010,
-        210,
-        2010
-      ]
+      "weaponList": [40, 1010, 210, 2010]
     },
     "waves": [
       {
@@ -13653,12 +11668,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        3010,
-        100,
-        1020,
-        80
-      ]
+      "weaponList": [3010, 100, 1020, 80]
     },
     "waves": [
       {
@@ -13686,12 +11696,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        200,
-        300,
-        400,
-        2010
-      ]
+      "weaponList": [200, 300, 400, 2010]
     },
     "waves": [
       {
@@ -13719,12 +11724,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        40,
-        2010,
-        1010,
-        210
-      ]
+      "weaponList": [40, 2010, 1010, 210]
     },
     "waves": [
       {
@@ -13752,12 +11752,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -13785,12 +11780,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        1100,
-        5000,
-        10,
-        80
-      ]
+      "weaponList": [1100, 5000, 10, 80]
     },
     "waves": [
       {
@@ -13823,12 +11813,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -13856,12 +11841,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        5000,
-        300,
-        1020,
-        7010
-      ]
+      "weaponList": [5000, 300, 1020, 7010]
     },
     "waves": [
       {
@@ -13889,12 +11869,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        5000,
-        300,
-        1020,
-        7010
-      ]
+      "weaponList": [5000, 300, 1020, 7010]
     },
     "waves": [
       {
@@ -13922,12 +11897,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        3010,
-        100,
-        3040,
-        240
-      ]
+      "weaponList": [3010, 100, 3040, 240]
     },
     "waves": [
       {
@@ -13955,12 +11925,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        5000,
-        1000,
-        70,
-        4020
-      ]
+      "weaponList": [5000, 1000, 70, 4020]
     },
     "waves": [
       {
@@ -13993,12 +11958,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        20,
-        200,
-        2060,
-        7010
-      ]
+      "weaponList": [20, 200, 2060, 7010]
     },
     "waves": [
       {
@@ -14026,12 +11986,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -14059,12 +12014,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -14092,12 +12042,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        1100,
-        5000,
-        10,
-        80
-      ]
+      "weaponList": [1100, 5000, 10, 80]
     },
     "waves": [
       {
@@ -14125,12 +12070,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        210,
-        2010,
-        1010,
-        40
-      ]
+      "weaponList": [210, 2010, 1010, 40]
     },
     "waves": [
       {
@@ -14158,12 +12098,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -14191,12 +12126,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        3010,
-        100,
-        3040,
-        240
-      ]
+      "weaponList": [3010, 100, 3040, 240]
     },
     "waves": [
       {
@@ -14224,12 +12154,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -14262,12 +12187,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        40,
-        210,
-        2010,
-        -1
-      ]
+      "weaponList": [40, 210, 2010, -1]
     },
     "waves": [
       {
@@ -14295,12 +12215,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        3010,
-        40,
-        1020,
-        7010
-      ]
+      "weaponList": [3010, 40, 1020, 7010]
     },
     "waves": [
       {
@@ -14328,12 +12243,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        1100,
-        5000,
-        10,
-        80
-      ]
+      "weaponList": [1100, 5000, 10, 80]
     },
     "waves": [
       {
@@ -14366,12 +12276,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        20,
-        230,
-        4030,
-        90
-      ]
+      "weaponList": [20, 230, 4030, 90]
     },
     "waves": [
       {
@@ -14404,12 +12309,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -14442,12 +12342,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        30,
-        70,
-        3030,
-        250
-      ]
+      "weaponList": [30, 70, 3030, 250]
     },
     "waves": [
       {
@@ -14480,12 +12375,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -14518,12 +12408,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        8000,
-        8010,
-        7010,
-        7020
-      ]
+      "weaponList": [8000, 8010, 7010, 7020]
     },
     "waves": [
       {
@@ -14551,12 +12436,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        100,
-        210,
-        6000,
-        90
-      ]
+      "weaponList": [100, 210, 6000, 90]
     },
     "waves": [
       {
@@ -14584,12 +12464,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        10,
-        70,
-        220,
-        2030
-      ]
+      "weaponList": [10, 70, 220, 2030]
     },
     "waves": [
       {
@@ -14622,12 +12497,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        3010,
-        40,
-        1020,
-        7010
-      ]
+      "weaponList": [3010, 40, 1020, 7010]
     },
     "waves": [
       {
@@ -14660,12 +12530,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -14693,12 +12558,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        0,
-        200,
-        8000,
-        2070
-      ]
+      "weaponList": [0, 200, 8000, 2070]
     },
     "waves": [
       {
@@ -14726,12 +12586,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        40,
-        5020,
-        2000,
-        -1
-      ]
+      "weaponList": [40, 5020, 2000, -1]
     },
     "waves": [
       {
@@ -14764,12 +12619,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -14802,12 +12652,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        40,
-        5020,
-        2000,
-        -1
-      ]
+      "weaponList": [40, 5020, 2000, -1]
     },
     "waves": [
       {
@@ -14835,12 +12680,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        50,
-        1110,
-        310,
-        80
-      ]
+      "weaponList": [50, 1110, 310, 80]
     },
     "waves": [
       {
@@ -14868,12 +12708,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        20,
-        3030,
-        3040,
-        80
-      ]
+      "weaponList": [20, 3030, 3040, 80]
     },
     "waves": [
       {
@@ -14901,12 +12736,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        5010,
-        300,
-        400,
-        2010
-      ]
+      "weaponList": [5010, 300, 400, 2010]
     },
     "waves": [
       {
@@ -14934,12 +12764,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        1000,
-        5010,
-        310,
-        90
-      ]
+      "weaponList": [1000, 5010, 310, 90]
     },
     "waves": [
       {
@@ -14967,12 +12792,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -15005,12 +12825,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -15043,12 +12858,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        3010,
-        100,
-        3040,
-        240
-      ]
+      "weaponList": [3010, 100, 3040, 240]
     },
     "waves": [
       {
@@ -15081,12 +12891,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        1000,
-        200,
-        400,
-        7010
-      ]
+      "weaponList": [1000, 200, 400, 7010]
     },
     "waves": [
       {
@@ -15114,12 +12919,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        5000,
-        1000,
-        70,
-        4020
-      ]
+      "weaponList": [5000, 1000, 70, 4020]
     },
     "waves": [
       {
@@ -15152,12 +12952,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        220,
-        40,
-        2010,
-        1010
-      ]
+      "weaponList": [220, 40, 2010, 1010]
     },
     "waves": [
       {
@@ -15185,12 +12980,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -15223,12 +13013,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        0,
-        200,
-        8000,
-        2070
-      ]
+      "weaponList": [0, 200, 8000, 2070]
     },
     "waves": [
       {
@@ -15256,12 +13041,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        100,
-        210,
-        6000,
-        90
-      ]
+      "weaponList": [100, 210, 6000, 90]
     },
     "waves": [
       {
@@ -15289,12 +13069,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        5010,
-        8000,
-        70,
-        4020
-      ]
+      "weaponList": [5010, 8000, 70, 4020]
     },
     "waves": [
       {
@@ -15322,12 +13097,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        10,
-        60,
-        4000,
-        2000
-      ]
+      "weaponList": [10, 60, 4000, 2000]
     },
     "waves": [
       {
@@ -15360,12 +13130,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        5000,
-        300,
-        1020,
-        7010
-      ]
+      "weaponList": [5000, 300, 1020, 7010]
     },
     "waves": [
       {
@@ -15393,12 +13158,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -15431,12 +13191,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        50,
-        210,
-        90,
-        4010
-      ]
+      "weaponList": [50, 210, 90, 4010]
     },
     "waves": [
       {
@@ -15464,12 +13219,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        0,
-        300,
-        4030,
-        90
-      ]
+      "weaponList": [0, 300, 4030, 90]
     },
     "waves": [
       {
@@ -15497,12 +13247,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -15530,12 +13275,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        1100,
-        50,
-        3040,
-        2010
-      ]
+      "weaponList": [1100, 50, 3040, 2010]
     },
     "waves": [
       {
@@ -15563,12 +13303,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        0,
-        200,
-        8000,
-        2070
-      ]
+      "weaponList": [0, 200, 8000, 2070]
     },
     "waves": [
       {
@@ -15596,12 +13331,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        20,
-        5040,
-        4030,
-        250
-      ]
+      "weaponList": [20, 5040, 4030, 250]
     },
     "waves": [
       {
@@ -15629,12 +13359,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        0,
-        400,
-        3030,
-        7010
-      ]
+      "weaponList": [0, 400, 3030, 7010]
     },
     "waves": [
       {
@@ -15662,12 +13387,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        1100,
-        5000,
-        10,
-        80
-      ]
+      "weaponList": [1100, 5000, 10, 80]
     },
     "waves": [
       {
@@ -15700,12 +13420,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        210,
-        3020,
-        3030,
-        4010
-      ]
+      "weaponList": [210, 3020, 3030, 4010]
     },
     "waves": [
       {
@@ -15733,12 +13448,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        3010,
-        40,
-        1020,
-        7010
-      ]
+      "weaponList": [3010, 40, 1020, 7010]
     },
     "waves": [
       {
@@ -15766,12 +13476,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        3010,
-        100,
-        1020,
-        80
-      ]
+      "weaponList": [3010, 100, 1020, 80]
     },
     "waves": [
       {
@@ -15799,12 +13504,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        50,
-        1110,
-        310,
-        80
-      ]
+      "weaponList": [50, 1110, 310, 80]
     },
     "waves": [
       {
@@ -15837,12 +13537,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        5010,
-        8000,
-        70,
-        4020
-      ]
+      "weaponList": [5010, 8000, 70, 4020]
     },
     "waves": [
       {
@@ -15875,12 +13570,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        1100,
-        5000,
-        10,
-        80
-      ]
+      "weaponList": [1100, 5000, 10, 80]
     },
     "waves": [
       {
@@ -15908,12 +13598,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        0,
-        400,
-        3030,
-        7010
-      ]
+      "weaponList": [0, 400, 3030, 7010]
     },
     "waves": [
       {
@@ -15946,12 +13631,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -15979,12 +13659,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        40,
-        1110,
-        240,
-        2030
-      ]
+      "weaponList": [40, 1110, 240, 2030]
     },
     "waves": [
       {
@@ -16012,12 +13687,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        2010,
-        1010,
-        40,
-        210
-      ]
+      "weaponList": [2010, 1010, 40, 210]
     },
     "waves": [
       {
@@ -16045,12 +13715,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        2010,
-        210,
-        40,
-        1010
-      ]
+      "weaponList": [2010, 210, 40, 1010]
     },
     "waves": [
       {
@@ -16078,12 +13743,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -16116,12 +13776,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        1000,
-        5010,
-        310,
-        90
-      ]
+      "weaponList": [1000, 5010, 310, 90]
     },
     "waves": [
       {
@@ -16149,12 +13804,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        2010,
-        1010,
-        210,
-        40
-      ]
+      "weaponList": [2010, 1010, 210, 40]
     },
     "waves": [
       {
@@ -16182,12 +13832,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -16215,12 +13860,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        0,
-        200,
-        8000,
-        2070
-      ]
+      "weaponList": [0, 200, 8000, 2070]
     },
     "waves": [
       {
@@ -16248,12 +13888,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        5000,
-        8010,
-        310,
-        4020
-      ]
+      "weaponList": [5000, 8010, 310, 4020]
     },
     "waves": [
       {
@@ -16281,12 +13916,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        0,
-        400,
-        3030,
-        7010
-      ]
+      "weaponList": [0, 400, 3030, 7010]
     },
     "waves": [
       {
@@ -16319,12 +13949,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        210,
-        3020,
-        3030,
-        4010
-      ]
+      "weaponList": [210, 3020, 3030, 4010]
     },
     "waves": [
       {
@@ -16352,12 +13977,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -16385,12 +14005,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        3010,
-        100,
-        3040,
-        240
-      ]
+      "weaponList": [3010, 100, 3040, 240]
     },
     "waves": [
       {
@@ -16418,12 +14033,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        2010,
-        1010,
-        210,
-        40
-      ]
+      "weaponList": [2010, 1010, 210, 40]
     },
     "waves": [
       {
@@ -16451,12 +14061,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        20,
-        230,
-        4030,
-        90
-      ]
+      "weaponList": [20, 230, 4030, 90]
     },
     "waves": [
       {
@@ -16489,12 +14094,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        1020,
-        1020,
-        1020,
-        1020
-      ]
+      "weaponList": [1020, 1020, 1020, 1020]
     },
     "waves": [
       {
@@ -16522,12 +14122,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        10,
-        4000,
-        1110,
-        250
-      ]
+      "weaponList": [10, 4000, 1110, 250]
     },
     "waves": [
       {
@@ -16560,12 +14155,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -16593,12 +14183,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        210,
-        1010,
-        2010,
-        40
-      ]
+      "weaponList": [210, 1010, 2010, 40]
     },
     "waves": [
       {
@@ -16626,12 +14211,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -16659,12 +14239,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -16697,12 +14272,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        40,
-        1010,
-        -1,
-        -1
-      ]
+      "weaponList": [40, 1010, -1, -1]
     },
     "waves": [
       {
@@ -16730,12 +14300,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        210,
-        2010,
-        40,
-        1010
-      ]
+      "weaponList": [210, 2010, 40, 1010]
     },
     "waves": [
       {
@@ -16763,12 +14328,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -16796,12 +14356,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        210,
-        2010,
-        40,
-        -1
-      ]
+      "weaponList": [210, 2010, 40, -1]
     },
     "waves": [
       {
@@ -16829,12 +14384,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -16867,12 +14417,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -16905,12 +14450,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        3030,
-        3040,
-        0,
-        2030
-      ]
+      "weaponList": [3030, 3040, 0, 2030]
     },
     "waves": [
       {
@@ -16938,12 +14478,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        230,
-        50,
-        1030,
-        4010
-      ]
+      "weaponList": [230, 50, 1030, 4010]
     },
     "waves": [
       {
@@ -16971,12 +14506,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        40,
-        5020,
-        2000,
-        -1
-      ]
+      "weaponList": [40, 5020, 2000, -1]
     },
     "waves": [
       {
@@ -17004,12 +14534,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        300,
-        4030,
-        70,
-        6010
-      ]
+      "weaponList": [300, 4030, 70, 6010]
     },
     "waves": [
       {
@@ -17042,12 +14567,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        10,
-        4000,
-        1110,
-        250
-      ]
+      "weaponList": [10, 4000, 1110, 250]
     },
     "waves": [
       {
@@ -17075,12 +14595,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        10,
-        60,
-        4000,
-        2000
-      ]
+      "weaponList": [10, 60, 4000, 2000]
     },
     "waves": [
       {
@@ -17113,12 +14628,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        6020,
-        100,
-        3030,
-        80
-      ]
+      "weaponList": [6020, 100, 3030, 80]
     },
     "waves": [
       {
@@ -17146,12 +14656,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        210,
-        3020,
-        3030,
-        4010
-      ]
+      "weaponList": [210, 3020, 3030, 4010]
     },
     "waves": [
       {
@@ -17179,12 +14684,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -17212,12 +14712,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -17250,12 +14745,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -17283,12 +14773,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        0,
-        200,
-        8000,
-        2070
-      ]
+      "weaponList": [0, 200, 8000, 2070]
     },
     "waves": [
       {
@@ -17316,12 +14801,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        7020,
-        30,
-        1030,
-        4010
-      ]
+      "weaponList": [7020, 30, 1030, 4010]
     },
     "waves": [
       {
@@ -17349,12 +14829,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -17382,12 +14857,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        20,
-        5040,
-        4030,
-        250
-      ]
+      "weaponList": [20, 5040, 4030, 250]
     },
     "waves": [
       {
@@ -17415,12 +14885,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        0,
-        200,
-        8000,
-        2070
-      ]
+      "weaponList": [0, 200, 8000, 2070]
     },
     "waves": [
       {
@@ -17448,12 +14913,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        40,
-        1010,
-        210,
-        2010
-      ]
+      "weaponList": [40, 1010, 210, 2010]
     },
     "waves": [
       {
@@ -17481,12 +14941,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -17514,12 +14969,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -17552,12 +15002,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -17590,12 +15035,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        3010,
-        100,
-        3040,
-        240
-      ]
+      "weaponList": [3010, 100, 3040, 240]
     },
     "waves": [
       {
@@ -17623,12 +15063,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -17656,12 +15091,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        50,
-        1110,
-        310,
-        80
-      ]
+      "weaponList": [50, 1110, 310, 80]
     },
     "waves": [
       {
@@ -17689,12 +15119,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        40,
-        230,
-        70,
-        2070
-      ]
+      "weaponList": [40, 230, 70, 2070]
     },
     "waves": [
       {
@@ -17722,12 +15147,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        210,
-        3020,
-        3030,
-        4010
-      ]
+      "weaponList": [210, 3020, 3030, 4010]
     },
     "waves": [
       {
@@ -17755,12 +15175,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        1100,
-        5000,
-        10,
-        80
-      ]
+      "weaponList": [1100, 5000, 10, 80]
     },
     "waves": [
       {
@@ -17788,12 +15203,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        30,
-        4000,
-        1040,
-        2060
-      ]
+      "weaponList": [30, 4000, 1040, 2060]
     },
     "waves": [
       {
@@ -17826,12 +15236,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -17864,12 +15269,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        50,
-        210,
-        90,
-        4010
-      ]
+      "weaponList": [50, 210, 90, 4010]
     },
     "waves": [
       {
@@ -17902,12 +15302,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        6020,
-        5030,
-        1040,
-        2050
-      ]
+      "weaponList": [6020, 5030, 1040, 2050]
     },
     "waves": [
       {
@@ -17940,12 +15335,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        3010,
-        100,
-        1020,
-        80
-      ]
+      "weaponList": [3010, 100, 1020, 80]
     },
     "waves": [
       {
@@ -17978,12 +15368,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -18016,12 +15401,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        1100,
-        5000,
-        10,
-        80
-      ]
+      "weaponList": [1100, 5000, 10, 80]
     },
     "waves": [
       {
@@ -18049,12 +15429,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        200,
-        40,
-        1030,
-        2010
-      ]
+      "weaponList": [200, 40, 1030, 2010]
     },
     "waves": [
       {
@@ -18087,12 +15462,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        3010,
-        100,
-        1020,
-        80
-      ]
+      "weaponList": [3010, 100, 1020, 80]
     },
     "waves": [
       {
@@ -18125,12 +15495,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        210,
-        3020,
-        3030,
-        4010
-      ]
+      "weaponList": [210, 3020, 3030, 4010]
     },
     "waves": [
       {
@@ -18163,12 +15528,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        1010,
-        2010,
-        40,
-        210
-      ]
+      "weaponList": [1010, 2010, 40, 210]
     },
     "waves": [
       {
@@ -18196,12 +15556,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        20,
-        5040,
-        4030,
-        250
-      ]
+      "weaponList": [20, 5040, 4030, 250]
     },
     "waves": [
       {
@@ -18229,12 +15584,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        5020,
-        400,
-        4040,
-        90
-      ]
+      "weaponList": [5020, 400, 4040, 90]
     },
     "waves": [
       {
@@ -18267,12 +15617,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        210,
-        2010,
-        40,
-        1010
-      ]
+      "weaponList": [210, 2010, 40, 1010]
     },
     "waves": [
       {
@@ -18300,12 +15645,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        5000,
-        300,
-        1020,
-        7010
-      ]
+      "weaponList": [5000, 300, 1020, 7010]
     },
     "waves": [
       {
@@ -18338,12 +15678,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        0,
-        400,
-        3030,
-        7010
-      ]
+      "weaponList": [0, 400, 3030, 7010]
     },
     "waves": [
       {
@@ -18371,12 +15706,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -18409,12 +15739,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -18447,12 +15772,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -18480,12 +15800,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        2010,
-        210,
-        1010,
-        40
-      ]
+      "weaponList": [2010, 210, 1010, 40]
     },
     "waves": [
       {
@@ -18513,12 +15828,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        40,
-        210,
-        2010,
-        1010
-      ]
+      "weaponList": [40, 210, 2010, 1010]
     },
     "waves": [
       {
@@ -18546,12 +15856,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        30,
-        4000,
-        1040,
-        2060
-      ]
+      "weaponList": [30, 4000, 1040, 2060]
     },
     "waves": [
       {
@@ -18579,12 +15884,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        3010,
-        100,
-        3040,
-        240
-      ]
+      "weaponList": [3010, 100, 3040, 240]
     },
     "waves": [
       {
@@ -18617,12 +15917,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        0,
-        1000,
-        240,
-        4020
-      ]
+      "weaponList": [0, 1000, 240, 4020]
     },
     "waves": [
       {
@@ -18650,12 +15945,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        5020,
-        400,
-        4040,
-        90
-      ]
+      "weaponList": [5020, 400, 4040, 90]
     },
     "waves": [
       {
@@ -18683,12 +15973,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        2010,
-        1010,
-        40,
-        210
-      ]
+      "weaponList": [2010, 1010, 40, 210]
     },
     "waves": [
       {
@@ -18716,12 +16001,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        2030,
-        1020,
-        20,
-        3010
-      ]
+      "weaponList": [2030, 1020, 20, 3010]
     },
     "waves": [
       {
@@ -18749,12 +16029,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        2010,
-        40,
-        1010,
-        210
-      ]
+      "weaponList": [2010, 40, 1010, 210]
     },
     "waves": [
       {
@@ -18782,12 +16057,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        1010,
-        1010,
-        1010,
-        1010
-      ]
+      "weaponList": [1010, 1010, 1010, 1010]
     },
     "waves": [
       {
@@ -18815,12 +16085,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        20,
-        5040,
-        4030,
-        250
-      ]
+      "weaponList": [20, 5040, 4030, 250]
     },
     "waves": [
       {
@@ -18853,12 +16118,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        20,
-        200,
-        2060,
-        7010
-      ]
+      "weaponList": [20, 200, 2060, 7010]
     },
     "waves": [
       {
@@ -18891,12 +16151,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": -1,
-      "weaponList": [
-        90,
-        2060,
-        7020,
-        4020
-      ]
+      "weaponList": [90, 2060, 7020, 4020]
     },
     "waves": [
       {
@@ -18924,12 +16179,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        3000,
-        8000,
-        210,
-        2030
-      ]
+      "weaponList": [3000, 8000, 210, 2030]
     },
     "waves": [
       {
@@ -18962,12 +16212,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        3020,
-        6000,
-        2010,
-        1040
-      ]
+      "weaponList": [3020, 6000, 2010, 1040]
     },
     "waves": [
       {
@@ -18995,12 +16240,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        200,
-        300,
-        400,
-        2010
-      ]
+      "weaponList": [200, 300, 400, 2010]
     },
     "waves": [
       {
@@ -19033,12 +16273,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        0,
-        400,
-        3030,
-        7010
-      ]
+      "weaponList": [0, 400, 3030, 7010]
     },
     "waves": [
       {
@@ -19066,12 +16301,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -19099,12 +16329,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        20,
-        5040,
-        8010,
-        2030
-      ]
+      "weaponList": [20, 5040, 8010, 2030]
     },
     "waves": [
       {
@@ -19137,12 +16362,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -19175,12 +16395,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -19208,12 +16423,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        3010,
-        40,
-        1020,
-        7010
-      ]
+      "weaponList": [3010, 40, 1020, 7010]
     },
     "waves": [
       {
@@ -19241,12 +16451,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -19279,12 +16484,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        1000,
-        40,
-        3040,
-        2050
-      ]
+      "weaponList": [1000, 40, 3040, 2050]
     },
     "waves": [
       {
@@ -19317,12 +16517,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -19350,12 +16545,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -19383,12 +16573,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -19416,12 +16601,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -19449,12 +16629,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        20,
-        5040,
-        4030,
-        250
-      ]
+      "weaponList": [20, 5040, 4030, 250]
     },
     "waves": [
       {
@@ -19482,12 +16657,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -19520,12 +16690,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        0,
-        400,
-        3030,
-        7010
-      ]
+      "weaponList": [0, 400, 3030, 7010]
     },
     "waves": [
       {
@@ -19553,12 +16718,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        0,
-        400,
-        3030,
-        7010
-      ]
+      "weaponList": [0, 400, 3030, 7010]
     },
     "waves": [
       {
@@ -19586,12 +16746,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        1030,
-        80,
-        90,
-        1010
-      ]
+      "weaponList": [1030, 80, 90, 1010]
     },
     "waves": [
       {
@@ -19619,12 +16774,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -19652,12 +16802,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        6020,
-        1030,
-        3030,
-        240
-      ]
+      "weaponList": [6020, 1030, 3030, 240]
     },
     "waves": [
       {
@@ -19685,12 +16830,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -19718,12 +16858,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -19756,12 +16891,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -19794,12 +16924,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        0,
-        400,
-        3030,
-        7010
-      ]
+      "weaponList": [0, 400, 3030, 7010]
     },
     "waves": [
       {
@@ -19827,12 +16952,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        20,
-        3030,
-        3040,
-        80
-      ]
+      "weaponList": [20, 3030, 3040, 80]
     },
     "waves": [
       {
@@ -19865,12 +16985,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        5000,
-        1020,
-        3030,
-        -1
-      ]
+      "weaponList": [5000, 1020, 3030, -1]
     },
     "waves": [
       {
@@ -19898,12 +17013,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -19931,12 +17041,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        100,
-        210,
-        6000,
-        90
-      ]
+      "weaponList": [100, 210, 6000, 90]
     },
     "waves": [
       {
@@ -19969,12 +17074,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -20002,12 +17102,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        1010,
-        210,
-        40,
-        2010
-      ]
+      "weaponList": [1010, 210, 40, 2010]
     },
     "waves": [
       {
@@ -20035,12 +17130,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -20073,12 +17163,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -20111,12 +17196,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -20144,12 +17224,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -20177,12 +17252,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        5010,
-        100,
-        4040,
-        240
-      ]
+      "weaponList": [5010, 100, 4040, 240]
     },
     "waves": [
       {
@@ -20215,12 +17285,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        30,
-        1010,
-        310,
-        80
-      ]
+      "weaponList": [30, 1010, 310, 80]
     },
     "waves": [
       {
@@ -20253,12 +17318,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        5010,
-        8000,
-        70,
-        4020
-      ]
+      "weaponList": [5010, 8000, 70, 4020]
     },
     "waves": [
       {
@@ -20291,12 +17351,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        210,
-        40,
-        2010,
-        1010
-      ]
+      "weaponList": [210, 40, 2010, 1010]
     },
     "waves": [
       {
@@ -20324,12 +17379,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -20362,12 +17412,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        5010,
-        8000,
-        70,
-        4020
-      ]
+      "weaponList": [5010, 8000, 70, 4020]
     },
     "waves": [
       {
@@ -20395,12 +17440,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": -1,
-      "weaponList": [
-        90,
-        2060,
-        7020,
-        4020
-      ]
+      "weaponList": [90, 2060, 7020, 4020]
     },
     "waves": [
       {
@@ -20428,12 +17468,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -20466,12 +17501,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        8010,
-        210,
-        1030,
-        6010
-      ]
+      "weaponList": [8010, 210, 1030, 6010]
     },
     "waves": [
       {
@@ -20504,12 +17534,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -20542,12 +17567,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -20580,12 +17600,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        40,
-        1010,
-        2010,
-        210
-      ]
+      "weaponList": [40, 1010, 2010, 210]
     },
     "waves": [
       {
@@ -20613,12 +17628,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        40,
-        210,
-        2010,
-        -1
-      ]
+      "weaponList": [40, 210, 2010, -1]
     },
     "waves": [
       {
@@ -20646,12 +17656,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -20684,12 +17689,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        3010,
-        100,
-        3040,
-        240
-      ]
+      "weaponList": [3010, 100, 3040, 240]
     },
     "waves": [
       {
@@ -20717,12 +17717,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        50,
-        8000,
-        1010,
-        2060
-      ]
+      "weaponList": [50, 8000, 1010, 2060]
     },
     "waves": [
       {
@@ -20750,12 +17745,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -20788,12 +17778,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -20821,12 +17806,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        6020,
-        240,
-        3030,
-        1030
-      ]
+      "weaponList": [6020, 240, 3030, 1030]
     },
     "waves": [
       {
@@ -20854,12 +17834,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        230,
-        50,
-        1030,
-        4010
-      ]
+      "weaponList": [230, 50, 1030, 4010]
     },
     "waves": [
       {
@@ -20887,12 +17862,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        0,
-        200,
-        8000,
-        2070
-      ]
+      "weaponList": [0, 200, 8000, 2070]
     },
     "waves": [
       {
@@ -20920,12 +17890,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        0,
-        400,
-        3030,
-        7010
-      ]
+      "weaponList": [0, 400, 3030, 7010]
     },
     "waves": [
       {
@@ -20953,12 +17918,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        200,
-        40,
-        1020,
-        2010
-      ]
+      "weaponList": [200, 40, 1020, 2010]
     },
     "waves": [
       {
@@ -20986,12 +17946,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -21024,12 +17979,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        3010,
-        100,
-        3040,
-        240
-      ]
+      "weaponList": [3010, 100, 3040, 240]
     },
     "waves": [
       {
@@ -21057,12 +18007,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        210,
-        40,
-        1010,
-        2010
-      ]
+      "weaponList": [210, 40, 1010, 2010]
     },
     "waves": [
       {
@@ -21090,12 +18035,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -21128,12 +18068,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        10,
-        60,
-        4000,
-        2000
-      ]
+      "weaponList": [10, 60, 4000, 2000]
     },
     "waves": [
       {
@@ -21161,12 +18096,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -21199,12 +18129,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -21232,12 +18157,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -21270,12 +18190,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        2010,
-        210,
-        10,
-        -1
-      ]
+      "weaponList": [2010, 210, 10, -1]
     },
     "waves": [
       {
@@ -21303,12 +18218,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -21341,12 +18251,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        5000,
-        300,
-        1020,
-        7010
-      ]
+      "weaponList": [5000, 300, 1020, 7010]
     },
     "waves": [
       {
@@ -21374,12 +18279,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -21407,12 +18307,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -21440,12 +18335,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        0,
-        300,
-        4030,
-        90
-      ]
+      "weaponList": [0, 300, 4030, 90]
     },
     "waves": [
       {
@@ -21478,12 +18368,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        0,
-        400,
-        3030,
-        7010
-      ]
+      "weaponList": [0, 400, 3030, 7010]
     },
     "waves": [
       {
@@ -21516,12 +18401,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -21554,12 +18434,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -21587,12 +18462,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        0,
-        300,
-        4030,
-        90
-      ]
+      "weaponList": [0, 300, 4030, 90]
     },
     "waves": [
       {
@@ -21620,12 +18490,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -21658,12 +18523,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        5000,
-        300,
-        1020,
-        7010
-      ]
+      "weaponList": [5000, 300, 1020, 7010]
     },
     "waves": [
       {
@@ -21691,12 +18551,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        0,
-        200,
-        8000,
-        2070
-      ]
+      "weaponList": [0, 200, 8000, 2070]
     },
     "waves": [
       {
@@ -21729,12 +18584,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -21767,12 +18617,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        3010,
-        100,
-        3040,
-        240
-      ]
+      "weaponList": [3010, 100, 3040, 240]
     },
     "waves": [
       {
@@ -21800,12 +18645,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -21838,12 +18678,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        40,
-        5020,
-        2000,
-        -1
-      ]
+      "weaponList": [40, 5020, 2000, -1]
     },
     "waves": [
       {
@@ -21871,12 +18706,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -21909,12 +18739,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -21947,12 +18772,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -21980,12 +18800,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -22013,12 +18828,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -22046,12 +18856,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        1020,
-        3040,
-        4020,
-        -1
-      ]
+      "weaponList": [1020, 3040, 4020, -1]
     },
     "waves": [
       {
@@ -22079,12 +18884,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        40,
-        1110,
-        240,
-        2030
-      ]
+      "weaponList": [40, 1110, 240, 2030]
     },
     "waves": [
       {
@@ -22117,12 +18917,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -22150,12 +18945,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -22188,12 +18978,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        20,
-        5040,
-        8010,
-        2030
-      ]
+      "weaponList": [20, 5040, 8010, 2030]
     },
     "waves": [
       {
@@ -22226,12 +19011,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        5020,
-        400,
-        4040,
-        90
-      ]
+      "weaponList": [5020, 400, 4040, 90]
     },
     "waves": [
       {
@@ -22264,12 +19044,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        3010,
-        100,
-        3040,
-        240
-      ]
+      "weaponList": [3010, 100, 3040, 240]
     },
     "waves": [
       {
@@ -22297,12 +19072,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        3010,
-        40,
-        1020,
-        7010
-      ]
+      "weaponList": [3010, 40, 1020, 7010]
     },
     "waves": [
       {
@@ -22330,12 +19100,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        6020,
-        60,
-        1010,
-        2000
-      ]
+      "weaponList": [6020, 60, 1010, 2000]
     },
     "waves": [
       {
@@ -22368,12 +19133,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        210,
-        1010,
-        2010,
-        40
-      ]
+      "weaponList": [210, 1010, 2010, 40]
     },
     "waves": [
       {
@@ -22401,12 +19161,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        210,
-        3020,
-        3030,
-        4010
-      ]
+      "weaponList": [210, 3020, 3030, 4010]
     },
     "waves": [
       {
@@ -22434,12 +19189,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        5000,
-        300,
-        1020,
-        7010
-      ]
+      "weaponList": [5000, 300, 1020, 7010]
     },
     "waves": [
       {
@@ -22467,12 +19217,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -22505,12 +19250,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -22543,12 +19283,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        7020,
-        5010,
-        3020,
-        240
-      ]
+      "weaponList": [7020, 5010, 3020, 240]
     },
     "waves": [
       {
@@ -22576,12 +19311,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -22614,12 +19344,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        230,
-        50,
-        1030,
-        4010
-      ]
+      "weaponList": [230, 50, 1030, 4010]
     },
     "waves": [
       {
@@ -22647,12 +19372,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        5020,
-        400,
-        4040,
-        90
-      ]
+      "weaponList": [5020, 400, 4040, 90]
     },
     "waves": [
       {
@@ -22685,12 +19405,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        200,
-        40,
-        1020,
-        2010
-      ]
+      "weaponList": [200, 40, 1020, 2010]
     },
     "waves": [
       {
@@ -22718,12 +19433,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -22751,12 +19461,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        20,
-        3030,
-        3040,
-        80
-      ]
+      "weaponList": [20, 3030, 3040, 80]
     },
     "waves": [
       {
@@ -22789,12 +19494,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        230,
-        50,
-        1030,
-        4010
-      ]
+      "weaponList": [230, 50, 1030, 4010]
     },
     "waves": [
       {
@@ -22827,12 +19527,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -22860,12 +19555,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        5020,
-        400,
-        4040,
-        90
-      ]
+      "weaponList": [5020, 400, 4040, 90]
     },
     "waves": [
       {
@@ -22898,12 +19588,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -22931,12 +19616,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        5020,
-        400,
-        4040,
-        90
-      ]
+      "weaponList": [5020, 400, 4040, 90]
     },
     "waves": [
       {
@@ -22964,12 +19644,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        50,
-        210,
-        90,
-        4010
-      ]
+      "weaponList": [50, 210, 90, 4010]
     },
     "waves": [
       {
@@ -22997,12 +19672,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        0,
-        8000,
-        -1,
-        -1
-      ]
+      "weaponList": [0, 8000, -1, -1]
     },
     "waves": [
       {
@@ -23030,12 +19700,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -23068,12 +19733,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -23101,12 +19761,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -23139,12 +19794,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        40,
-        5020,
-        2000,
-        -1
-      ]
+      "weaponList": [40, 5020, 2000, -1]
     },
     "waves": [
       {
@@ -23172,12 +19822,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        40,
-        5020,
-        2000,
-        -1
-      ]
+      "weaponList": [40, 5020, 2000, -1]
     },
     "waves": [
       {
@@ -23210,12 +19855,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -23248,12 +19888,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        5000,
-        5000,
-        -1,
-        -1
-      ]
+      "weaponList": [5000, 5000, -1, -1]
     },
     "waves": [
       {
@@ -23281,12 +19916,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        40,
-        5020,
-        2000,
-        -1
-      ]
+      "weaponList": [40, 5020, 2000, -1]
     },
     "waves": [
       {
@@ -23319,12 +19949,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        20,
-        200,
-        2060,
-        7010
-      ]
+      "weaponList": [20, 200, 2060, 7010]
     },
     "waves": [
       {
@@ -23357,12 +19982,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        1100,
-        5000,
-        10,
-        80
-      ]
+      "weaponList": [1100, 5000, 10, 80]
     },
     "waves": [
       {
@@ -23390,12 +20010,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        0,
-        400,
-        3030,
-        7010
-      ]
+      "weaponList": [0, 400, 3030, 7010]
     },
     "waves": [
       {
@@ -23428,12 +20043,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        30,
-        6000,
-        310,
-        3040
-      ]
+      "weaponList": [30, 6000, 310, 3040]
     },
     "waves": [
       {
@@ -23466,12 +20076,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        200,
-        40,
-        1030,
-        2010
-      ]
+      "weaponList": [200, 40, 1030, 2010]
     },
     "waves": [
       {
@@ -23504,12 +20109,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        0,
-        3020,
-        -1,
-        -1
-      ]
+      "weaponList": [0, 3020, -1, -1]
     },
     "waves": [
       {
@@ -23537,12 +20137,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        40,
-        210,
-        -1,
-        -1
-      ]
+      "weaponList": [40, 210, -1, -1]
     },
     "waves": [
       {
@@ -23570,12 +20165,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -23603,12 +20193,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        8000,
-        8000,
-        -1,
-        -1
-      ]
+      "weaponList": [8000, 8000, -1, -1]
     },
     "waves": [
       {
@@ -23636,12 +20221,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -23669,12 +20249,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        50,
-        1040,
-        5030,
-        2060
-      ]
+      "weaponList": [50, 1040, 5030, 2060]
     },
     "waves": [
       {
@@ -23702,12 +20277,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        1100,
-        5000,
-        10,
-        80
-      ]
+      "weaponList": [1100, 5000, 10, 80]
     },
     "waves": [
       {
@@ -23735,12 +20305,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -23768,12 +20333,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        200,
-        40,
-        1030,
-        2010
-      ]
+      "weaponList": [200, 40, 1030, 2010]
     },
     "waves": [
       {
@@ -23801,12 +20361,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        6020,
-        1030,
-        3030,
-        240
-      ]
+      "weaponList": [6020, 1030, 3030, 240]
     },
     "waves": [
       {
@@ -23834,12 +20389,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        40,
-        2010,
-        -1,
-        -1
-      ]
+      "weaponList": [40, 2010, -1, -1]
     },
     "waves": [
       {
@@ -23867,12 +20417,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        40,
-        5020,
-        2000,
-        -1
-      ]
+      "weaponList": [40, 5020, 2000, -1]
     },
     "waves": [
       {
@@ -23905,12 +20450,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [-1, -1, -1, -1]
     },
     "waves": [
       {
@@ -23938,12 +20478,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        0,
-        1100,
-        3020,
-        2030
-      ]
+      "weaponList": [0, 1100, 3020, 2030]
     },
     "waves": [
       {
@@ -23971,12 +20506,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        5000,
-        90,
-        -1,
-        -1
-      ]
+      "weaponList": [5000, 90, -1, -1]
     },
     "waves": [
       {
@@ -24004,12 +20534,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        210,
-        40,
-        -1,
-        -1
-      ]
+      "weaponList": [210, 40, -1, -1]
     },
     "waves": [
       {
@@ -24037,12 +20562,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        5000,
-        5040,
-        240,
-        2030
-      ]
+      "weaponList": [5000, 5040, 240, 2030]
     },
     "waves": [
       {
@@ -24075,12 +20595,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        40,
-        5020,
-        2000,
-        -1
-      ]
+      "weaponList": [40, 5020, 2000, -1]
     },
     "waves": [
       {
@@ -24108,12 +20623,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        0,
-        1040,
-        4030,
-        2060
-      ]
+      "weaponList": [0, 1040, 4030, 2060]
     },
     "waves": [
       {
@@ -24141,12 +20651,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        10,
-        70,
-        220,
-        2030
-      ]
+      "weaponList": [10, 70, 220, 2030]
     },
     "waves": [
       {
@@ -24174,12 +20679,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -24207,12 +20707,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        1100,
-        50,
-        3040,
-        2010
-      ]
+      "weaponList": [1100, 50, 3040, 2010]
     },
     "waves": [
       {
@@ -24245,12 +20740,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        -2,
-        -2,
-        -2,
-        -2
-      ]
+      "weaponList": [-2, -2, -2, -2]
     },
     "waves": [
       {
@@ -24283,12 +20773,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        2070,
-        1020,
-        -1,
-        -1
-      ]
+      "weaponList": [2070, 1020, -1, -1]
     },
     "waves": [
       {
@@ -24316,12 +20801,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        40,
-        5020,
-        2000,
-        -1
-      ]
+      "weaponList": [40, 5020, 2000, -1]
     },
     "waves": [
       {
@@ -24354,12 +20834,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 6,
-      "weaponList": [
-        1100,
-        3030,
-        -1,
-        -1
-      ]
+      "weaponList": [1100, 3030, -1, -1]
     },
     "waves": [
       {
@@ -24387,12 +20862,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        210,
-        210,
-        -1,
-        -1
-      ]
+      "weaponList": [210, 210, -1, -1]
     },
     "waves": [
       {
@@ -24420,12 +20890,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        30,
-        6000,
-        310,
-        3040
-      ]
+      "weaponList": [30, 6000, 310, 3040]
     },
     "waves": [
       {
@@ -24453,12 +20918,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        2000,
-        60,
-        -1,
-        -1
-      ]
+      "weaponList": [2000, 60, -1, -1]
     },
     "waves": [
       {
@@ -24486,12 +20946,7 @@
     "nightLess": false,
     "schedule": {
       "stageId": 1,
-      "weaponList": [
-        6020,
-        100,
-        3030,
-        80
-      ]
+      "weaponList": [6020, 100, 3030, 80]
     },
     "waves": [
       {
@@ -24519,12 +20974,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        1030,
-        -1,
-        -1,
-        -1
-      ]
+      "weaponList": [1030, -1, -1, -1]
     },
     "waves": [
       {
@@ -24552,12 +21002,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        2050,
-        2050,
-        -1,
-        -1
-      ]
+      "weaponList": [2050, 2050, -1, -1]
     },
     "waves": [
       {
@@ -24585,12 +21030,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 2,
-      "weaponList": [
-        6000,
-        80,
-        -1,
-        -1
-      ]
+      "weaponList": [6000, 80, -1, -1]
     },
     "waves": [
       {
@@ -24618,12 +21058,7 @@
     "nightLess": true,
     "schedule": {
       "stageId": 7,
-      "weaponList": [
-        5020,
-        400,
-        4040,
-        90
-      ]
+      "weaponList": [5020, 400, 4040, 90]
     },
     "waves": [
       {

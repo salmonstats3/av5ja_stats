@@ -28,6 +28,16 @@ jobs:
         run: |
           python main.py
 
+      - name: Publish to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: 2488ea57494b2dacae95a6e363e7dcb2
+          projectName: salmonstats-app
+          directory: /dist
+          # Optional: Enable this if you want to have GitHub Deployments triggered
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Commit and Push # 実行結果をプッシュしてレポジトリに反映
         run: |
           git config --local user.email "nasawake.am@gmail.com"
