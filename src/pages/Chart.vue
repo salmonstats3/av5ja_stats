@@ -20,22 +20,22 @@ onMounted(async () => {
   <v-row>
     <v-col cols="12" sm="12" md="6" lg="6" xl="6">
       <v-card>
-        <BarChart v-if="data.golden_ikura_num.length !== 0" :data="data.golden_ikura_data" title="納品数分布" />
+        <BarChart :data="data.golden_ikura_data" title="納品数分布" />
       </v-card>
     </v-col>
     <v-col cols="12" sm="12" md="6" lg="6" xl="6">
       <v-card>
-        <PieChart v-if="data.grade_point.length !== 0" :data="data.grade_point_data" title="評価ポイント分布" />
+        <PieChart :data="data.grade_point_data" title="評価ポイント分布" />
       </v-card>
     </v-col>
     <v-col cols="12" sm="12" md="6" lg="6" xl="6">
       <v-card>
-        <LineChart v-if="data.status.length !== 0" :data="data.clear_ratio" title="平均クリア率" />
+        <LineChart :data="data.clear_ratio" title="平均クリア率" />
       </v-card>
     </v-col>
     <v-col cols="12" sm="12" md="6" lg="6" xl="6">
       <v-card>
-        <BarChart v-if="data.status.length !== 0" :data="data.shifts_worked" title="リザルト数" :x="false" />
+        <BarChart :data="data.shifts_worked" title="リザルト数" :x="false" />
       </v-card>
     </v-col>
     <v-col cols="12">

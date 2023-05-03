@@ -13,21 +13,50 @@ export default defineConfig({
     port: 8000,
     cors: true,
   },
-  ssr: {
-    noExternal: true,
-    target: "webworker",
-  },
   plugins: [
     vue(),
     vuetify({ autoImport: true }),
     ViteYaml(),
     VitePWA({
       registerType: "autoUpdate",
-      injectRegister: "inline",
+      injectRegister: "script",
       workbox: {
         cleanupOutdatedCaches: true,
         sourcemap: true,
       },
+      manifest: {
+        lang: "ja",
+        name: "Salmon Stats+",
+        short_name: "Salmon Stats+",
+        background_color: "#F69435",
+        theme_color: "#F69435",
+        display: "standalone",
+        scope: "/",
+        start_url: "/",
+        description: "The website for Salmon Run of Splatoon 3",
+        icons: [
+          {
+              src: "/icon-192x192.png",
+              sizes: "192x192",
+              type: "image/png"
+          },
+          {
+              src: "/icon-256x256.png",
+              sizes: "256x256",
+              type: "image/png"
+          },
+          {
+              src: "/icon-384x384.png",
+              sizes: "384x384",
+              type: "image/png"
+          },
+          {
+              src: "/icon-512x512.png",
+              sizes: "512x512",
+              type: "image/png"
+          }
+      ]
+      }
     }),
   ],
   resolve: {

@@ -1,4 +1,5 @@
 <script setup lang="ts">
+// @ts-nocheck
 import { ScheduleStatusDto } from '@/types/schedule.d'
 import { Chart as ChartJS, } from 'chart.js'
 import { PropType } from 'vue'
@@ -47,6 +48,6 @@ const options = {
 <template>
   <v-card>
     <v-card-title>{{ title }}</v-card-title>
-    <Line :data="data" :options="options" />
+    <Line v-if="data.datasets[0].data.length !== 0" :data="data" :options="options" />
   </v-card>
 </template>

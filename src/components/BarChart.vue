@@ -20,6 +20,10 @@ const props = defineProps({
   y: {
     type: Boolean,
     default: true
+  },
+  style: {
+    type: String as PropType<"default" | "percent">,
+    default: "default"
   }
 })
 
@@ -40,14 +44,14 @@ const options = {
     }
   },
   plugins: {
-    tooltip: {
+    tooltip: props.style === "percent" ? {
       enabled: true,
       callbacks: {
         label: (item: any) => {
           return Number(Big(item.raw).mul(100).round(3).toString()) + "%"
         }
       }
-    },
+    } : {},
     legend: {
       display: false
     }
@@ -58,6 +62,6 @@ const options = {
 <template>
   <v-card>
     <v-card-title>{{ title }}</v-card-title>
-    <Bar :data="data" :options="options" />
+    <Bar v-if="data.datasets[0].data.length !== 0" :data="data" :options="options" />
   </v-card>
 </template>

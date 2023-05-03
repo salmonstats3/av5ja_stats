@@ -12,6 +12,7 @@ import {
   Filler,
   LineElement,
 } from "chart.js";
+import { registerSW } from 'virtual:pwa-register';
 import { createApp } from "vue";
 import { createI18n } from "vue-i18n";
 
@@ -22,8 +23,6 @@ import router from "./router";
 
 import enUS from "@/locales/en-US.yaml";
 import jaJP from "@/locales/ja-JP.yaml";
-
-if (typeof window !== "undefined") import("./pwa");
 
 ChartJS.register(
   CategoryScale,
@@ -53,5 +52,6 @@ const i18n = createI18n({
 });
 
 loadFonts();
+registerSW()
 
 createApp(App).use(router).use(vuetify).use(i18n).mount("#app");
