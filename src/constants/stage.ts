@@ -21,9 +21,9 @@ export const CoopStageTitle = (id: number): string => {
 };
 
 export const CoopStageURL = (id: number): string => {
-  return `/assets/stages/${CoopStageKey(id)}.png`;
+  return `/assets/stages/${CoopStageKey(id)}.webp`;
 };
 
 export const CoopStageLazyURL = (id: number): string => {
-  return "/assets/stages/ffa84f05a6437395a0a128cad1a99e8dd0f303ce4fd687fa648617a0075d7ad9.png";
+  return "/assets/stages/ffa84f05a6437395a0a128cad1a99e8dd0f303ce4fd687fa648617a0075d7ad9.webp";
 };

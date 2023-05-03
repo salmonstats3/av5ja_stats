@@ -9,6 +9,9 @@ import vuetify from "vite-plugin-vuetify";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  build: {
+    sourcemap: true
+  },
   server: {
     port: 8000,
     cors: true,
@@ -18,18 +21,22 @@ export default defineConfig({
     vuetify({ autoImport: true }),
     ViteYaml(),
     VitePWA({
-      registerType: "autoUpdate",
-      injectRegister: "script",
+      registerType: 'autoUpdate',
+      strategies: "generateSW",
       workbox: {
         cleanupOutdatedCaches: true,
         sourcemap: true,
+        globPatterns: ['**/*.{js,css,html,ico,png,svg,webp}']
+      },
+      devOptions: {
+        enabled: true,
       },
       manifest: {
         lang: "ja",
         name: "Salmon Stats+",
         short_name: "Salmon Stats+",
-        background_color: "#F69435",
-        theme_color: "#F69435",
+        background_color: "#212121",
+        theme_color: "#212121",
         display: "standalone",
         scope: "/",
         start_url: "/",
@@ -55,7 +62,18 @@ export default defineConfig({
             sizes: "512x512",
             type: "image/png",
           },
+          {
+            src: "/icon-512x512.png",
+            sizes: "512x512",
+            type: "image/png",
+            purpose: "any maskable"
+          },
         ],
+        dir: "ltr",
+        orientation: "portrait",
+        display_override: [
+          "standalone"
+        ]
       },
     }),
   ],

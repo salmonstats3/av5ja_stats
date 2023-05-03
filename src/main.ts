@@ -52,6 +52,27 @@ const i18n = createI18n({
 });
 
 loadFonts();
-registerSW();
+registerSW({
+  onRegisteredSW(swUrl, r) {
+    r && setInterval(async () => {
+      if (!(!r.installing && navigator))
+        return
+
+      if (('connection' in navigator) && !navigator.onLine)
+        return
+
+      const resp = await fetch(swUrl, {
+        cache: 'no-store',
+        headers: {
+          'cache': 'no-store',
+          'cache-control': 'no-cache',
+        },
+      })
+
+      if (resp?.status === 200)
+        await r.update()
+    }, 60 * 30 * 1000)
+  }
+})
 
 createApp(App).use(router).use(vuetify).use(i18n).mount("#app");

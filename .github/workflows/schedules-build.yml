@@ -2,6 +2,8 @@ name: Scheduled build
 
 on:
   push:
+    tags:
+      - "v*"
     branches:
       - master
   schedule:
@@ -35,7 +37,7 @@ jobs:
 
       - name: Cache node_modules
         id: node_modules_cache_id
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: |
             node_modules
@@ -69,4 +71,4 @@ jobs:
           git commit -m "Update product information"
           git config pull.rebase false
           git pull
-          git push origin master
+          git push origin production

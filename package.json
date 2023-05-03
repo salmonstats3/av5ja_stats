@@ -6,6 +6,8 @@
     "serve": "vite preview",
     "build": "VITE_APP_GIT_COMMIT_HASH=$(git rev-parse HEAD) VITE_APP_GIT_COMMIT_DATE=$(git show -s --format=%ci HEAD) vite build",
     "dev": "VITE_APP_GIT_COMMIT_HASH=$(git rev-parse HEAD) VITE_APP_GIT_COMMIT_DATE=$(git show -s --format=%ci HEAD) vite",
+    "deploy": "yarn wrangler pages publish dist",
+    "predeploy": "yarn build",
     "preview": "vite preview",
     "lint": "eslint './**/*.{js,ts}' --fix",
     "format": "prettier --write --ignore-path .gitignore './**/*.{js,ts,json}'"
@@ -32,6 +34,7 @@
   "devDependencies": {
     "@intlify/vite-plugin-vue-i18n": "^7.0.0",
     "@modyfi/vite-plugin-yaml": "^1.0.4",
+    "@types/node": "^18.16.3",
     "@types/webfontloader": "^1.0.0",
     "@typescript-eslint/eslint-plugin": "^5.59.1",
     "@typescript-eslint/parser": "^5.59.1",

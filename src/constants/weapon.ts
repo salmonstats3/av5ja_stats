@@ -71,5 +71,5 @@ const CoopWeaponKey = (id: number): string => {
 };
 
 export const CoopWeaponURL = (id: number): string => {
-  return `/assets/weapons/${CoopWeaponKey(id)}.png`;
+  return `/assets/weapons/${CoopWeaponKey(id)}.webp`;
 };

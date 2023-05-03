@@ -16,10 +16,7 @@ const date: string = import.meta.env.VITE_APP_GIT_COMMIT_DATE
       </v-card>
     </v-col>
     <v-col cols="12">
-      <v-card>
-        <v-card-title>データについて</v-card-title>
-        <v-card-text>執筆中です.</v-card-text>
-      </v-card>
+      <Update />
     </v-col>
   </v-row>
 </template>
