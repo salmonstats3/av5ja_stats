@@ -55,7 +55,7 @@ jobs:
         uses: cloudflare/pages-action@v1
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: 2488ea57494b2dacae95a6e363e7dcb2
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           projectName: salmonstats-app
           directory: dist
           # Optional: Enable this if you want to have GitHub Deployments triggered
