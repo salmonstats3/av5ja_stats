@@ -25,7 +25,7 @@ const options = {
       callbacks: {
         label: (item: any) => {
           return Number(Big(item.raw).mul(100).round(3).toString()) + "%"
-        }
+        },
       }
     },
     legend: {

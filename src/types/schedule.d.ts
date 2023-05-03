@@ -77,6 +77,7 @@ export class ScheduleStatusDto {
   readonly waves: CoopWave[][] = [];
 
   get shifts_worked() {
+    const dataset: Status[] = this.status.sort((a, b) => dayjs(a.play_time).unix() - dayjs(b.shifts_worked).unix());
     return {
       datasets: [
         {
@@ -87,7 +88,9 @@ export class ScheduleStatusDto {
           label: "Shifts Worked",
         },
       ],
-      labels: this.status.map((status) => dayjs(status.play_time).toString()),
+      labels: dataset.map((status) => {
+        return `${dayjs(status.play_time).format("MM/DD HH:mm")} ~ ${dayjs(status.play_time).add(30, 'minutes').format("MM/DD HH:mm")}`
+      }),
     };
   }
 
@@ -140,7 +143,9 @@ export class ScheduleStatusDto {
           label: "600+",
         },
       ],
-      labels: dataset.map((status) => dayjs(status.play_time).toString()),
+      labels: dataset.map((status) => {
+        return `${dayjs(status.play_time).format("MM/DD HH:mm")} ~ ${dayjs(status.play_time).add(30, 'minutes').format("MM/DD HH:mm")}`
+      }),
     };
   }
 
@@ -154,7 +159,7 @@ export class ScheduleStatusDto {
           data: dataset.map((data) => data.count / players),
         },
       ],
-      labels: ["0+", "200+", "400+", "600+", "800+", "999+"],
+      labels: ["0~200", "200~400", "400~600", "600~800", "800~999", "999"],
     };
   }
 }
