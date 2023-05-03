@@ -14,6 +14,11 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - name: Setup NodeJS v16.19.0
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.19.0
+
       - name: Setup Python # Pythonのセットアップ
         uses: actions/setup-python@v3
         with:
@@ -27,6 +32,24 @@ jobs:
       - name: Run main.py # PythonでSalmon Statsからデータ取得
         run: |
           python main.py
+
+      - name: Cache node_modules
+        id: node_modules_cache_id
+        uses: actions/cache@v2
+        with:
+          path: |
+            node_modules
+          key: node-v${{ matrix.node-version }}-deps-${{ hashFiles(format('{0}{1}', github.workspace, '/yarn.lock')) }}
+      
+      - name: Run install
+        uses: borales/actions-yarn@v4
+        with:
+          cmd: install
+
+      - name: Build by Vite
+        uses: borales/actions-yarn@v4
+        with:
+          cmd: build
 
       - name: Publish to Cloudflare Pages
         uses: cloudflare/pages-action@v1
