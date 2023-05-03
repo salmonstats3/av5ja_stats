@@ -20,7 +20,7 @@ onMounted(async () => {
   <v-row>
     <v-col cols="12" sm="12" md="6" lg="6" xl="6">
       <v-card>
-        <BarChart :data="data.golden_ikura_data" title="納品数分布" />
+        <BarChart :data="data.golden_ikura_data" title="納品数分布" format="percent" />
       </v-card>
     </v-col>
     <v-col cols="12" sm="12" md="6" lg="6" xl="6">

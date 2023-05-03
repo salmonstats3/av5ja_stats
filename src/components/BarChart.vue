@@ -21,7 +21,7 @@ const props = defineProps({
     type: Boolean,
     default: true
   },
-  style: {
+  format: {
     type: String as PropType<"default" | "percent">,
     default: "default"
   }
@@ -44,11 +44,15 @@ const options = {
     }
   },
   plugins: {
-    tooltip: props.style === "percent" ? {
+    tooltip: props.format === "percent" ? {
       enabled: true,
       callbacks: {
         label: (item: any) => {
           return Number(Big(item.raw).mul(100).round(3).toString()) + "%"
+        },
+        title: (item: string) => {
+          const raw_value: number = parseInt(item[0].label, 10)
+          return `${raw_value} ~ ${raw_value + 5}`
         }
       }
     } : {},

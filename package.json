@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "serve": "vite preview",
-    "build": "vite build",
-    "dev": "vite",
+    "serve": "VITE_APP_GIT_COMMIT_HASH=$(git rev-parse HEAD) vite preview",
+    "build": "VITE_APP_GIT_COMMIT_HASH=$(git rev-parse HEAD) vite build",
+    "dev": "VITE_APP_GIT_COMMIT_HASH=$(git rev-parse HEAD) VITE_APP_GIT_COMMIT_DATE=$(git show -s --format=%ci HEAD) vite",
     "preview": "vite preview",
     "lint": "eslint './**/*.{js,ts}' --fix",
     "format": "prettier --write --ignore-path .gitignore './**/*.{js,ts,json}'"

@@ -1,12 +1,18 @@
 <script setup lang="ts">
+import { useI18n } from 'vue-i18n';
+
+const { t } = useI18n()
+const hash: string = import.meta.env.VITE_APP_GIT_COMMIT_HASH.slice(0, 16)
+const date: string = import.meta.env.VITE_APP_GIT_COMMIT_DATE
 </script>
 
 <template>
   <v-row>
     <v-col cols="12">
       <v-card>
-        <v-card-title>理念</v-card-title>
-        <v-card-text>執筆中です.</v-card-text>
+        <v-card-title>{{ t("VITE_APP.VERSION")  }}</v-card-title>
+        <v-card-subtitle>{{ hash }}</v-card-subtitle>
+        <v-card-text>{{ t("VITE_APP.LAST_UPDATE_AT")}}: {{ date }}</v-card-text>
       </v-card>
     </v-col>
     <v-col cols="12">

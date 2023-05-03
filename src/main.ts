@@ -41,10 +41,10 @@ ChartJS.register(
 const i18n = createI18n({
   allowComposition: true,
   availableLocales: ["en", "ja"],
-  fallbackLocale: "en",
+  fallbackLocale: "ja",
   fallbackRoot: true,
   legacy: false,
-  locale: "en",
+  locale: "ja",
   messages: {
     en: enUS,
     ja: jaJP,

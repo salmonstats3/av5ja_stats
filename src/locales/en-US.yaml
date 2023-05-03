@@ -1,26 +1,42 @@
 STAGE:
-  1: シェケナダム
-  2: アラマキ砦
-  6: 難破船ドン・ブラコ
-  7: ムニ・エール海洋発電所
-  100: スメーシーワールド
-  102: 海女美術大学
+  1: Spawning Grounds
+  2: Sockeye Station
+  6: Marooner's Bay
+  7: Gone Fission Hydroplant
+  100: Wahoo World
+  102: Inkblot Art Academy
 WATER_LEVEL:
-  0: 干潮
-  1: 通常
-  2: 満潮
+  0: LT
+  1: NT
+  2: HT
 EVENT_TYPE:
   0: "-"
-  1: ラッシュ
-  2: キンシャケ探し
-  3: グリル発進
-  4: ハコビヤ襲来
-  5: 霧
-  6: ドスコイ大量発生
-  7: 巨大タツマキ
-  8: ドロシャケ噴出
+  1: Rush
+  2: Goldie Seeking
+  3: The Griller
+  4: The Mothership
+  5: Fog
+  6: Cohock Charge
+  7: Giant Tornado
+  8: Mudmouth Eruption
 DESCRIPTION:
-  EVENT_TYPE: イベント
-  WATER_LEVEL: 潮位
-  CLEAR_RATIO: クリア率
-  OCCURRENCE: 回数
+  EVENT_TYPE: Event
+  WATER_LEVEL: Tide
+  CLEAR_RATIO: Clear Ratio
+  OCCURRENCE: Count
+CHART:
+  DISTRIBUTION:
+    DELIVER: Collected
+    GRADE_POINT: Grade Point
+  RATIO:
+    CLEAR: Clear Ratio
+  TOTAL:
+    RESULTS: Results
+VITE_APP:
+  LAST_UPDATE_AT: Last updated
+  HASH: Hash
+  SCENARIO_CODE: Scenario Codes
+  SCHEDULE: Schedules
+  DONATE: Donate
+  INFORMATION: Information
+  VERSION: Version

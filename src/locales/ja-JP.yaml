@@ -24,3 +24,20 @@ DESCRIPTION:
   WATER_LEVEL: 潮位
   CLEAR_RATIO: クリア率
   OCCURRENCE: 回数
+CHART:
+  DISTRIBUTION:
+    DELIVER: 納品数分布
+    GRADE_POINT: 評価ポイント
+  RATIO:
+    CLEAR: クリア率
+  TOTAL:
+    RESULTS: リザルト数
+VITE_APP:
+  LAST_UPDATE_AT: 最終更新日
+  HASH: ハッシュ
+  SCENARIO_CODE: シナリオコード
+  SCHEDULE: スケジュール
+  DONATE: 支援
+  INFORMATION: 情報
+  VERSION: バージョン
+  

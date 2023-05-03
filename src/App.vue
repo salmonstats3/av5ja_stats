@@ -1,29 +1,27 @@
 <script setup lang="ts">
 import { Ref, ref } from "vue"
+import { useI18n } from "vue-i18n"
 import { useRouter } from "vue-router"
 const isPresented: Ref<boolean> = ref(false)
 const router = useRouter()
+const { t } = useI18n()
 const items = [
   {
-    title: "スケジュール",
+    title: t("VITE_APP.SCHEDULE"),
     link: "/"
   },
   {
-    title: "シナリオコード",
+    title: t("VITE_APP.SCENARIO_CODE"),
     link: "/scenarios"
   },
   {
-    title: "Salmon Stats+について",
-    link: "/about"
-  },
-  {
-    title: "支援について",
+    title: t("VITE_APP.DONATE"),
     link: "/donate"
   },
   {
-    title: "開発者について",
-    link: "/me"
-  }
+    title: t("VITE_APP.INFORMATION"),
+    link: "/about"
+  },
 ]
 
 function next(link: string): void {
