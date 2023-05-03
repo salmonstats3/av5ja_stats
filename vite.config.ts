@@ -9,6 +9,9 @@ import vuetify from "vite-plugin-vuetify";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  build: {
+    sourcemap: true
+  },
   server: {
     port: 8000,
     cors: true,
@@ -18,9 +21,13 @@ export default defineConfig({
     vuetify({ autoImport: true }),
     ViteYaml(),
     VitePWA({
-      registerType: "autoUpdate",
-      injectRegister: "auto",
-      strategies: "generateSW",
+      registerType: 'autoUpdate',
+      strategies: "injectManifest",
+      srcDir: "src",
+      filename: "sw.ts",
+      injectManifest: {
+        rollupFormat:'iife'
+      },
       workbox: {
         cleanupOutdatedCaches: true,
         sourcemap: true,
@@ -57,7 +64,18 @@ export default defineConfig({
             sizes: "512x512",
             type: "image/png",
           },
+          {
+            src: "/icon-512x512.png",
+            sizes: "512x512",
+            type: "image/png",
+            purpose: 'any maskable'
+          },
         ],
+        dir: "ltr",
+        orientation: "portrait",
+        display_override: [
+          "standalone"
+        ]
       },
     }),
   ],

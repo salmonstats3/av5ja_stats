@@ -22,10 +22,6 @@ const items = [
     title: t("VITE_APP.INFORMATION"),
     link: "/about"
   },
-  {
-    title: t("VITE_APP.INFORMATION"),
-    link: "/update"
-  },
 ]
 
 function next(link: string): void {
