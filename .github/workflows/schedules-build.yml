@@ -69,4 +69,4 @@ jobs:
           git commit -m "Update product information"
           git config pull.rebase false
           git pull
-          git push origin master
+          git push origin production
