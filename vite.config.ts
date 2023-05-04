@@ -21,6 +21,7 @@ export default defineConfig({
     vuetify({ autoImport: true }),
     ViteYaml(),
     VitePWA({
+      injectRegister: 'auto',
       registerType: 'autoUpdate',
       strategies: "generateSW",
       workbox: {
