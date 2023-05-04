@@ -38,8 +38,7 @@ export default defineConfig({
         background_color: "#212121",
         theme_color: "#212121",
         display: "standalone",
-        scope: "/",
-        start_url: "/",
+        start_url: ".",
         description: "The website for Salmon Run of Splatoon 3",
         icons: [
           {
