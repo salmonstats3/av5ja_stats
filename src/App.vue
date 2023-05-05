@@ -7,12 +7,20 @@ const router = useRouter()
 const { t } = useI18n()
 const items = [
   {
-    title: t("VITE_APP.SCHEDULE"),
+    title: t("SCHEDULES.REGULAR"),
     link: "/"
   },
   {
-    title: t("VITE_APP.SCENARIO_CODE"),
-    link: "/scenarios"
+    title: t("SCHEDULES.SCENARIO"),
+    link: "/scenario"
+  },
+  {
+    title: t("SCHEDULES.BIG_RUN"),
+    link: "/big_run"
+  },
+  {
+    title: t("SCHEDULES.TEAM_CONTEST"),
+    link: "/team_contest"
   },
   {
     title: t("VITE_APP.DONATE"),

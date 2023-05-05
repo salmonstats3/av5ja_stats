@@ -19,6 +19,11 @@ EVENT_TYPE:
   6: Cohock Charge
   7: Giant Tornado
   8: Mudmouth Eruption
+SCHEDULES:
+  REGULAR: Regular 
+  SCENARIO: Scenario 
+  BIG_RUN: Big Run 
+  TEAM_CONTEST: Team Contest 
 DESCRIPTION:
   EVENT_TYPE: Event
   WATER_LEVEL: Tide

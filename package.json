@@ -9,8 +9,8 @@
     "deploy": "yarn wrangler pages publish dist",
     "predeploy": "yarn build",
     "preview": "vite preview",
-    "lint": "eslint './**/*.{js,ts}' --fix",
-    "format": "prettier --write --ignore-path .gitignore './**/*.{js,ts,json}'"
+    "lint": "eslint './src/**/*.{js,ts,vue}' --fix",
+    "format": "prettier --write --ignore-path .gitignore './src/**/*.{js,ts,vue}'"
   },
   "dependencies": {
     "@mdi/font": "5.9.55",

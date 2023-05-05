@@ -11,6 +11,7 @@ const { t } = useI18n()
 const router = useRouter()
 const scheduleId: string = router.currentRoute.value.params.scheduleId as string
 const data: Ref<ScheduleStatusDto> = ref(new ScheduleStatusDto())
+  
 onMounted(async () => {
   data.value = await ScheduleStatusDto.fromJSON(scheduleId)
 })
@@ -20,22 +21,22 @@ onMounted(async () => {
   <v-row>
     <v-col cols="12" sm="12" md="6" lg="6" xl="6">
       <v-card>
-        <BarChart :data="data.golden_ikura_data" title="納品数分布" format="percent" />
+        <BarChart :data="data.golden_ikura_data" :title="t('CHART.DISTRIBUTION.DELIVER')" format="percent" />
       </v-card>
     </v-col>
     <v-col cols="12" sm="12" md="6" lg="6" xl="6">
       <v-card>
-        <PieChart :data="data.grade_point_data" title="評価ポイント分布" />
+        <PieChart :data="data.grade_point_data" :title="t('CHART.DISTRIBUTION.GRADE_POINT')" />
       </v-card>
     </v-col>
     <v-col cols="12" sm="12" md="6" lg="6" xl="6">
       <v-card>
-        <LineChart :data="data.clear_ratio" title="平均クリア率" />
+        <LineChart :data="data.clear_ratio" :title="t('CHART.RATIO.CLEAR')" />
       </v-card>
     </v-col>
     <v-col cols="12" sm="12" md="6" lg="6" xl="6">
       <v-card>
-        <BarChart :data="data.shifts_worked" title="リザルト数" :x="false" />
+        <BarChart :data="data.shifts_worked" :title="t('CHART.TOTAL.RESULTS')" :x="false" />
       </v-card>
     </v-col>
     <v-col cols="12">

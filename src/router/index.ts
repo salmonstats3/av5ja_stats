@@ -3,52 +3,66 @@ import { createRouter, createWebHistory } from "vue-router";
 const routes = [
   {
     component: async () => {
-      return import("@/pages/Schedules.vue");
+      return import("@/pages/schedules/Regular.vue");
     },
-    name: "Home",
+    name: "REGULAR",
     path: "/",
-  },
-  {
-    component: async () => {
-      return import("@/pages/Chart.vue");
-    },
-    name: "Chart",
-    path: "/schedules/:scheduleId",
   },
   {
     component: async () => {
       return import("@/pages/Scenarios.vue");
     },
-    name: "Scenarios",
-    path: "/scenarios",
+    name: "SCENARIO",
+    path: "/scenario",
     props: true,
+  },
+  {
+    component: async () => {
+      return import("@/pages/schedules/BigRun.vue");
+    },
+    name: "BIG_RUN",
+    path: "/big_run",
+  },
+  {
+    component: async () => {
+      return import("@/pages/schedules/TeamContest.vue");
+    },
+    name: "TEAM_CONTEST",
+    path: "/team_contest",
+  },
+  {
+    component: async () => {
+      return import("@/pages/Chart.vue");
+    },
+    name: "CHART",
+    path: "/schedules/:scheduleId",
   },
   {
     component: async () => {
       return import("@/pages/ScenarioDetail.vue");
     },
-    name: "ScenarioDetail",
+    name: "SCENARIO_DETAIL",
     path: "/scenario/:scenarioCode",
   },
   {
     component: async () => {
       return import("@/pages/Donate.vue");
     },
-    name: "Donate",
+    name: "DONATE",
     path: "/donate",
   },
   {
     component: async () => {
       return import("@/pages/About.vue");
     },
-    name: "About",
+    name: "ABOUT",
     path: "/about",
   },
   {
     component: async () => {
       return import("@/pages/Me.vue");
     },
-    name: "Me",
+    name: "ME",
     path: "/me",
   },
 ];

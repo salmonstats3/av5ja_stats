@@ -9,6 +9,11 @@ WATER_LEVEL:
   0: 干潮
   1: 通常
   2: 満潮
+SCHEDULES:
+  REGULAR: いつものバイト
+  SCENARIO: シナリオ
+  BIG_RUN: ビッグラン
+  TEAM_CONTEST: バイトチームコンテスト
 EVENT_TYPE:
   0: "-"
   1: ラッシュ

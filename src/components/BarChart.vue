@@ -24,6 +24,11 @@ const props = defineProps({
   format: {
     type: String as PropType<"default" | "percent">,
     default: "default"
+  },
+  legend: {
+    type: Boolean,
+    default: true,
+    required: false
   }
 })
 
@@ -57,7 +62,7 @@ const options = {
       }
     } : {},
     legend: {
-      display: false
+      display: props.legend
     }
   }
 }
