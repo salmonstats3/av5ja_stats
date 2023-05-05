@@ -130,7 +130,7 @@ export class ScheduleStatusDto {
     return {
       top20: Big(0.84 * std_dev + mean).round(0),
       top5: Big(1.645 * std_dev + mean).round(0),
-      top50: Big(std_dev + mean).round(0),
+      top50: Big(0 * std_dev + mean).round(0),
     }
   }
 
