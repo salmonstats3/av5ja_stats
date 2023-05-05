@@ -14,6 +14,12 @@ export enum ScheduleType {
   TEAM_CONTEST = "TEAM_CONTEST",
 }
 
+class TopBorder {
+  top5: number;
+  top20: number;
+  top50: number;
+}
+
 export class ScheduleDto {
   bossId: number | null;
   endTime: string;
@@ -107,7 +113,7 @@ export class ScheduleStatusDto {
   @Type(() => CoopWave)
   readonly waves: CoopWave[][] = [];
 
-  nd(mean: number, std_dev: number): number[] {
+  private nd(mean: number, std_dev: number): number[] {
     const golden_ikura_num: number[] = this.golden_ikura_num.map((data) => data.golden_ikura_num)
     const dist: number[] = golden_ikura_num.map((value) => {
       const x: number = 1 / (std_dev * Math.sqrt(2 * Math.PI))
@@ -116,6 +122,16 @@ export class ScheduleStatusDto {
       return x * Math.exp(-y / z) * 5
     });
     return dist
+  }
+
+  get top(): TopBorder {
+    const mean: number = this.distribution?.golden_ikura_num_avg ?? 0
+    const std_dev: number = this.distribution?.golden_ikura_num_std ?? 1
+    return {
+      top20: Big(0.84 * std_dev + mean).round(0),
+      top5: Big(1.645 * std_dev + mean).round(0),
+      top50: Big(std_dev + mean).round(0),
+    }
   }
 
   get shifts_worked(): object {

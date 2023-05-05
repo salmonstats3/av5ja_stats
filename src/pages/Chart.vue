@@ -43,6 +43,24 @@ onMounted(async () => {
       <v-table density="compact">
         <thead>
           <tr>
+            <th colspan="2" class="text-center">Top 5%</th>
+            <th colspan="2" class="text-center">Top 20%</th>
+            <th colspan="2" class="text-center">Top 50%</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th colspan="2" class="text-center">{{ data.top.top5 }}</th>
+            <th colspan="2" class="text-center">{{ data.top.top20 }}</th>
+            <th colspan="2" class="text-center">{{ data.top.top50 }}</th>
+          </tr>
+        </tbody>
+      </v-table>
+    </v-col>
+    <v-col cols="12">
+      <v-table density="compact">
+        <thead>
+          <tr>
             <th rowspan="2"></th>
             <template v-for="waterLevel in [0, 1, 2]" :key="waterLevel">
               <th colspan="2" class="text-center">{{ t(`WATER_LEVEL.${waterLevel}`) }}</th>
