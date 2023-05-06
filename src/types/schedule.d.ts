@@ -15,6 +15,7 @@ export enum ScheduleType {
 }
 
 class TopBorder {
+  top1: number;
   top5: number;
   top20: number;
   top50: number;
@@ -128,7 +129,8 @@ export class ScheduleStatusDto {
     const mean: number = this.distribution?.golden_ikura_num_avg ?? 0
     const std_dev: number = this.distribution?.golden_ikura_num_std ?? 1
     return {
-      top20: Big(0.84 * std_dev + mean).round(0),
+      top1: Big(2.332 * std_dev + mean).round(0),
+      top20: Big(0.842 * std_dev + mean).round(0),
       top5: Big(1.645 * std_dev + mean).round(0),
       top50: Big(0 * std_dev + mean).round(0),
     }

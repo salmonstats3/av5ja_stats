@@ -43,6 +43,7 @@ onMounted(async () => {
       <v-table density="compact">
         <thead>
           <tr>
+            <th colspan="2" class="text-center">Top 1%</th>
             <th colspan="2" class="text-center">Top 5%</th>
             <th colspan="2" class="text-center">Top 20%</th>
             <th colspan="2" class="text-center">Top 50%</th>
@@ -50,6 +51,7 @@ onMounted(async () => {
         </thead>
         <tbody>
           <tr>
+            <th colspan="2" class="text-center">{{ data.top.top1 }}</th>
             <th colspan="2" class="text-center">{{ data.top.top5 }}</th>
             <th colspan="2" class="text-center">{{ data.top.top20 }}</th>
             <th colspan="2" class="text-center">{{ data.top.top50 }}</th>
