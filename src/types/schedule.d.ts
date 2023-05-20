@@ -59,6 +59,9 @@ class GoldenIkuraNum {
 class GradePoint {
   @Expose()
   readonly grade_point: number;
+  
+  @Expose()
+  readonly grade_id: number;
 
   @Expose()
   readonly count: number;
@@ -225,7 +228,7 @@ export class ScheduleStatusDto {
   }
 
   get grade_point_data(): object {
-    const dataset: GradePoint[] = this.grade_point.sort((a, b) => a.grade_point - b.grade_point);
+    const dataset: GradePoint[] = this.grade_point.filter((item) => item.grade_id === 8).sort((a, b) => a.grade_point - b.grade_point);
     const players: number = dataset.reduce((a, b) => a + b.count, 0);
     return {
       datasets: [

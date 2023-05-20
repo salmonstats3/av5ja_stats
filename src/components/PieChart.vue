@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import Big from 'big.js'
-import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js'
 import { Pie } from 'vue-chartjs'
 
 const props = defineProps({

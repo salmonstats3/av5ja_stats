@@ -7,6 +7,7 @@ import { useI18n } from 'vue-i18n';
 import { ScenarioDto } from '@/types/scenario.d';
 const router = useRouter()
 const { t } = useI18n()
+
 const props = defineProps({
   scenario: {
     type: ScenarioDto as PropType<ScenarioDto>,
@@ -31,9 +32,6 @@ function next(code: string): void {
             </v-col>
             <v-col cols="6">
               <v-row>
-                <!-- <v-col>
-                  <v-label class="scenario ikura-num">{{ scenario.ikuraNum }}</v-label>
-                </v-col> -->
                 <v-col>
                   <v-label class="scenario golden-ikura-num">{{ scenario.goldenIkuraNum }}</v-label>
                 </v-col>

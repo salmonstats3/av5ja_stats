@@ -54,7 +54,8 @@ class Type(Enum):
 
 if __name__=="__main__":
   base_url: str = os.environ.get("VITE_APP_BASE_API_URL")
-  
+  environment: str = os.environ.get("VITE_APP_ENVIRONMENT")
+
   print("Downloading Schedules...")
   for type in [Type.REGULAR, Type.BIG_RUN, Type.TEAM_CONTEST, Type.SCENARIO]:
     # スケジュールを取得
@@ -65,7 +66,10 @@ if __name__=="__main__":
     # シナリオ以外は統計データを計算する 
     print("Downloading Analytics...")
     if type != Type.SCENARIO:
-      start_time: datetime = datetime.now(timezone.utc) - timedelta(days=7)
+      if environment == "production":
+        start_time: datetime = datetime.now(timezone.utc) - timedelta(days=14)
+      else:
+        start_time: datetime = datetime.now(timezone.utc) - timedelta(days=365)
       schedules = list(filter(lambda x: datetime.fromisoformat(x["startTime"]) >= start_time, schedules))
       for schedule in schedules:
         print("Downloading Schedules Analytics...")

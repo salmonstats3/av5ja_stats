@@ -10,10 +10,10 @@ const items = [
     title: t("SCHEDULES.REGULAR"),
     link: "/"
   },
-  {
-    title: t("SCHEDULES.SCENARIO"),
-    link: "/scenario"
-  },
+  // {
+  //   title: t("SCHEDULES.SCENARIO"),
+  //   link: "/scenario"
+  // },
   {
     title: t("SCHEDULES.BIG_RUN"),
     link: "/big_run"
