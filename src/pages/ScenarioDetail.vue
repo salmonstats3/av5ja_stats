@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import json from '@/resources/scenarios.json'
+import json from '@/resources/schedules/private_scenario.json'
 import { plainToInstance } from 'class-transformer';
 import { ScenarioDto } from '@/types/scenario.d';
 import { useRouter } from 'vue-router';

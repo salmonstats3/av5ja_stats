@@ -55,6 +55,7 @@ class Type(Enum):
 if __name__=="__main__":
   base_url: str = os.environ.get("VITE_APP_BASE_API_URL")
   environment: str = os.environ.get("VITE_APP_ENVIRONMENT")
+  print("API_URL", base_url, "Environment", environment)
 
   print("Downloading Schedules...")
   for type in [Type.REGULAR, Type.BIG_RUN, Type.TEAM_CONTEST, Type.SCENARIO]:
