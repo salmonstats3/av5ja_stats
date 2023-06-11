@@ -59,6 +59,9 @@ function next(link: string): void {
 </template>
 
 <style lang="scss" scoped>
+html {
+  touch-action: manipulation;
+}
 .navigation-link {
   &:hover {
     background-color: rgb(70, 70, 70);
