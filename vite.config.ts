@@ -13,7 +13,7 @@ export default defineConfig({
     sourcemap: true,
   },
   server: {
-    port: 8000,
+    port: 8080,
     cors: true,
   },
   plugins: [
