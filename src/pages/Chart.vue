@@ -1,20 +1,20 @@
 <script setup lang="ts">
-import { useRouter } from 'vue-router';
-import LineChart from '@/components/LineChart.vue';
-import { Ref, onMounted, ref } from 'vue';
-import { ScheduleStatusDto } from '@/types/schedule.d';
-import PieChart from '@/components/PieChart.vue';
-import { useI18n } from 'vue-i18n';
-import BarChart from '@/components/BarChart.vue';
+import { useRouter } from "vue-router";
+import LineChart from "@/components/LineChart.vue";
+import { Ref, onMounted, ref } from "vue";
+import { ScheduleStatusDto } from "@/types/schedule.d";
+import PieChart from "@/components/PieChart.vue";
+import { useI18n } from "vue-i18n";
+import BarChart from "@/components/BarChart.vue";
 
-const { t } = useI18n()
-const router = useRouter()
-const scheduleId: string = router.currentRoute.value.params.scheduleId as string
-const data: Ref<ScheduleStatusDto> = ref(new ScheduleStatusDto())
-  
+const { t } = useI18n();
+const router = useRouter();
+const scheduleId: string = router.currentRoute.value.params.scheduleId as string;
+const data: Ref<ScheduleStatusDto> = ref(new ScheduleStatusDto());
+
 onMounted(async () => {
-  data.value = await ScheduleStatusDto.fromJSON(scheduleId)
-})
+  data.value = await ScheduleStatusDto.fromJSON(scheduleId);
+});
 </script>
 
 <template>
@@ -80,9 +80,8 @@ onMounted(async () => {
             <tr>
               <th>{{ t(`EVENT_TYPE.${index}`) }}</th>
               <template v-for="index in [0, 1, 2]" :key="index">
-                <td class="text-right">{{ (waves.find((wave) => wave.water_level === index)?.occurrence || '-') }}</td>
-                <td class="text-right">{{ (waves.find((wave) => wave.water_level === index)?.clear_ratio || '-') }}
-                </td>
+                <td class="text-right">{{ waves.find((wave) => wave.water_level === index)?.occurrence || "-" }}</td>
+                <td class="text-right">{{ waves.find((wave) => wave.water_level === index)?.clear_ratio || "-" }}</td>
               </template>
             </tr>
           </template>

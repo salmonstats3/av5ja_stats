@@ -1,42 +1,42 @@
 <script setup lang="ts">
 // @ts-nocheck
-import { Bar } from 'vue-chartjs'
-import { Chart as ChartJS, ChartData } from 'chart.js'
-import Big from 'big.js'
+import { Bar } from "vue-chartjs";
+import { Chart as ChartJS, ChartData } from "chart.js";
+import Big from "big.js";
 
 const props = defineProps({
   title: {
     type: String,
-    required: true
+    required: true,
   },
   data: {
     type: Object,
-    required: true
+    required: true,
   },
   x: {
     type: Boolean,
-    default: true
+    default: true,
   },
   y: {
     type: Boolean,
-    default: true
+    default: true,
   },
   format: {
     type: String as PropType<"default" | "percent">,
-    default: "default"
+    default: "default",
   },
   legend: {
     type: Boolean,
     default: true,
-    required: false
-  }
-})
+    required: false,
+  },
+});
 
 const options = {
   responsive: true,
   maintainAspectRatio: true,
   interaction: {
-    mode: 'index' as const,
+    mode: "index" as const,
     intersect: false,
   },
   scales: {
@@ -46,26 +46,29 @@ const options = {
     y: {
       display: props.y,
       beginAtZero: false,
-    }
+    },
   },
   plugins: {
-    tooltip: props.format === "percent" ? {
-      enabled: true,
-      callbacks: {
-        label: (item: any) => {
-          return Number(Big(item.raw).mul(100).round(3).toString()) + "%"
-        },
-        title: (item: string) => {
-          const raw_value: number = parseInt(item[0].label, 10)
-          return `${raw_value} ~ ${raw_value + 5}`
-        }
-      }
-    } : {},
+    tooltip:
+      props.format === "percent"
+        ? {
+            enabled: true,
+            callbacks: {
+              label: (item: any) => {
+                return Number(Big(item.raw).mul(100).round(3).toString()) + "%";
+              },
+              title: (item: string) => {
+                const raw_value: number = parseInt(item[0].label, 10);
+                return `${raw_value} ~ ${raw_value + 5}`;
+              },
+            },
+          }
+        : {},
     legend: {
-      display: props.legend
-    }
-  }
-}
+      display: props.legend,
+    },
+  },
+};
 </script>
 
 <template>

@@ -1,28 +1,27 @@
 <script setup lang="ts">
-import json from '@/resources/schedules/private_scenario.json'
-import { plainToInstance } from 'class-transformer';
-import { ScenarioDto } from '@/types/scenario.d';
-import { useRouter } from 'vue-router';
-import { Ref, ref, watch, onMounted } from "vue"
-import { useI18n } from 'vue-i18n';
-const router = useRouter()
-const scenarios: ScenarioDto[] = json.map((scenario: any) => plainToInstance(ScenarioDto, scenario))
-const scenario: Ref<ScenarioDto | undefined> = ref()
-const columns: Ref<number> = ref(0)
-const { t } = useI18n()
+import json from "@/resources/schedules/private_scenario.json";
+import { plainToInstance } from "class-transformer";
+import { ScenarioDto } from "@/types/scenario.d";
+import { useRouter } from "vue-router";
+import { Ref, ref, watch, onMounted } from "vue";
+import { useI18n } from "vue-i18n";
+const router = useRouter();
+const scenarios: ScenarioDto[] = json.map((scenario: any) => plainToInstance(ScenarioDto, scenario));
+const scenario: Ref<ScenarioDto | undefined> = ref();
+const columns: Ref<number> = ref(0);
+const { t } = useI18n();
 onMounted(() => {
-  const scenarioCode: string = router.currentRoute.value.params.scenarioCode as string
-  scenario.value = scenarios.find((scenario: ScenarioDto) => scenario.scenarioCode === scenarioCode)
+  const scenarioCode: string = router.currentRoute.value.params.scenarioCode as string;
+  scenario.value = scenarios.find((scenario: ScenarioDto) => scenario.scenarioCode === scenarioCode);
   columns.value = (() => {
     if (scenario.value === undefined) return 0;
     if (scenario.value.waves.length === 1) return 12;
     if (scenario.value.waves.length === 2) return 6;
     if (scenario.value.waves.length === 3) return 4;
     if (scenario.value.waves.length === 4) return 3;
-    return 0
-  })()
-})
-
+    return 0;
+  })();
+});
 </script>
 
 <template>
@@ -33,11 +32,10 @@ onMounted(() => {
         <v-card-subtitle>{{ scenario.scenarioCode }}</v-card-subtitle>
       </v-card>
     </v-col>
-    <v-col cols="12" :sm="columns" v-for="(wave, index) in  scenario.waves " :key="index">
+    <v-col cols="12" :sm="columns" v-for="(wave, index) in scenario.waves" :key="index">
       <v-card variant="outlined" :color="index === 3 ? 'success' : undefined">
-        <v-card-title class="text-h6">{{ t(`WATER_LEVEL.${wave.waterLevel}`) }} {{ t(`EVENT_TYPE.${wave.eventType}`)
-        }}</v-card-title>
-        <v-card-subtitle>{{ wave.goldenIkuraNum ?? '-' }}</v-card-subtitle>
+        <v-card-title class="text-h6">{{ t(`WATER_LEVEL.${wave.waterLevel}`) }} {{ t(`EVENT_TYPE.${wave.eventType}`) }}</v-card-title>
+        <v-card-subtitle>{{ wave.goldenIkuraNum ?? "-" }}</v-card-subtitle>
       </v-card>
     </v-col>
   </v-row>

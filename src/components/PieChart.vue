@@ -1,38 +1,38 @@
 <script setup lang="ts">
-import Big from 'big.js'
-import { Pie } from 'vue-chartjs'
+import Big from "big.js";
+import { Pie } from "vue-chartjs";
 
 const props = defineProps({
   title: {
     type: String,
-    required: true
+    required: true,
   },
   data: {
     type: Object,
-    required: true
+    required: true,
   },
-})
+});
 
 const options = {
   responsive: true,
   maintainAspectRatio: true,
   aspectRatio: 2,
-  cutout: '50%' as const,
+  cutout: "50%" as const,
   plugins: {
     tooltip: {
       enabled: true,
       callbacks: {
         label: (item: any) => {
-          return Number(Big(item.raw).mul(100).round(3).toString()) + "%"
+          return Number(Big(item.raw).mul(100).round(3).toString()) + "%";
         },
-      }
+      },
     },
     legend: {
       display: true,
-      position: 'left' as const,
+      position: "left" as const,
     },
-  }
-}
+  },
+};
 </script>
 
 <template>

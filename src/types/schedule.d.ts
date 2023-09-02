@@ -6,7 +6,6 @@ import dayjs from "dayjs";
 
 import { Status } from "@/types/status.d";
 
-
 export enum ScheduleType {
   REGULAR = "REGULAR",
   BIG_RUN = "BIG_RUN",
@@ -33,19 +32,19 @@ export class ScheduleDto {
 class Distribution {
   @Expose()
   @Transform((param) => Number(Big(param.value).toString()))
-  golden_ikura_num_std
-  
-  @Expose()
-  @Transform((param) => Number(Big(param.value).toString()))
-  golden_ikura_num_avg
- 
-  @Expose()
-  @Transform((param) => Number(Big(param.value).toString()))
-  ikura_num_std
+  golden_ikura_num_std;
 
   @Expose()
   @Transform((param) => Number(Big(param.value).toString()))
-  ikura_num_avg
+  golden_ikura_num_avg;
+
+  @Expose()
+  @Transform((param) => Number(Big(param.value).toString()))
+  ikura_num_std;
+
+  @Expose()
+  @Transform((param) => Number(Big(param.value).toString()))
+  ikura_num_avg;
 }
 
 class GoldenIkuraNum {
@@ -59,7 +58,7 @@ class GoldenIkuraNum {
 class GradePoint {
   @Expose()
   readonly grade_point: number;
-  
+
   @Expose()
   readonly grade_id: number;
 
@@ -100,7 +99,7 @@ export class ScheduleStatusDto {
   @Expose({ name: "status" })
   @Type(() => Status)
   readonly status: Status[] = [];
-  
+
   @Expose({ name: "distribution" })
   @Type(() => Distribution)
   readonly distribution: Distribution;
@@ -118,25 +117,25 @@ export class ScheduleStatusDto {
   readonly waves: CoopWave[][] = [];
 
   private nd(mean: number, std_dev: number): number[] {
-    const golden_ikura_num: number[] = this.golden_ikura_num.map((data) => data.golden_ikura_num)
+    const golden_ikura_num: number[] = this.golden_ikura_num.map((data) => data.golden_ikura_num);
     const dist: number[] = golden_ikura_num.map((value) => {
-      const x: number = 1 / (std_dev * Math.sqrt(2 * Math.PI))
-      const y: number = Math.pow(value - mean, 2)
-      const z: number = Math.pow(std_dev, 2) * 2
-      return x * Math.exp(-y / z) * 5
+      const x: number = 1 / (std_dev * Math.sqrt(2 * Math.PI));
+      const y: number = Math.pow(value - mean, 2);
+      const z: number = Math.pow(std_dev, 2) * 2;
+      return x * Math.exp(-y / z) * 5;
     });
-    return dist
+    return dist;
   }
 
   get top(): TopBorder {
-    const mean: number = this.distribution?.golden_ikura_num_avg ?? 0
-    const std_dev: number = this.distribution?.golden_ikura_num_std ?? 1
+    const mean: number = this.distribution?.golden_ikura_num_avg ?? 0;
+    const std_dev: number = this.distribution?.golden_ikura_num_std ?? 1;
     return {
       top1: Big(2.332 * std_dev + mean).round(0),
       top20: Big(0.842 * std_dev + mean).round(0),
       top5: Big(1.645 * std_dev + mean).round(0),
       top50: Big(0 * std_dev + mean).round(0),
-    }
+    };
   }
 
   get shifts_worked(): object {
@@ -160,8 +159,8 @@ export class ScheduleStatusDto {
   get golden_ikura_data(): object {
     const dataset: GoldenIkuraNum[] = this.golden_ikura_num.sort((a, b) => a.golden_ikura_num - b.golden_ikura_num);
     const players: number = dataset.reduce((a, b) => a + b.count, 0);
-    const mean: number = this.distribution?.golden_ikura_num_avg ?? 0
-    const std_dev: number = this.distribution?.golden_ikura_num_std ?? 1
+    const mean: number = this.distribution?.golden_ikura_num_avg ?? 0;
+    const std_dev: number = this.distribution?.golden_ikura_num_std ?? 1;
     return {
       datasets: [
         {
@@ -174,7 +173,7 @@ export class ScheduleStatusDto {
           order: 0,
           pointRadius: 0,
           tension: 0.4,
-          type: 'line'
+          type: "line",
         },
         {
           backgroundColor: "#F87979",
@@ -182,7 +181,7 @@ export class ScheduleStatusDto {
           borderRadius: 4,
           data: this.golden_ikura_num.map((data) => data.count / players),
           label: "Users",
-          order: 1
+          order: 1,
         },
       ],
       labels: this.golden_ikura_num.map((data) => data.golden_ikura_num),

@@ -1,14 +1,14 @@
 <script setup lang="ts">
-import { Ref, ref } from "vue"
-import { useI18n } from "vue-i18n"
-import { useRouter } from "vue-router"
-const isPresented: Ref<boolean> = ref(false)
-const router = useRouter()
-const { t } = useI18n()
+import { Ref, ref } from "vue";
+import { useI18n } from "vue-i18n";
+import { useRouter } from "vue-router";
+const isPresented: Ref<boolean> = ref(false);
+const router = useRouter();
+const { t } = useI18n();
 const items = [
   {
     title: t("SCHEDULES.REGULAR"),
-    link: "/"
+    link: "/",
   },
   // {
   //   title: t("SCHEDULES.SCENARIO"),
@@ -16,24 +16,24 @@ const items = [
   // },
   {
     title: t("SCHEDULES.BIG_RUN"),
-    link: "/big_run"
+    link: "/big_run",
   },
   {
     title: t("SCHEDULES.TEAM_CONTEST"),
-    link: "/team_contest"
+    link: "/team_contest",
   },
   {
     title: t("VITE_APP.DONATE"),
-    link: "/donate"
+    link: "/donate",
   },
   {
     title: t("VITE_APP.INFORMATION"),
-    link: "/about"
+    link: "/about",
   },
-]
+];
 
 function next(link: string): void {
-  router.push(link)
+  router.push(link);
 }
 </script>
 

@@ -1,31 +1,33 @@
 <script setup lang="ts">
-import json from '@/resources/schedules/private_scenario.json'
-import { plainToInstance } from 'class-transformer';
-import { ScenarioDto } from '@/types/scenario.d';
-import Scenario from '@/components/Scenario.vue';
-import { useRouter } from 'vue-router';
-import { Ref, ref, watch, onMounted } from "vue"
-const router = useRouter()
-const page: Ref<number> = ref(1)
-const data: ScenarioDto[] = json.map((scenario: any) => plainToInstance(ScenarioDto, scenario)).sort((a: ScenarioDto, b: ScenarioDto) => b.goldenIkuraNum - a.goldenIkuraNum)
-const scenarios: Ref<ScenarioDto[]> = ref([])
-const length: number = Math.ceil(data.length / 24)
+import json from "@/resources/schedules/private_scenario.json";
+import { plainToInstance } from "class-transformer";
+import { ScenarioDto } from "@/types/scenario.d";
+import Scenario from "@/components/Scenario.vue";
+import { useRouter } from "vue-router";
+import { Ref, ref, watch, onMounted } from "vue";
+const router = useRouter();
+const page: Ref<number> = ref(1);
+const data: ScenarioDto[] = json
+  .map((scenario: any) => plainToInstance(ScenarioDto, scenario))
+  .sort((a: ScenarioDto, b: ScenarioDto) => b.goldenIkuraNum - a.goldenIkuraNum);
+const scenarios: Ref<ScenarioDto[]> = ref([]);
+const length: number = Math.ceil(data.length / 24);
 
 onMounted(() => {
-  const p: number = parseInt(router.currentRoute.value.query.p as string, 10)
+  const p: number = parseInt(router.currentRoute.value.query.p as string, 10);
   if (!isNaN(p)) {
-    scenarios.value = data.slice((p - 1) * 24, p * 24)
-    page.value = p
+    scenarios.value = data.slice((p - 1) * 24, p * 24);
+    page.value = p;
   } else {
-    scenarios.value = data.slice(0, 24)
-    page.value = 1
+    scenarios.value = data.slice(0, 24);
+    page.value = 1;
   }
-})
+});
 
 watch(page, (newValue) => {
-  scenarios.value = data.slice((newValue - 1) * 24, newValue * 24)
-  router.push({ query: { p: newValue } })
-})
+  scenarios.value = data.slice((newValue - 1) * 24, newValue * 24);
+  router.push({ query: { p: newValue } });
+});
 </script>
 
 <template>
