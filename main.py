@@ -68,9 +68,9 @@ if __name__=="__main__":
     print("Downloading Analytics...")
     if type != Type.SCENARIO:
       if environment == "production":
-        start_time: datetime = datetime.now(timezone.utc) - timedelta(days=14)
+        start_time: datetime = datetime.now(timezone.utc) - timedelta(days=7)
       else:
-        start_time: datetime = datetime.now(timezone.utc) - timedelta(days=365)
+        start_time: datetime = datetime.now(timezone.utc) - timedelta(days=14)
       schedules = list(filter(lambda x: datetime.fromisoformat(x["startTime"]) >= start_time, schedules))
       for schedule in schedules:
         print("Downloading Schedules Analytics...")
