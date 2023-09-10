@@ -1,4 +1,4 @@
-name: Deploy to Cloudflare Pages
+name: Schedule Build and Deploy 
 
 on:
   push:
@@ -14,15 +14,18 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Setup NodeJS v18.10.0
+      - name: Setup NodeJS v18.0.0
         uses: actions/setup-node@v3
         with:
-          node-version: 18.10.0
+          node-version: 18.0.0
+      
+      - name: Install Yarn
+        run: npm install -g yarn
 
       - name: Setup Python # Pythonのセットアップ
         uses: actions/setup-python@v3
         with:
-          python-version: "3.11.3" # Pythonのバージョン指定
+          python-version: "3.11.5" # Pythonのバージョン指定
 
       - name: Install dependencies # 依存パッケージのインストール
         run: |
@@ -33,23 +36,22 @@ jobs:
         run: |
           python main.py
 
-      - name: Cache node_modules
-        id: node_modules_cache_id
+      - name: Cache CDK Dependencies
         uses: actions/cache@v3
+        id: cache_cdk_dependency_id
+        env:
+          ache-name: cache-cdk-dependency
         with:
-          path: |
-            node_modules
-          key: node-v${{ matrix.node-version }}-deps-${{ hashFiles(format('{0}{1}', github.workspace, '/yarn.lock')) }}
-      
-      - name: Run install
-        uses: borales/actions-yarn@v4
-        with:
-          cmd: install
-
-      - name: Build by Vite
-        uses: borales/actions-yarn@v4
-        with:
-          cmd: build
+          path: node_modules
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('yarn.lock') }}
+          restore-keys: ${{ runner.os }}-build-${{ env.cache-name }}-
+        
+      - name: Install Dependencies
+        if: ${{ steps.cache_cdk_dependency_id.outputs.cache-hit != 'true' }}
+        run: yarn install
+        
+      - name: Build
+        run: yarn build 
 
       - name: Publish to Cloudflare Pages
         uses: cloudflare/pages-action@v1
