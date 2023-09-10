@@ -16,7 +16,7 @@ const date: string = import.meta.env.VITE_APP_GIT_COMMIT_DATE;
         </v-card-subtitle>
         <v-card-text>{{ t("VITE_APP.LAST_UPDATE_AT") }}: {{ date }}</v-card-text>
         <v-card-text>
-          <v-img src="https://github.com/SalmonStats3/salmonstats-dev/actions/workflows/schedules-build.yml/badge.svg" width="160"></v-img>
+          <v-img src="https://github.com/salmonstats3/av5ja_stats/actions/workflows/deploy.yml/badge.svg" width="160"></v-img>
         </v-card-text>
       </v-card>
     </v-col>
