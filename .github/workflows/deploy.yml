@@ -1,4 +1,4 @@
-name: Scheduled build
+name: Deploy to Cloudflare Pages
 
 on:
   push:
@@ -8,16 +8,16 @@ on:
     - cron: "*/10 * * * *"
 
 jobs:
-  build:
-    name: build
+  deploy:
+    name: Deploy to Cloudflare Pages
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
 
-      - name: Setup NodeJS v16.19.0
+      - name: Setup NodeJS v18.10.0
         uses: actions/setup-node@v3
         with:
-          node-version: 16.19.0
+          node-version: 18.10.0
 
       - name: Setup Python # Pythonのセットアップ
         uses: actions/setup-python@v3
@@ -56,7 +56,7 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: salmonstats-app
+          projectName: av5ja-stats 
           directory: dist
           # Optional: Enable this if you want to have GitHub Deployments triggered
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
