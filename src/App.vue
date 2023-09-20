@@ -59,6 +59,9 @@ function next(link: string): void {
 </template>
 
 <style lang="scss" scoped>
+root {
+  touch-action: manipulation;
+}
 html {
   touch-action: manipulation;
 }
